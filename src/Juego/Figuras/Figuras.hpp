@@ -45,6 +45,7 @@ namespace IVJ
             explicit Rectangulo(float ancho, float largo, const sf::Color &relleno, const sf::Color &contorno);
             ~Rectangulo() override {};
 
+            void setColores(const sf::Color& relleno, const sf::Color& contorno);
             float getArea() override;
             void draw(sf::RenderTarget &target, sf::RenderStates state) const override;
             void onUpdate(float dt) override;

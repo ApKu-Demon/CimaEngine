@@ -3,6 +3,8 @@
 #include <optional>
 #include "Figuras/Figuras.hpp"      // para que el compilador no lo deseche al hacer el ensamble
 #include "../Motor/Primitivos/Objetos.hpp"
+#include "Sistemas/SistemaSimulacionEnfermedad.hpp"
+
 
 
 namespace IVJ
@@ -20,6 +22,12 @@ namespace IVJ
             std::vector<std::shared_ptr<CE::Objeto>> objetos;
             sf::Font font_juego;
             sf::Text texto;
+
+            // NUEVOS MIEMBROS PARA LA SIMULACIÓN
+            sf::Text texto_stats;
+            EstadisticasSimulacion stats_simulacion;
+            bool simulacion_activa = true; // Controlar si el OnUpdate se ejecuta
+            // ------------------------------------
     };
 }
 

@@ -21,6 +21,17 @@ namespace IVJ
             imagen.setOrigin({largo/2.f, ancho/2.f});
             nombre->nombre = "Rectangulo " + std::to_string(CE::Objeto::getNumObjetos());
         }
+
+    void Rectangulo::setColores(const sf::Color &relleno, const sf::Color &contorno)
+    {
+        // Actualizar las propiedades internas (opcional, pero buena práctica)
+        c_relleno = relleno;
+        c_contorno = contorno;
+        
+        // Aplicar a la forma de SFML
+        imagen.setFillColor(relleno);
+        imagen.setOutlineColor(contorno);
+    }
     
     float Rectangulo::getArea()
     {

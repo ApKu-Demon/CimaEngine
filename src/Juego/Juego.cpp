@@ -13,7 +13,7 @@
 namespace IVJ
 {
     Juego::Juego(void)
-        :CE::GameLayer{}, texto{font_juego}
+        :CE::GameLayer{}, texto{font_juego}, texto_stats{font_juego}
     {
         termino=false;
         //objetos = &lista_objetos;
@@ -32,7 +32,7 @@ namespace IVJ
         std::cout<<"Normalizacion P1 "<<P1.normalizacion() <<std::endl;
         std::cout<<"Normalizacion P2 "<<P2.normalizacion() <<std::endl;
         std::cout<<"Norm P1 * 100: "<<P1.escala(100);
-
+        
         std::cout << "\n\nAreas de las objetos cargados:\n";
 
         objetos.clear();
@@ -45,6 +45,7 @@ namespace IVJ
         objetos.push_back(prueba);
 
         std::cout << "\nTotal objetos cargados: " << objetos.size() << "\n";
+        // -----------------------------------------------------------------------------------------
 
         // LAB 3
         CE::Lista<int> listilla;
@@ -81,6 +82,35 @@ namespace IVJ
 
         texto.setFillColor(sf::Color::Yellow);
         texto.setStyle(sf::Text::Bold | sf::Text::Underlined);
+        // ---------------------------------------------------------------------------------------------------
+
+        // LAB 4 --- INICIALIZACIÓN DE LA SIMULACIÓN ---
+        objetos.clear();
+        
+        // Inicializa la cuadrícula 15x15 con 10% de enfermos iniciales
+        IVJ::InicializarPoblacion(objetos); 
+
+        std::cout << "\nTotal personas en la cuadrícula: " << objetos.size() << "\n";
+        // ---------------------------------------
+
+        if(!font_juego.openFromFile(ASSETS "/fonts/Saira-VariableFont_wdth,wght.ttf"))
+        {
+            std::cout<<"ERROR AL CARGAR FONT";
+            exit(1);
+        }
+
+        // Usaremos el objeto texto existente para mostrar las estadísticas
+        texto_stats.setFont(font_juego);
+        texto_stats.setString("Inicializando...");
+        texto_stats.setCharacterSize(30); // Tamaño más pequeño para las stats
+        texto_stats.setPosition({50.f, 50.f}); // Esquina superior izquierda
+
+        texto_stats.setFillColor(sf::Color::White);
+        texto_stats.setStyle(sf::Text::Bold);
+        
+        // Reiniciar estadísticas al inicio
+        stats_simulacion = {0};
+        simulacion_activa = true;
     }
 
     void Juego::OnInputs(float dt,std::optional<sf::Event>& eventos)
@@ -91,14 +121,7 @@ namespace IVJ
 
     void Juego::OnUpdate(float dt)
     {
-        /*SistemaMovimientoEntes(objetos, dt);
-        int i = 0;
-        for (auto& obj : objetos)
-        {
-            CE::GLogger::Get().agregarLog(obj->toString() + " en Update", (CE::GLogger::Niveles)(i%5));
-            obj->onUpdate(dt);
-            i++;
-        }*/
+        // LAB 3
         SistemaMovimientoEntes(objetos, dt);
 
         const float screenWidth = 1440.f;
@@ -106,6 +129,7 @@ namespace IVJ
 
         for (auto& obj : objetos)
         {
+            // LAB 3
             // acceso a nombre y transformada
             auto nombreObj = obj->getNombre();
             auto transformObj = obj->getTransformada();
@@ -137,6 +161,50 @@ namespace IVJ
 
             obj->onUpdate(dt);
         }
+        // -----------------------------------------------------------------------------------------------------------
+
+        // LAB 4
+        if (!simulacion_activa)
+        {
+            // La simulación terminó, no actualizamos los estados de las personas.
+            // Opcionalmente, puedes seguir llamando a obj->onUpdate(dt) si los objetos tienen movimiento inactivo.
+            return; 
+        }
+
+        // 1. Ejecutar la lógica de la enfermedad y actualizar stats_simulacion
+        IVJ::SistemaSimulacionEnfermedad(objetos, stats_simulacion, dt);
+
+        // 2. Comprobar la condición de terminación
+        int total_poblacion = POBLACION_SIZE * POBLACION_SIZE;
+        if (stats_simulacion.enfermo == 0 || stats_simulacion.muerto == total_poblacion)
+        {
+            simulacion_activa = false; // Detiene la simulación
+            CE::GLogger::Get().agregarLog("--- SIMULACIÓN FINALIZADA ---", CE::GLogger::Niveles::LOG_SEVERO);
+        }
+
+        // 3. Actualizar la posición de los objetos (onUpdate) y el texto de estadísticas
+        for (auto& obj : objetos)
+        {
+            // En este caso, onUpdate solo actualiza la posición visual, lo cual es necesario.
+            obj->onUpdate(dt); 
+        }
+        
+        // 4. Formatear y actualizar el texto de estadísticas para la visualización
+        std::string stats_str = 
+            "--- SIMULACION DE EPIDEMIA ---\n"
+            "Tiempo Total: " + std::to_string(static_cast<int>(stats_simulacion.tiempo_total)) + "s\n"
+            "NORMAL (Blanco): " + std::to_string(stats_simulacion.normal) + "\n"
+            "ENFERMO (Rojo): " + std::to_string(stats_simulacion.enfermo) + "\n"
+            "RECUPERACION (Morado): " + std::to_string(stats_simulacion.recuperacion) + "\n"
+            "INMUNE (Verde): " + std::to_string(stats_simulacion.inmune) + "\n"
+            "MUERTO (Negro): " + std::to_string(stats_simulacion.muerto) + "\n";
+            
+        if (!simulacion_activa)
+            stats_str += "\n*** FIN DE LA SIMULACION!!! ***";
+            
+        texto_stats.setString(stats_str);
+        // -----------------------------------------------------------------------------------------------------------
+
     }
 
     void Juego::OnRender(float dt)
@@ -149,6 +217,8 @@ namespace IVJ
         }
 
         CE::Render::Get().AddToDraw(texto);
+        // Dibuja el panel de estadísticas
+        CE::Render::Get().AddToDraw(texto_stats);
     }
 }
 

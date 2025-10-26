@@ -247,6 +247,30 @@ __/Juego/Juego.cpp.s:
 	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug && $(MAKE) $(MAKESILENT) -f src/Main/CMakeFiles/CimaEngine3v.dir/build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.s
 .PHONY : __/Juego/Juego.cpp.s
 
+__/Juego/Sistemas/SistemaSimulacionEnfermedad.o: __/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.o
+.PHONY : __/Juego/Sistemas/SistemaSimulacionEnfermedad.o
+
+# target to build an object file
+__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.o:
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug && $(MAKE) $(MAKESILENT) -f src/Main/CMakeFiles/CimaEngine3v.dir/build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.o
+.PHONY : __/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.o
+
+__/Juego/Sistemas/SistemaSimulacionEnfermedad.i: __/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.i
+.PHONY : __/Juego/Sistemas/SistemaSimulacionEnfermedad.i
+
+# target to preprocess a source file
+__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.i:
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug && $(MAKE) $(MAKESILENT) -f src/Main/CMakeFiles/CimaEngine3v.dir/build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.i
+.PHONY : __/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.i
+
+__/Juego/Sistemas/SistemaSimulacionEnfermedad.s: __/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.s
+.PHONY : __/Juego/Sistemas/SistemaSimulacionEnfermedad.s
+
+# target to generate assembly for a file
+__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.s:
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug && $(MAKE) $(MAKESILENT) -f src/Main/CMakeFiles/CimaEngine3v.dir/build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.s
+.PHONY : __/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.s
+
 __/Juego/Sistemas/Sistemas.o: __/Juego/Sistemas/Sistemas.cpp.o
 .PHONY : __/Juego/Sistemas/Sistemas.o
 
@@ -533,6 +557,9 @@ help:
 	@echo "... __/Juego/Juego.o"
 	@echo "... __/Juego/Juego.i"
 	@echo "... __/Juego/Juego.s"
+	@echo "... __/Juego/Sistemas/SistemaSimulacionEnfermedad.o"
+	@echo "... __/Juego/Sistemas/SistemaSimulacionEnfermedad.i"
+	@echo "... __/Juego/Sistemas/SistemaSimulacionEnfermedad.s"
 	@echo "... __/Juego/Sistemas/Sistemas.o"
 	@echo "... __/Juego/Sistemas/Sistemas.i"
 	@echo "... __/Juego/Sistemas/Sistemas.s"

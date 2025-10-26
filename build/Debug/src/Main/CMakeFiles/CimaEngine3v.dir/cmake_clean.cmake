@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.o.d"
   "CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.o"
   "CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.o.d"
+  "CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.o"
+  "CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.o.d"
   "CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.o"
   "CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.o.d"
   "CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.o"
