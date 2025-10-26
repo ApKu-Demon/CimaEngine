@@ -1,0 +1,14 @@
+# Target labels
+ imgui-populate
+# Source files and their labels
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-subbuild/CMakeFiles/imgui-populate
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-subbuild/CMakeFiles/imgui-populate.rule
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-subbuild/CMakeFiles/imgui-populate-complete.rule
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-build.rule
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-configure.rule
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-download.rule
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-install.rule
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-mkdir.rule
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-patch.rule
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-test.rule
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-update.rule

@@ -1,0 +1,44 @@
+cmake_minimum_required(VERSION 3.20)
+project(CimaEngine3v LANGUAGES CXX)
+set(BIN "${CMAKE_SOURCE_DIR}/bin")
+set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${BIN}/${CMAKE_BUILD_TYPE}")
+
+include(FetchContent)
+
+message("Buscando SFML")
+find_package(SFML 3 COMPONENTS System Window Graphics Audio REQUIRED)
+message("Descargando ImGUI")
+FetchContent_Declare(
+    imgui
+    GIT_REPOSITORY http://github.com/ocornut/imgui.git
+    GIT_TAG v1.91.1-docking)
+FetchContent_MakeAvailable(imgui)
+message("Descargando SFML-IMGUI")
+FetchContent_Declare(
+    imgui-sfml
+    GIT_REPOSITORY http://github.com/SFML/imgui-sfml.git
+    GIT_TAG v3.0)
+set(IMGUI_DIR ${imgui_SOURCE_DIR})
+set(IMGUI_SFML_FIND_SFML OFF)
+set(IMGUI_SFML_IMGUI_DEMO ON)
+
+FetchContent_MakeAvailable(imgui-sfml)
+#incluir los headers
+include_directories(${SFML_INCLUDE_DIRS})
+include_directories(${IMGUI_DIR})
+#include_directories(${S_INCLUDE_DIRS})
+
+
+add_compile_definitions(ASSETS="${CMAKE_SOURCE_DIR}/assets")
+add_compile_definitions("DEBUG=$<CONFIG:Debug>")
+add_subdirectory(src)
+
+target_link_libraries(
+    ${PROJECT_NAME}
+    SFML::System SFML::Window SFML::Graphics SFML::Audio
+    ImGui-SFML::ImGui-SFML
+)
+
+target_compile_features(CimaEngine3v PUBLIC cxx_std_17)

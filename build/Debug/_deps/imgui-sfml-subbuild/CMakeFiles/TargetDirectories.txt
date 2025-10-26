@@ -1,0 +1,3 @@
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-sfml-subbuild/CMakeFiles/imgui-sfml-populate.dir
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-sfml-subbuild/CMakeFiles/edit_cache.dir
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-sfml-subbuild/CMakeFiles/rebuild_cache.dir
