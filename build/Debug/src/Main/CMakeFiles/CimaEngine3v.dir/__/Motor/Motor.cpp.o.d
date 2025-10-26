@@ -1,7 +1,7 @@
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o: \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Motor.cpp \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Motor.hpp \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Utils/Utils.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Motor.cpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Motor.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Utils/Utils.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -360,7 +360,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctrans_t.h \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/App/ALayer.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/App/ALayer.hpp \
   /usr/local/include/SFML/Graphics.hpp \
   /usr/local/include/SFML/Graphics/BlendMode.hpp \
   /usr/local/include/SFML/Graphics/Export.hpp \
@@ -509,22 +509,22 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o: \
   /usr/local/include/SFML/System/InputStream.hpp \
   /usr/local/include/SFML/System/MemoryInputStream.hpp \
   /usr/local/include/SFML/System/Sleep.hpp \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/GLayer.hpp \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/../Utils//Utils.hpp \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Render/Render.hpp \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Render/../Utils/Utils.hpp \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/GDock.hpp \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/../Utils/Utils.hpp \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/GViewport.hpp \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-src/imgui.h \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-sfml-src/imconfig-SFML.h \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-sfml-src/imgui-SFML_export.h \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-src/imconfig.h \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/GLayer.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/../Utils//Utils.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Render/Render.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Render/../Utils/Utils.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/GDock.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/../Utils/Utils.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/GViewport.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-src/imgui.h \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-sfml-src/imconfig-SFML.h \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-sfml-src/imgui-SFML_export.h \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-src/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-sfml-src/imgui-SFML.h \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-src/imgui_internal.h \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-sfml-src/imgui-SFML.h \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-src/imgui_internal.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/immintrin.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/x86gprintrin.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/hresetintrin.h \
@@ -605,8 +605,8 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/enqcmdintrin.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/serializeintrin.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/tsxldtrkintrin.h \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-src/imstb_textedit.h \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/GLogger.hpp \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/../Utils/Lista.hpp \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Utils/CEInterfaces.hpp \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Utils/Nodo.hpp
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-src/imstb_textedit.h \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/GLogger.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/../Utils/Lista.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Utils/CEInterfaces.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Utils/Nodo.hpp

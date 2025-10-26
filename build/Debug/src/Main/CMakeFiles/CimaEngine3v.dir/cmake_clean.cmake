@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v"
-  "/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v.pdb"
+  "/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v"
+  "/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v.pdb"
   "CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.o"
   "CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.o.d"
   "CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.o"

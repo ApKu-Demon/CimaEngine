@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/_deps/imgui-sfml-subbuild/cmake_install.cmake"
+		"/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-sfml-subbuild/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

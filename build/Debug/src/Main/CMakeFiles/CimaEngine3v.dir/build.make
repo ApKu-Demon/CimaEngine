@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno
+CMAKE_SOURCE_DIR = /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug
+CMAKE_BINARY_DIR = /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug
 
 # Include any dependencies generated for this target.
 include src/Main/CMakeFiles/CimaEngine3v.dir/depend.make
@@ -73,200 +73,200 @@ src/Main/CMakeFiles/CimaEngine3v.dir/codegen:
 .PHONY : src/Main/CMakeFiles/CimaEngine3v.dir/codegen
 
 src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/flags.make
-src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Main/main.cpp
+src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Main/main.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.o"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.o -MF CMakeFiles/CimaEngine3v.dir/main.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/main.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Main/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.o"
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.o -MF CMakeFiles/CimaEngine3v.dir/main.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/main.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Main/main.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CimaEngine3v.dir/main.cpp.i"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Main/main.cpp > CMakeFiles/CimaEngine3v.dir/main.cpp.i
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Main/main.cpp > CMakeFiles/CimaEngine3v.dir/main.cpp.i
 
 src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CimaEngine3v.dir/main.cpp.s"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Main/main.cpp -o CMakeFiles/CimaEngine3v.dir/main.cpp.s
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Main/main.cpp -o CMakeFiles/CimaEngine3v.dir/main.cpp.s
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/flags.make
-src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Render/Render.cpp
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Render/Render.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.o"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Render/Render.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.o"
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Render/Render.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.i"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Render/Render.cpp > CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.i
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Render/Render.cpp > CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.i
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.s"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Render/Render.cpp -o CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.s
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Render/Render.cpp -o CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.s
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/flags.make
-src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/GDock.cpp
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/GDock.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.o"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/GDock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.o"
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/GDock.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.i"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/GDock.cpp > CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.i
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/GDock.cpp > CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.i
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.s"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/GDock.cpp -o CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.s
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/GDock.cpp -o CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.s
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/flags.make
-src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/GLogger.cpp
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/GLogger.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.o"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/GLogger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.o"
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/GLogger.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.i"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/GLogger.cpp > CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.i
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/GLogger.cpp > CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.i
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.s"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/GLogger.cpp -o CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.s
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/GLogger.cpp -o CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.s
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/flags.make
-src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/GViewport.cpp
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/GViewport.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.o"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/GViewport.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.o"
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/GViewport.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.i"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/GViewport.cpp > CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.i
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/GViewport.cpp > CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.i
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.s"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/GUI/GViewport.cpp -o CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.s
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/GViewport.cpp -o CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.s
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/flags.make
-src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Primitivos/Objetos.cpp
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Primitivos/Objetos.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.o"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Primitivos/Objetos.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.o"
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Primitivos/Objetos.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.i"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Primitivos/Objetos.cpp > CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.i
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Primitivos/Objetos.cpp > CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.i
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.s"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Primitivos/Objetos.cpp -o CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.s
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Primitivos/Objetos.cpp -o CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.s
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/flags.make
-src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Utils/Vector2D.cpp
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Utils/Vector2D.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.o"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Utils/Vector2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.o"
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Utils/Vector2D.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.i"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Utils/Vector2D.cpp > CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.i
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Utils/Vector2D.cpp > CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.i
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.s"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Utils/Vector2D.cpp -o CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.s
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Utils/Vector2D.cpp -o CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.s
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/flags.make
-src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Componentes/IComponentes.cpp
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Componentes/IComponentes.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.o"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Componentes/IComponentes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.o"
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Componentes/IComponentes.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.i"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Componentes/IComponentes.cpp > CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.i
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Componentes/IComponentes.cpp > CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.i
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.s"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Componentes/IComponentes.cpp -o CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.s
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Componentes/IComponentes.cpp -o CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.s
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/flags.make
-src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/CargarFig/CargarFiguras.cpp
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/CargarFig/CargarFiguras.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.o"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/CargarFig/CargarFiguras.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.o"
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/CargarFig/CargarFiguras.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.i"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/CargarFig/CargarFiguras.cpp > CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.i
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/CargarFig/CargarFiguras.cpp > CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.i
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.s"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/CargarFig/CargarFiguras.cpp -o CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.s
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/CargarFig/CargarFiguras.cpp -o CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.s
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/flags.make
-src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Motor.cpp
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Motor.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Motor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o"
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Motor.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.i"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Motor.cpp > CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.i
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Motor.cpp > CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.i
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.s"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Motor/Motor.cpp -o CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.s
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Motor.cpp -o CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.s
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/flags.make
-src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Juego/Figuras/Figuras.cpp
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/Figuras/Figuras.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.o"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Juego/Figuras/Figuras.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.o"
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/Figuras/Figuras.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.i"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Juego/Figuras/Figuras.cpp > CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.i
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/Figuras/Figuras.cpp > CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.i
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.s"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Juego/Figuras/Figuras.cpp -o CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.s
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/Figuras/Figuras.cpp -o CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.s
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/flags.make
-src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Juego/Componentes/JComponentes.cpp
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/Componentes/JComponentes.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.o"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Juego/Componentes/JComponentes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.o"
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/Componentes/JComponentes.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.i"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Juego/Componentes/JComponentes.cpp > CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.i
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/Componentes/JComponentes.cpp > CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.i
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.s"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Juego/Componentes/JComponentes.cpp -o CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.s
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/Componentes/JComponentes.cpp -o CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.s
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/flags.make
-src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Juego/Sistemas/Sistemas.cpp
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/Sistemas/Sistemas.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.o"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Juego/Sistemas/Sistemas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.o"
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/Sistemas/Sistemas.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.i"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Juego/Sistemas/Sistemas.cpp > CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.i
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/Sistemas/Sistemas.cpp > CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.i
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.s"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Juego/Sistemas/Sistemas.cpp -o CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.s
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/Sistemas/Sistemas.cpp -o CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.s
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/flags.make
-src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Juego/Juego.cpp
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.o: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/Juego.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.o: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.o"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Juego/Juego.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.o"
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.o -MF CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.o.d -o CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/Juego.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.i"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Juego/Juego.cpp > CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.i
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/Juego.cpp > CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.i
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.s"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Juego/Juego.cpp -o CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.s
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/Juego.cpp -o CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.s
 
 # Object files for target CimaEngine3v
 CimaEngine3v_OBJECTS = \
@@ -288,40 +288,40 @@ CimaEngine3v_OBJECTS = \
 # External object files for target CimaEngine3v
 CimaEngine3v_EXTERNAL_OBJECTS =
 
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.o
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.o
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.o
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.o
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.o
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.o
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.o
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.o
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.o
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.o
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.o
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.o
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.o
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/build.make
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: /usr/local/lib/libsfml-audio.3.0.2.dylib
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: _deps/imgui-sfml-build/libImGui-SFML.a
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: /usr/local/lib/libsfml-graphics.3.0.2.dylib
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: /usr/local/lib/libsfml-window.3.0.2.dylib
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: /usr/local/lib/libsfml-system.3.0.2.dylib
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework
-/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v"
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CimaEngine3v.dir/link.txt --verbose=$(VERBOSE)
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.o
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.o
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.o
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.o
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.o
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.o
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.o
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.o
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.o
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.o
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.o
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.o
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.o
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/build.make
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: /usr/local/lib/libsfml-audio.3.0.2.dylib
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: _deps/imgui-sfml-build/libImGui-SFML.a
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: /usr/local/lib/libsfml-graphics.3.0.2.dylib
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: /usr/local/lib/libsfml-window.3.0.2.dylib
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: /usr/local/lib/libsfml-system.3.0.2.dylib
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v"
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CimaEngine3v.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/Main/CMakeFiles/CimaEngine3v.dir/build: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/bin/Debug/CimaEngine3v
+src/Main/CMakeFiles/CimaEngine3v.dir/build: /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/bin/Debug/CimaEngine3v
 .PHONY : src/Main/CMakeFiles/CimaEngine3v.dir/build
 
 src/Main/CMakeFiles/CimaEngine3v.dir/clean:
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main && $(CMAKE_COMMAND) -P CMakeFiles/CimaEngine3v.dir/cmake_clean.cmake
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main && $(CMAKE_COMMAND) -P CMakeFiles/CimaEngine3v.dir/cmake_clean.cmake
 .PHONY : src/Main/CMakeFiles/CimaEngine3v.dir/clean
 
 src/Main/CMakeFiles/CimaEngine3v.dir/depend:
-	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/src/Main /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/elBueno/build/Debug/src/Main/CMakeFiles/CimaEngine3v.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Main /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main/CMakeFiles/CimaEngine3v.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/Main/CMakeFiles/CimaEngine3v.dir/depend
 
