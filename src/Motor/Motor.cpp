@@ -9,6 +9,7 @@
 #include <imgui-SFML.h>
 #include <imgui_internal.h>
 #include "GUI/GLogger.hpp"
+#include "Camaras/CamarasGestor.hpp"
 
 namespace CE
 {
@@ -46,6 +47,7 @@ namespace CE
         if(!ImGui::SFML::Init(Render::Get().GetVentana()))
             exit(-1);
         
+        // ImGui Configuration
         auto& io=ImGui::GetIO();(void)io;
         io.ConfigFlags |=ImGuiConfigFlags_DockingEnable;
         io.ConfigFlags |=ImGuiConfigFlags_ViewportsEnable;
@@ -53,6 +55,14 @@ namespace CE
 
         gui_layers.push_back(std::make_shared<GDock>());
         gui_layers.push_back(std::make_shared<GViewport>());
+
+        // Camaras
+        GestorCamaras::Get().agregarCamara(
+            std::make_shared<Camara> (
+                Vector2D{540, 360}, Vector2D{1440, 900} // Original: 1080, 720
+            )
+        );
+        GestorCamaras::Get().setCamaraAciva(0);
 
         for(auto& gui: gui_layers)
             gui->OnInit(motor_info);
@@ -72,6 +82,9 @@ namespace CE
     }
     void Motor::OnUpdateFrame(float dt)
     {
+        // Camaras
+        GestorCamaras::Get().onUpdateCamaras(dt);
+
         mi_app->OnUpdate(dt);
         for(auto& gui: gui_layers)
             gui->OnUpdate(dt);
@@ -80,6 +93,9 @@ namespace CE
     void Motor::OnRenderFrame(float dt)
     {
         Render::Get().OnClearColor(sf::Color(118,118,255));
+        // Camaras
+        GestorCamaras::Get().onRenderCamara(
+            Render::Get().GetTextura());
         mi_app->OnRender(dt);
         for(auto& gui:gui_layers)
             gui->OnRender();

@@ -8,13 +8,13 @@
 
 namespace IVJ
 {
-    // Constantes de la simulación
+    // Constantes de la simulacion
     constexpr int POBLACION_SIZE = 15;
     constexpr float TIEMPO_ENFERMO = 3.0f;
     constexpr float TIEMPO_RECUPERACION = 2.0f;
     constexpr float TIEMPO_INM_PARCIAL = 2.0f;
 
-    // Estructura para almacenar estadísticas globales
+    // Estructura para almacenar estadisticas globales
     struct EstadisticasSimulacion
     {
         int normal = 0;
@@ -26,24 +26,26 @@ namespace IVJ
     };
 
     /**
-     * @brief Sistema que maneja la lógica de la enfermedad (contagio, recuperación, muerte)
-     * y la actualización de estados de las personas.
-     * @param poblacion Vector de objetos (personas) en la simulación.
-     * @param stats Estructura para actualizar los contadores.
-     * @param dt Delta time (tiempo transcurrido desde el último frame).
+     * Sistema que maneja la logica de la enfermedad (contagio, recuperación, muerte) y la actualizacion de estados de las personas.
+     * 
+     * poblacion: Vector de objetos (personas) en la simulacion.
+     * stats: Estructura para actualizar los contadores.
+     * dt: Delta time (tiempo transcurrido desde el ultimo frame).
      */
     void SistemaSimulacionEnfermedad(std::vector<std::shared_ptr<CE::Objeto>>& poblacion, EstadisticasSimulacion& stats, float dt);
 
     /**
-     * @brief Función auxiliar para inicializar la población (15x15) y el 10% de enfermos iniciales.
-     * @param poblacion Vector donde se agregarán los objetos Rectangulo.
+     * Funcion auxiliar para inicializar la poblacion (15x15) y el 10% de enfermos iniciales.
+     * 
+     * poblacion: Vector donde se agregaran los objetos Rectangulo.
      */
     void InicializarPoblacion(std::vector<std::shared_ptr<CE::Objeto>>& poblacion);
 
     /**
-     * @brief Función para actualizar el color del objeto visual según su estado.
-     * @param persona El objeto Objeto que representa a la persona.
-     * @param estado_persona El componente JEstadoPersona.
+     * Funcion para actualizar el color del objeto visual segun su estado.
+     * 
+     * persona: El objeto Objeto que representa a la persona.
+     * estado_persona: El componente JEstadoPersona.
      */
     void ActualizarColor(CE::Objeto* persona, const JEstadoPersona& estado_persona);
 }

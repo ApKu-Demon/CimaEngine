@@ -84,10 +84,10 @@ namespace IVJ
         texto.setStyle(sf::Text::Bold | sf::Text::Underlined);
         // ---------------------------------------------------------------------------------------------------
 
-        // LAB 4 --- INICIALIZACIÓN DE LA SIMULACIÓN ---
+        // LAB 4: INICIALIZACION DE LA SIMULACION ---
         objetos.clear();
         
-        // Inicializa la cuadrícula 15x15 con 10% de enfermos iniciales
+        // Inicializa la cuadricula 15x15 con 10% de enfermos iniciales
         IVJ::InicializarPoblacion(objetos); 
 
         std::cout << "\nTotal personas en la cuadrícula: " << objetos.size() << "\n";
@@ -99,16 +99,16 @@ namespace IVJ
             exit(1);
         }
 
-        // Usaremos el objeto texto existente para mostrar las estadísticas
+        // Usaremos el objeto texto existente
         texto_stats.setFont(font_juego);
         texto_stats.setString("Inicializando...");
-        texto_stats.setCharacterSize(30); // Tamaño más pequeño para las stats
+        texto_stats.setCharacterSize(30); // Tamano mas pequeno para las stats
         texto_stats.setPosition({50.f, 50.f}); // Esquina superior izquierda
 
         texto_stats.setFillColor(sf::Color::White);
         texto_stats.setStyle(sf::Text::Bold);
         
-        // Reiniciar estadísticas al inicio
+        // Reiniciar estadisticas al inicio
         stats_simulacion = {0};
         simulacion_activa = true;
     }
@@ -208,16 +208,14 @@ namespace IVJ
     }
 
     void Juego::OnRender(float dt)
-    {
-        //std::cout << "Áreas de las objetos cargadas:\n";
-        
+    {        
         for (auto& obj : objetos)
         {     
             CE::Render::Get().AddToDraw(*obj);
         }
 
         CE::Render::Get().AddToDraw(texto);
-        // Dibuja el panel de estadísticas
+        // Dibuja el panel de estadisticas
         CE::Render::Get().AddToDraw(texto_stats);
     }
 }

@@ -3,29 +3,19 @@
 #include <cstdlib> // para rand()
 #include <ctime>   // para time()
 #include <iostream>
-#include <algorithm> // para std::random_shuffle (o std::shuffle en C++11+)
+#include <algorithm> 
 #include <random>
 #include <numeric>   // para std::iota
 
 namespace IVJ
 {
-    // Las constantes de tiempo (TIEMPO_ENFERMO, etc.) deben estar en el .hpp.
-    // Constantes de la simulación
-    /*
-    constexpr int POBLACION_SIZE = 15;
-    constexpr float TIEMPO_ENFERMO = 3.0f;
-    constexpr float TIEMPO_RECUPERACION = 2.0f;
-    constexpr float TIEMPO_INM_PARCIAL = 2.0f;
-    */
-
-    // Función de ayuda para obtener el estado de salud y componente de una persona
+    // Funcion de ayuda para obtener el estado de salud y componente de una persona
     JEstadoPersona* getEstado(CE::Objeto* obj)
     {
         return obj->getComponente<JEstadoPersona>();
     }
 
-    // --- Definición de Colores ---
-    // Usamos los colores específicos para el relleno
+    // Definicion de Colores ---
     sf::Color getColorRelleno(EstadoSalud estado)
     {
         switch (estado)
@@ -44,12 +34,11 @@ namespace IVJ
         }
     }
     
-    // Usamos los colores específicos para el contorno
     sf::Color getColorContorno(EstadoSalud estado)
     {
         if (estado == EstadoSalud::NORMAL)
-            return sf::Color(50, 50, 50); // Oscuro
-        return sf::Color::Black; // Contorno negro para todos los demás
+            return sf::Color(50, 50, 50);
+        return sf::Color::Black;
     }
 
     // Corregida para usar el método setColores en Rectangulo
@@ -60,19 +49,17 @@ namespace IVJ
             sf::Color relleno = getColorRelleno(estado_persona.estado);
             sf::Color contorno = getColorContorno(estado_persona.estado);
             
-            // Si la persona está MUERTA, el contorno debe ser negro/gris
             if (estado_persona.estado == EstadoSalud::MUERTO)
                 contorno = sf::Color(50, 50, 50);
 
-            // Llamada al método que modificaste en Figuras.cpp
             rect->setColores(relleno, contorno); 
         }
     }
     
-    // --- Lógica Principal de la Simulación ---
+    // Logica Principal de la Simulacion ---
     void SistemaSimulacionEnfermedad(std::vector<std::shared_ptr<CE::Objeto>>& poblacion, EstadisticasSimulacion& stats, float dt)
     {
-        // Reiniciar estadísticas y acumular tiempo total
+        // Reiniciar estadisticas y acumular tiempo total
         float tiempo_actual = stats.tiempo_total;
         stats = {0}; 
         stats.tiempo_total += tiempo_actual + dt;
@@ -292,7 +279,7 @@ namespace IVJ
         const float spacing = 10.0f;
         // Posiciones iniciales centradas para una mejor visualización
         //const float start_x = 1440.0f / 2.0f - (POBLACION_SIZE * (rect_size + spacing)) / 2.0f;
-        const float start_x = 600.0f;
+        const float start_x = 500.0f;
         const float start_y = 900.0f / 2.0f - (POBLACION_SIZE * (rect_size + spacing)) / 2.0f;
 
         for (int r = 0; r < POBLACION_SIZE; ++r)

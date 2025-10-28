@@ -295,6 +295,54 @@ __/Juego/Sistemas/Sistemas.cpp.s:
 	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug && $(MAKE) $(MAKESILENT) -f src/Main/CMakeFiles/CimaEngine3v.dir/build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.s
 .PHONY : __/Juego/Sistemas/Sistemas.cpp.s
 
+__/Motor/Camaras/Camaras.o: __/Motor/Camaras/Camaras.cpp.o
+.PHONY : __/Motor/Camaras/Camaras.o
+
+# target to build an object file
+__/Motor/Camaras/Camaras.cpp.o:
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug && $(MAKE) $(MAKESILENT) -f src/Main/CMakeFiles/CimaEngine3v.dir/build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.o
+.PHONY : __/Motor/Camaras/Camaras.cpp.o
+
+__/Motor/Camaras/Camaras.i: __/Motor/Camaras/Camaras.cpp.i
+.PHONY : __/Motor/Camaras/Camaras.i
+
+# target to preprocess a source file
+__/Motor/Camaras/Camaras.cpp.i:
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug && $(MAKE) $(MAKESILENT) -f src/Main/CMakeFiles/CimaEngine3v.dir/build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.i
+.PHONY : __/Motor/Camaras/Camaras.cpp.i
+
+__/Motor/Camaras/Camaras.s: __/Motor/Camaras/Camaras.cpp.s
+.PHONY : __/Motor/Camaras/Camaras.s
+
+# target to generate assembly for a file
+__/Motor/Camaras/Camaras.cpp.s:
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug && $(MAKE) $(MAKESILENT) -f src/Main/CMakeFiles/CimaEngine3v.dir/build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.s
+.PHONY : __/Motor/Camaras/Camaras.cpp.s
+
+__/Motor/Camaras/CamarasGestor.o: __/Motor/Camaras/CamarasGestor.cpp.o
+.PHONY : __/Motor/Camaras/CamarasGestor.o
+
+# target to build an object file
+__/Motor/Camaras/CamarasGestor.cpp.o:
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug && $(MAKE) $(MAKESILENT) -f src/Main/CMakeFiles/CimaEngine3v.dir/build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.o
+.PHONY : __/Motor/Camaras/CamarasGestor.cpp.o
+
+__/Motor/Camaras/CamarasGestor.i: __/Motor/Camaras/CamarasGestor.cpp.i
+.PHONY : __/Motor/Camaras/CamarasGestor.i
+
+# target to preprocess a source file
+__/Motor/Camaras/CamarasGestor.cpp.i:
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug && $(MAKE) $(MAKESILENT) -f src/Main/CMakeFiles/CimaEngine3v.dir/build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.i
+.PHONY : __/Motor/Camaras/CamarasGestor.cpp.i
+
+__/Motor/Camaras/CamarasGestor.s: __/Motor/Camaras/CamarasGestor.cpp.s
+.PHONY : __/Motor/Camaras/CamarasGestor.s
+
+# target to generate assembly for a file
+__/Motor/Camaras/CamarasGestor.cpp.s:
+	cd /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug && $(MAKE) $(MAKESILENT) -f src/Main/CMakeFiles/CimaEngine3v.dir/build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.s
+.PHONY : __/Motor/Camaras/CamarasGestor.cpp.s
+
 __/Motor/CargarFig/CargarFiguras.o: __/Motor/CargarFig/CargarFiguras.cpp.o
 .PHONY : __/Motor/CargarFig/CargarFiguras.o
 
@@ -563,6 +611,12 @@ help:
 	@echo "... __/Juego/Sistemas/Sistemas.o"
 	@echo "... __/Juego/Sistemas/Sistemas.i"
 	@echo "... __/Juego/Sistemas/Sistemas.s"
+	@echo "... __/Motor/Camaras/Camaras.o"
+	@echo "... __/Motor/Camaras/Camaras.i"
+	@echo "... __/Motor/Camaras/Camaras.s"
+	@echo "... __/Motor/Camaras/CamarasGestor.o"
+	@echo "... __/Motor/Camaras/CamarasGestor.i"
+	@echo "... __/Motor/Camaras/CamarasGestor.s"
 	@echo "... __/Motor/CargarFig/CargarFiguras.o"
 	@echo "... __/Motor/CargarFig/CargarFiguras.i"
 	@echo "... __/Motor/CargarFig/CargarFiguras.s"

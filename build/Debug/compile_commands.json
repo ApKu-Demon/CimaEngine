@@ -97,6 +97,18 @@
 },
 {
   "directory": "/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main",
+  "command": "/usr/bin/c++ -DASSETS=\\\"/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/assets\\\" -DDEBUG=1 -DIMGUI_USER_CONFIG=\\\"imconfig-SFML.h\\\" -I/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-src -I/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/. -I/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-sfml-src -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -o CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Camaras/Camaras.cpp",
+  "file": "/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Camaras/Camaras.cpp",
+  "output": "src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.o"
+},
+{
+  "directory": "/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main",
+  "command": "/usr/bin/c++ -DASSETS=\\\"/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/assets\\\" -DDEBUG=1 -DIMGUI_USER_CONFIG=\\\"imconfig-SFML.h\\\" -I/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-src -I/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/. -I/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-sfml-src -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -o CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Camaras/CamarasGestor.cpp",
+  "file": "/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Camaras/CamarasGestor.cpp",
+  "output": "src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.o"
+},
+{
+  "directory": "/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Main",
   "command": "/usr/bin/c++ -DASSETS=\\\"/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/assets\\\" -DDEBUG=1 -DIMGUI_USER_CONFIG=\\\"imconfig-SFML.h\\\" -I/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-src -I/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/. -I/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-sfml-src -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -o CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o -c /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Motor.cpp",
   "file": "/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Motor.cpp",
   "output": "src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.o"

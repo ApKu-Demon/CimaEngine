@@ -72,6 +72,12 @@
 /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Motor/CargarFig/CMakeFiles/install.dir
 /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Motor/CargarFig/CMakeFiles/install/local.dir
 /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Motor/CargarFig/CMakeFiles/install/strip.dir
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Motor/Camaras/CMakeFiles/edit_cache.dir
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Motor/Camaras/CMakeFiles/rebuild_cache.dir
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Motor/Camaras/CMakeFiles/list_install_components.dir
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Motor/Camaras/CMakeFiles/install.dir
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Motor/Camaras/CMakeFiles/install/local.dir
+/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Motor/Camaras/CMakeFiles/install/strip.dir
 /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Juego/CMakeFiles/edit_cache.dir
 /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Juego/CMakeFiles/rebuild_cache.dir
 /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/src/Juego/CMakeFiles/list_install_components.dir

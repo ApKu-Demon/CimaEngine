@@ -11,7 +11,7 @@ namespace IVJ
             virtual ~JComponentes()=default;    // destructor
     };
 
-    // Enumeración para los estados de salud
+    // Estados de salud
     enum class EstadoSalud
     {
         NORMAL,
@@ -21,25 +21,24 @@ namespace IVJ
         MUERTO
     };
 
-    // Componente que contiene la información de estado de una persona en la simulación
+    // Info del estado de persona
     struct JEstadoPersona : public CE::IComponentes
     {
-        // --- Core State ---
+        // Core State ---
         EstadoSalud estado = EstadoSalud::NORMAL;
         bool tiene_inmunidad_parcial = false; // Bandera para la inmunidad parcial
 
-        // --- Timers (Controlados por la función de Update) ---
+        // Timers (Controlados por la función de Update) ---
         float tiempo_en_estado = 0.0f;          // Tiempo total en el estado actual.
         float tiempo_inm_parcial_restante = 0.0f; // Para el estado normal con inmunidad parcial.
-        float tiempo_ultimo_contagio = 0.0f; // Marca el último segundo entero en que la persona contagió
+        float tiempo_ultimo_contagio = 0.0f; // Marca el ultimo segundo entero en que la persona contagió
 
-        // --- Stats/Probabilities (Individuales y Fijas) ---
-        // Generadas aleatoriamente entre los rangos especificados
+        // Stats/Probabilities (Individuales y Fijas) ---
         float prob_contagio;            // [0.15, 0.30]
         float prob_muerte = 0.10f;      // 10% Fijo
         float prob_inmunidad_permanente;// [0.01, 0.10]
 
-        // --- Grid Position (Para verificar vecinos) ---
+        // Grid Position ---
         int fila;
         int columna;
 

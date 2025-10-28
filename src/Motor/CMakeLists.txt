@@ -7,5 +7,6 @@ add_subdirectory(Primitivos)
 add_subdirectory(Utils)
 add_subdirectory(Componentes)
 add_subdirectory(CargarFig)
+add_subdirectory(Camaras)
 
 target_sources(CimaEngine3v PRIVATE Motor.cpp)
