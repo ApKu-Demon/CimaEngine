@@ -9,6 +9,7 @@
 #include "../Motor/CargarFig/CargarFiguras.hpp"
 #include "../Motor/Utils/Lista.hpp"
 #include "../Motor/GUI/GLogger.hpp"
+#include "../Motor/Camaras/CamarasGestor.hpp"
 
 namespace IVJ
 {
@@ -85,6 +86,7 @@ namespace IVJ
         // ---------------------------------------------------------------------------------------------------
 
         // LAB 4: INICIALIZACION DE LA SIMULACION ---
+        /*
         objetos.clear();
         
         // Inicializa la cuadricula 15x15 con 10% de enfermos iniciales
@@ -111,6 +113,17 @@ namespace IVJ
         // Reiniciar estadisticas al inicio
         stats_simulacion = {0};
         simulacion_activa = true;
+        */
+
+        // CAMARAS # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+        objetos[1]->getTransformada()->velocidad.x = 150.f;
+        CE::GestorCamaras::Get().agregarCamara(
+            std::make_shared<CE::CamaraCuadro>(
+                CE::Vector2D{540, 360}, CE::Vector2D{1080, 720}
+            )
+        );
+        CE::GestorCamaras::Get().setCamaraAciva(1);
+        CE::GestorCamaras::Get().getCamaraActiva().lockEnObjeto(objetos[2]);
     }
 
     void Juego::OnInputs(float dt,std::optional<sf::Event>& eventos)
@@ -164,6 +177,7 @@ namespace IVJ
         // -----------------------------------------------------------------------------------------------------------
 
         // LAB 4
+        
         if (!simulacion_activa)
         {
             // La simulación terminó, no actualizamos los estados de las personas.
@@ -204,6 +218,7 @@ namespace IVJ
             
         texto_stats.setString(stats_str);
         // -----------------------------------------------------------------------------------------------------------
+        
 
     }
 

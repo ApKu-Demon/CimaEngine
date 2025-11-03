@@ -542,4 +542,9 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.o: \
   /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-src/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/../Motor/Camaras/CamarasGestor.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/../Motor/Camaras/Camaras.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/../Motor/Camaras/../Primitivos/Objetos.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/../Motor/Camaras/../Componentes/IComponentes.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Juego/../Motor/Camaras/../Utils/Vector2D.hpp

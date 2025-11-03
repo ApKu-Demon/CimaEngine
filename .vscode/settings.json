@@ -63,6 +63,12 @@
         "variant": "cpp",
         "vector": "cpp",
         "complex": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "__tree": "cpp",
+        "map": "cpp",
+        "numeric": "cpp",
+        "random": "cpp",
+        "bit": "cpp",
+        "span": "cpp"
     }
 }

@@ -42,5 +42,17 @@ namespace CE
             // componentes
             std::shared_ptr<ITransform> m_transform;
     };
+
+    class CamaraCuadro: public Camara
+    {
+    public:
+        CamaraCuadro(const Vector2D& pos, const Vector2D& dim);
+        ~CamaraCuadro() override {};
+        void onUpdate(float dt) override;
+
+    private:
+        float limitex;
+        float limitey;
+    };
 }
 

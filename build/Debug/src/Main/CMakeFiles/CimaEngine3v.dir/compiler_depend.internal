@@ -1475,6 +1475,11 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.o
  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-src/imconfig.h
  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-src/imgui.h
  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/App/ALayer.hpp
+ /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Componentes/IComponentes.hpp
+ /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Primitivos/Objetos.hpp
+ /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Utils/Vector2D.hpp
+ /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Camaras/Camaras.hpp
+ /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Camaras/CamarasGestor.hpp
  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Primitivos/Objetos.hpp
  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/CargarFig/CargarFiguras.hpp
  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Utils/Utils.hpp
@@ -2868,6 +2873,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/exception
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip
@@ -2910,6 +2916,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/_limits.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/_mcontext.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/_types.h
@@ -3040,11 +3047,22 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wctype.h
  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/__stddef_max_align_t.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/float.h
  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/limits.h
  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdint.h
+ /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-sfml-src/imconfig-SFML.h
+ /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-sfml-src/imgui-SFML_export.h
+ /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-src/imconfig.h
+ /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-src/imgui.h
  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Componentes/IComponentes.hpp
+ /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Utils/Utils.hpp
+ /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Utils/Lista.hpp
+ /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/GLayer.hpp
+ /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/GUI/GLogger.hpp
+ /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Utils/CEInterfaces.hpp
+ /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Utils/Nodo.hpp
  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Utils/Vector2D.hpp
  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Componentes/IComponentes.hpp
  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Primitivos/Objetos.hpp

@@ -512,4 +512,17 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.o: \
   /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Camaras/../Primitivos/../Componentes/../Utils/Vector2D.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Camaras/../Componentes/IComponentes.hpp \
-  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Camaras/../Utils/Vector2D.hpp
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Camaras/../Utils/Vector2D.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Camaras/../GUI/GLogger.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Camaras/../GUI/GLayer.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Camaras/../GUI/../Utils//Utils.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Camaras/../GUI/../Utils/Lista.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Camaras/../Primitivos/../Componentes/../Utils/CEInterfaces.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/src/Motor/Camaras/../Primitivos/../Componentes/../Utils/Nodo.hpp \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-src/imgui.h \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-sfml-src/imconfig-SFML.h \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-sfml-src/imgui-SFML_export.h \
+  /Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-src/imconfig.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/float.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h

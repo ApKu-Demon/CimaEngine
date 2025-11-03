@@ -1,4 +1,5 @@
 #include "Camaras.hpp"
+#include "../GUI/GLogger.hpp"
 
 namespace CE
 {
@@ -38,5 +39,35 @@ namespace CE
     void Camara::onUpdate(float dt)
     {
         m_view->setCenter({m_transform->posicion.x, m_transform->posicion.y});
+    }
+
+    // HIJAS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    CamaraCuadro::CamaraCuadro(const Vector2D& pos, const Vector2D& dim)
+        : Camara{pos, dim}, limitex{dim.x}, limitey{dim.y}
+    {
+        nombre = "Camara Cuadro #" + std::to_string(Camara::num_camaras);
+    }
+
+    void CamaraCuadro::onUpdate(float dt)
+    {
+        Camara::onUpdate(dt);
+        if (!m_lockObj.lock()) return;
+
+        auto mitad = Vector2D(cam_width, cam_height).escala(0.5f);
+        auto obj_trans = m_lockObj.lock()->getTransformada();
+        auto opos = obj_trans->posicion;
+        std::string log = "OBJ: (" + std::to_string(opos.x) +
+            ", " + std::to_string(opos.y) + ")";
+        std::string log2 = nombre + ": " + std::to_string(m_transform->posicion.x) +
+            ", " + std::to_string(m_transform->posicion.y) + ")";
+
+        GLogger::Get().agregarLog(log, GLogger::Niveles::LOG_DEBUG);
+        GLogger::Get().agregarLog(log2, GLogger::Niveles::LOG_DEBUG);
+
+        if (obj_trans->posicion.x > (m_transform->posicion.x + mitad.x))
+        {
+            m_transform->posicion.x += cam_width;
+            limitex += limitex;
+        }
     }
 }

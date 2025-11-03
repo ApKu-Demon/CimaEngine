@@ -59,16 +59,16 @@ namespace CE
         // Camaras
         GestorCamaras::Get().agregarCamara(
             std::make_shared<Camara> (
-                Vector2D{540, 360}, Vector2D{1440, 900} // Original: 1080, 720
+                Vector2D{540, 360}, Vector2D{1080, 720} // Original: 1440, 900
             )
         );
         GestorCamaras::Get().setCamaraAciva(0);
 
+        mi_app->OnInit(); //
+
         for(auto& gui: gui_layers)
             gui->OnInit(motor_info);
         GLogger::Get().OnInit(motor_info);
-
-        mi_app->OnInit(); //
     }
     void Motor::OnEventFrame(float dt)
     {
@@ -100,6 +100,8 @@ namespace CE
         for(auto& gui:gui_layers)
             gui->OnRender();
         GLogger::Get().OnRender();
+        //
+
         Render::Get().OnDisplayTextura();
 
         ImGui::Begin("Test",nullptr,0);
