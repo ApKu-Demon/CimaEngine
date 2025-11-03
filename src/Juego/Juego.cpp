@@ -180,7 +180,7 @@ namespace IVJ
         
         if (!simulacion_activa)
         {
-            // La simulación terminó, no actualizamos los estados de las personas.
+            // La simulación termino, no actualizamos los estados de las personas.
             // Opcionalmente, puedes seguir llamando a obj->onUpdate(dt) si los objetos tienen movimiento inactivo.
             return; 
         }
