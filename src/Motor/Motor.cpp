@@ -10,6 +10,7 @@
 #include <imgui_internal.h>
 #include "GUI/GLogger.hpp"
 #include "Camaras/CamarasGestor.hpp"
+#include "GUI/GListaObjetos.hpp"
 
 namespace CE
 {
@@ -55,6 +56,7 @@ namespace CE
 
         gui_layers.push_back(std::make_shared<GDock>());
         gui_layers.push_back(std::make_shared<GViewport>());
+        gui_layers.push_back(std::make_shared<GListaObjetos>());
 
         // Camaras
         GestorCamaras::Get().agregarCamara(

@@ -2541,6 +2541,12 @@
 		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/GUI/GDock.hpp">
 			<Option target="CimaEngine3v"/>
 		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/GUI/GListaObjetos.cpp">
+			<Option target="CimaEngine3v"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/GUI/GListaObjetos.hpp">
+			<Option target="CimaEngine3v"/>
+		</Unit>
 		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/GUI/GLogger.cpp">
 			<Option target="CimaEngine3v"/>
 		</Unit>

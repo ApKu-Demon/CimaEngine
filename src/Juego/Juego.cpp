@@ -92,7 +92,7 @@ namespace IVJ
         // Inicializa la cuadricula 15x15 con 10% de enfermos iniciales
         IVJ::InicializarPoblacion(objetos); 
 
-        std::cout << "\nTotal personas en la cuadrícula: " << objetos.size() << "\n";
+        std::cout << "\nTotal personas en la cuadricula: " << objetos.size() << "\n";
         // ---------------------------------------
 
         if(!font_juego.openFromFile(ASSETS "/fonts/Saira-VariableFont_wdth,wght.ttf"))
@@ -104,7 +104,7 @@ namespace IVJ
         // Usaremos el objeto texto existente
         texto_stats.setFont(font_juego);
         texto_stats.setString("Inicializando...");
-        texto_stats.setCharacterSize(30); // Tamano mas pequeno para las stats
+        texto_stats.setCharacterSize(20); // Tamano mas pequeno para las stats
         texto_stats.setPosition({50.f, 50.f}); // Esquina superior izquierda
 
         texto_stats.setFillColor(sf::Color::White);
@@ -116,7 +116,8 @@ namespace IVJ
         */
 
         // CAMARAS # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-        objetos[1]->getTransformada()->velocidad.x = 150.f;
+        
+        objetos[2]->getTransformada()->velocidad.x = 150.f;
         CE::GestorCamaras::Get().agregarCamara(
             std::make_shared<CE::CamaraCuadro>(
                 CE::Vector2D{540, 360}, CE::Vector2D{1080, 720}
@@ -124,6 +125,15 @@ namespace IVJ
         );
         CE::GestorCamaras::Get().setCamaraAciva(1);
         CE::GestorCamaras::Get().getCamaraActiva().lockEnObjeto(objetos[2]);
+
+        objetos[5]->getTransformada()->velocidad.x = 5.f;
+        CE::GestorCamaras::Get().agregarCamara(
+            std::make_shared<CE::CamaraSeguimiento>(
+                CE::Vector2D{540, 360}, CE::Vector2D{1080, 720}
+            )
+        );
+        CE::GestorCamaras::Get().setCamaraAciva(2);
+        CE::GestorCamaras::Get().getCamaraActiva().lockEnObjeto(objetos[5]);
     }
 
     void Juego::OnInputs(float dt,std::optional<sf::Event>& eventos)
@@ -192,18 +202,18 @@ namespace IVJ
         int total_poblacion = POBLACION_SIZE * POBLACION_SIZE;
         if (stats_simulacion.enfermo == 0 || stats_simulacion.muerto == total_poblacion)
         {
-            simulacion_activa = false; // Detiene la simulación
-            CE::GLogger::Get().agregarLog("--- SIMULACIÓN FINALIZADA ---", CE::GLogger::Niveles::LOG_SEVERO);
+            simulacion_activa = false; // Detiene la simulacion
+            CE::GLogger::Get().agregarLog("--- SIMULACION FINALIZADA ---", CE::GLogger::Niveles::LOG_SEVERO);
         }
 
-        // 3. Actualizar la posición de los objetos (onUpdate) y el texto de estadísticas
+        // 3. Actualizar la posicion de los objetos (onUpdate) y el texto de estadisticas
         for (auto& obj : objetos)
         {
-            // En este caso, onUpdate solo actualiza la posición visual, lo cual es necesario.
+            // En este caso, onUpdate solo actualiza la posicion visual, lo cual es necesario.
             obj->onUpdate(dt); 
         }
         
-        // 4. Formatear y actualizar el texto de estadísticas para la visualización
+        // 4. Formatear y actualizar el texto de estadisticas para la visualizacion
         std::string stats_str = 
             "--- SIMULACION DE EPIDEMIA ---\n"
             "Tiempo Total: " + std::to_string(static_cast<int>(stats_simulacion.tiempo_total)) + "s\n"

@@ -45,14 +45,22 @@ namespace CE
 
     class CamaraCuadro: public Camara
     {
-    public:
-        CamaraCuadro(const Vector2D& pos, const Vector2D& dim);
-        ~CamaraCuadro() override {};
-        void onUpdate(float dt) override;
+        public:
+            CamaraCuadro(const Vector2D& pos, const Vector2D& dim);
+            ~CamaraCuadro() override {};
+            void onUpdate(float dt) override;
 
-    private:
-        float limitex;
-        float limitey;
+        private:
+            float limitex;
+            float limitey;
+    };
+
+    class CamaraSeguimiento: public Camara
+    {
+        public:
+            CamaraSeguimiento(const Vector2D& pos, const Vector2D& dim); 
+            ~CamaraSeguimiento() override {};
+            void onUpdate(float dt) override; 
     };
 }
 

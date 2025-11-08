@@ -22,6 +22,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.obj.d"
   "CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.obj"
   "CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.obj.d"
+  "CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.obj"
+  "CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.obj.d"
   "CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.obj"
   "CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.obj.d"
   "CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.obj"

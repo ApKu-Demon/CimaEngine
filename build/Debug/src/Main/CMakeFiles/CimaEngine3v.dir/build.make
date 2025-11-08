@@ -116,11 +116,26 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.s"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Motor\GUI\GDock.cpp -o CMakeFiles\CimaEngine3v.dir\__\Motor\GUI\GDock.cpp.s
 
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/flags.make
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/includes_CXX.rsp
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.obj: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/GUI/GListaObjetos.cpp
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.obj"
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.obj -MF CMakeFiles\CimaEngine3v.dir\__\Motor\GUI\GListaObjetos.cpp.obj.d -o CMakeFiles\CimaEngine3v.dir\__\Motor\GUI\GListaObjetos.cpp.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Motor\GUI\GListaObjetos.cpp
+
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.i"
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Motor\GUI\GListaObjetos.cpp > CMakeFiles\CimaEngine3v.dir\__\Motor\GUI\GListaObjetos.cpp.i
+
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.s"
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Motor\GUI\GListaObjetos.cpp -o CMakeFiles\CimaEngine3v.dir\__\Motor\GUI\GListaObjetos.cpp.s
+
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/flags.make
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/includes_CXX.rsp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.obj: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/GUI/GLogger.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.obj -MF CMakeFiles\CimaEngine3v.dir\__\Motor\GUI\GLogger.cpp.obj.d -o CMakeFiles\CimaEngine3v.dir\__\Motor\GUI\GLogger.cpp.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Motor\GUI\GLogger.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.i: cmake_force
@@ -135,7 +150,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.obj: src/Main/CM
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/includes_CXX.rsp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.obj: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/GUI/GViewport.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.obj -MF CMakeFiles\CimaEngine3v.dir\__\Motor\GUI\GViewport.cpp.obj.d -o CMakeFiles\CimaEngine3v.dir\__\Motor\GUI\GViewport.cpp.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Motor\GUI\GViewport.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.i: cmake_force
@@ -150,7 +165,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.obj: src/Ma
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/includes_CXX.rsp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.obj: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Primitivos/Objetos.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.obj -MF CMakeFiles\CimaEngine3v.dir\__\Motor\Primitivos\Objetos.cpp.obj.d -o CMakeFiles\CimaEngine3v.dir\__\Motor\Primitivos\Objetos.cpp.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Motor\Primitivos\Objetos.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.i: cmake_force
@@ -165,7 +180,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.obj: src/Main/C
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/includes_CXX.rsp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.obj: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Utils/Vector2D.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.obj -MF CMakeFiles\CimaEngine3v.dir\__\Motor\Utils\Vector2D.cpp.obj.d -o CMakeFiles\CimaEngine3v.dir\__\Motor\Utils\Vector2D.cpp.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Motor\Utils\Vector2D.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.i: cmake_force
@@ -180,7 +195,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.obj: 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/includes_CXX.rsp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.obj: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Componentes/IComponentes.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.obj -MF CMakeFiles\CimaEngine3v.dir\__\Motor\Componentes\IComponentes.cpp.obj.d -o CMakeFiles\CimaEngine3v.dir\__\Motor\Componentes\IComponentes.cpp.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Motor\Componentes\IComponentes.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.i: cmake_force
@@ -195,7 +210,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.obj: s
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/includes_CXX.rsp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.obj: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/CargarFig/CargarFiguras.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.obj -MF CMakeFiles\CimaEngine3v.dir\__\Motor\CargarFig\CargarFiguras.cpp.obj.d -o CMakeFiles\CimaEngine3v.dir\__\Motor\CargarFig\CargarFiguras.cpp.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Motor\CargarFig\CargarFiguras.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.i: cmake_force
@@ -210,7 +225,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.obj: src/Main/
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/includes_CXX.rsp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.obj: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Camaras/Camaras.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.obj -MF CMakeFiles\CimaEngine3v.dir\__\Motor\Camaras\Camaras.cpp.obj.d -o CMakeFiles\CimaEngine3v.dir\__\Motor\Camaras\Camaras.cpp.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Motor\Camaras\Camaras.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.i: cmake_force
@@ -225,7 +240,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.obj: src
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/includes_CXX.rsp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.obj: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Camaras/CamarasGestor.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.obj -MF CMakeFiles\CimaEngine3v.dir\__\Motor\Camaras\CamarasGestor.cpp.obj.d -o CMakeFiles\CimaEngine3v.dir\__\Motor\Camaras\CamarasGestor.cpp.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Motor\Camaras\CamarasGestor.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.i: cmake_force
@@ -240,7 +255,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.obj: src/Main/CMakeFiles
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/includes_CXX.rsp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.obj: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Motor.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.obj -MF CMakeFiles\CimaEngine3v.dir\__\Motor\Motor.cpp.obj.d -o CMakeFiles\CimaEngine3v.dir\__\Motor\Motor.cpp.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Motor\Motor.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.i: cmake_force
@@ -255,7 +270,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.obj: src/Main/
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/includes_CXX.rsp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.obj: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Figuras/Figuras.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.obj -MF CMakeFiles\CimaEngine3v.dir\__\Juego\Figuras\Figuras.cpp.obj.d -o CMakeFiles\CimaEngine3v.dir\__\Juego\Figuras\Figuras.cpp.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Juego\Figuras\Figuras.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.i: cmake_force
@@ -270,7 +285,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.obj: 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/includes_CXX.rsp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.obj: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Componentes/JComponentes.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.obj -MF CMakeFiles\CimaEngine3v.dir\__\Juego\Componentes\JComponentes.cpp.obj.d -o CMakeFiles\CimaEngine3v.dir\__\Juego\Componentes\JComponentes.cpp.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Juego\Componentes\JComponentes.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.i: cmake_force
@@ -285,7 +300,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermed
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/includes_CXX.rsp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.obj: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.obj -MF CMakeFiles\CimaEngine3v.dir\__\Juego\Sistemas\SistemaSimulacionEnfermedad.cpp.obj.d -o CMakeFiles\CimaEngine3v.dir\__\Juego\Sistemas\SistemaSimulacionEnfermedad.cpp.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Juego\Sistemas\SistemaSimulacionEnfermedad.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.i: cmake_force
@@ -300,7 +315,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.obj: src/Mai
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/includes_CXX.rsp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.obj: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Sistemas/Sistemas.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.obj -MF CMakeFiles\CimaEngine3v.dir\__\Juego\Sistemas\Sistemas.cpp.obj.d -o CMakeFiles\CimaEngine3v.dir\__\Juego\Sistemas\Sistemas.cpp.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Juego\Sistemas\Sistemas.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.i: cmake_force
@@ -315,7 +330,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj: src/Main/CMakeFiles
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/includes_CXX.rsp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Juego.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj -MF CMakeFiles\CimaEngine3v.dir\__\Juego\Juego.cpp.obj.d -o CMakeFiles\CimaEngine3v.dir\__\Juego\Juego.cpp.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Juego\Juego.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.i: cmake_force
@@ -331,6 +346,7 @@ CimaEngine3v_OBJECTS = \
 "CMakeFiles/CimaEngine3v.dir/main.cpp.obj" \
 "CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.obj" \
 "CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.obj" \
+"CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.obj" \
 "CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.obj" \
 "CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.obj" \
 "CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.obj" \
@@ -352,6 +368,7 @@ CimaEngine3v_EXTERNAL_OBJECTS =
 C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.obj
 C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.obj
 C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.obj
+C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.obj
 C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.obj
 C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.obj
 C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.obj
@@ -384,7 +401,7 @@ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin
 C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/linkLibs.rsp
 C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/objects1.rsp
 C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\bin\Debug\CimaEngine3v.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\bin\Debug\CimaEngine3v.exe"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CimaEngine3v.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

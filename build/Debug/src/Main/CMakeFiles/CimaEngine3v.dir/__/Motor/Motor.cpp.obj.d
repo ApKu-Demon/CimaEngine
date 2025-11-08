@@ -447,4 +447,5 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.obj: \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Primitivos/Objetos.hpp \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Componentes/IComponentes.hpp \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Utils/Vector2D.hpp \
- C:/Users/PC/Documents/mingw64/include/c++/15.2.0/iostream
+ C:/Users/PC/Documents/mingw64/include/c++/15.2.0/iostream \
+ C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Motor\GUI/GListaObjetos.hpp

@@ -434,6 +434,30 @@ __/Motor/GUI/GDock.cpp.s:
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.s
 .PHONY : __/Motor/GUI/GDock.cpp.s
 
+__/Motor/GUI/GListaObjetos.obj: __/Motor/GUI/GListaObjetos.cpp.obj
+.PHONY : __/Motor/GUI/GListaObjetos.obj
+
+# target to build an object file
+__/Motor/GUI/GListaObjetos.cpp.obj:
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.obj
+.PHONY : __/Motor/GUI/GListaObjetos.cpp.obj
+
+__/Motor/GUI/GListaObjetos.i: __/Motor/GUI/GListaObjetos.cpp.i
+.PHONY : __/Motor/GUI/GListaObjetos.i
+
+# target to preprocess a source file
+__/Motor/GUI/GListaObjetos.cpp.i:
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.i
+.PHONY : __/Motor/GUI/GListaObjetos.cpp.i
+
+__/Motor/GUI/GListaObjetos.s: __/Motor/GUI/GListaObjetos.cpp.s
+.PHONY : __/Motor/GUI/GListaObjetos.s
+
+# target to generate assembly for a file
+__/Motor/GUI/GListaObjetos.cpp.s:
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.s
+.PHONY : __/Motor/GUI/GListaObjetos.cpp.s
+
 __/Motor/GUI/GLogger.obj: __/Motor/GUI/GLogger.cpp.obj
 .PHONY : __/Motor/GUI/GLogger.obj
 
@@ -647,6 +671,9 @@ help:
 	@echo ... __/Motor/GUI/GDock.obj
 	@echo ... __/Motor/GUI/GDock.i
 	@echo ... __/Motor/GUI/GDock.s
+	@echo ... __/Motor/GUI/GListaObjetos.obj
+	@echo ... __/Motor/GUI/GListaObjetos.i
+	@echo ... __/Motor/GUI/GListaObjetos.s
 	@echo ... __/Motor/GUI/GLogger.obj
 	@echo ... __/Motor/GUI/GLogger.i
 	@echo ... __/Motor/GUI/GLogger.s

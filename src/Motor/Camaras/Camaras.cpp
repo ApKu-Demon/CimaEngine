@@ -41,7 +41,7 @@ namespace CE
         m_view->setCenter({m_transform->posicion.x, m_transform->posicion.y});
     }
 
-    // HIJAS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+    // HIJAS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
     CamaraCuadro::CamaraCuadro(const Vector2D& pos, const Vector2D& dim)
         : Camara{pos, dim}, limitex{dim.x}, limitey{dim.y}
     {
@@ -69,5 +69,39 @@ namespace CE
             m_transform->posicion.x += cam_width;
             limitex += limitex;
         }
+    }
+
+    CamaraSeguimiento::CamaraSeguimiento(const Vector2D& pos, const Vector2D& dim)
+        : Camara{pos, dim}
+    {
+        nombre = "Camara Seguimiento #" + std::to_string(Camara::num_camaras);
+    }
+
+    void CamaraSeguimiento::onUpdate(float dt)
+    {
+        // 1. Obtener el shared_ptr del objeto rastreado
+        auto locked_obj = m_lockObj.lock();
+        
+        // 2. Si no hay objeto o el weak_ptr caduco, no hacemos nada.
+        if (!locked_obj) 
+        {
+            Camara::onUpdate(dt);
+            return;
+        }
+
+        // 3. Obtener la posicion del objeto (asumiendo que tiene transformada)
+        auto obj_transform = locked_obj->getTransformada();
+        Vector2D posicion_a_seguir = obj_transform->posicion;
+
+        // 4. Actualizar la transformada de la camara a la posicion del objeto
+        // La posición de la camara es el centro de la vista.
+        m_transform->posicion = posicion_a_seguir;
+
+        // 5. Aplicar la nueva posicion al centro de la vista de SFML
+        m_view->setCenter({m_transform->posicion.x, m_transform->posicion.y});
+        
+        // Opcional: Log para depuracion
+        std::string log = nombre + " siguiendo a: (" + std::to_string(posicion_a_seguir.x) + ", " + std::to_string(posicion_a_seguir.y) + ")";
+        GLogger::Get().agregarLog(log, GLogger::Niveles::LOG_DEBUG);
     }
 }

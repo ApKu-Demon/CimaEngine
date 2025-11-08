@@ -41,7 +41,6 @@ namespace IVJ
         return sf::Color::Black;
     }
 
-    // Corregida para usar el método setColores en Rectangulo
     void ActualizarColor(CE::Objeto* persona, const JEstadoPersona& estado_persona)
     {
         if (auto rect = dynamic_cast<IVJ::Rectangulo*>(persona))
@@ -99,14 +98,14 @@ namespace IVJ
                     int r = estado_enfermo->fila + dr[i];
                     int c = estado_enfermo->columna + dc[i];
 
-                    // Comprobar límites de la cuadrícula (15x15)
+                    // Comprobar limites de la cuadricula (15x15)
                     if (r >= 0 && r < POBLACION_SIZE && c >= 0 && c < POBLACION_SIZE)
                     {
                         int indice_vecino = r * POBLACION_SIZE + c;
                         CE::Objeto* obj_vecino = poblacion[indice_vecino].get();
                         JEstadoPersona* estado_vecino = getEstado(obj_vecino);
 
-                        // Solo contagia a personas NORMALES (no enfermas, ni en recuperación, ni inmunes permanentes)
+                        // Solo contagia a personas NORMALES (no enfermas, ni en recuperacion, ni inmunes permanentes)
                         if (estado_vecino && estado_vecino->estado == EstadoSalud::NORMAL)
                         {
                             // Una persona normal puede tener inmunidad parcial (no puede ser contagiada)
@@ -118,7 +117,7 @@ namespace IVJ
                                 float r_prob = static_cast<float>(std::rand()) / RAND_MAX;
                                 if (r_prob < estado_vecino->prob_contagio)
                                 {
-                                    // Marcar para infección en la fase de actualización (coordenadas)
+                                    // Marcar para infección en la fase de actualizacion (coordenadas)
                                     nuevas_infecciones.push_back({r, c});
                                 }
                             }
@@ -130,7 +129,7 @@ namespace IVJ
             tick_de_contagio = false; 
         }
         
-        // 2. Fase de Actualización de Estados y Timers
+        // 2. Fase de Actualizacion de Estados y Timers
         for (auto& obj : poblacion)
         {
             JEstadoPersona* estado_persona = getEstado(obj.get());
@@ -142,12 +141,12 @@ namespace IVJ
                 estado_persona->tiempo_en_estado += dt;
             }
             
-            // Lógica de transición de estados
+            // Logica de transicion de estados
             switch (estado_persona->estado)
             {
                 case EstadoSalud::NORMAL:
                 {
-                    // Manejar Inmunidad Parcial (duración de 2 segundos)
+                    // Manejar Inmunidad Parcial (duracion de 2 segundos)
                     if (estado_persona->tiene_inmunidad_parcial)
                     {
                         estado_persona->tiempo_inm_parcial_restante -= dt;
@@ -214,7 +213,7 @@ namespace IVJ
             int indice = r * POBLACION_SIZE + c;
             
             JEstadoPersona* estado_infectar = getEstado(poblacion[indice].get());
-            // Condición estricta para evitar re-infección si cambió de estado en el mismo frame
+            // Condicion estricta para evitar re-infeccion si cambio de estado en el mismo frame
             if (estado_infectar && estado_infectar->estado == EstadoSalud::NORMAL && !estado_infectar->tiene_inmunidad_parcial)
             {
                 estado_infectar->estado = EstadoSalud::ENFERMO;
@@ -224,7 +223,7 @@ namespace IVJ
             }
         }
         
-        // 4. Actualizar Estadísticas y Colores
+        // 4. Actualizar Estadisticas y Colores
         int total_enfermos = 0;
         int total_muertos = 0;
         for (auto& obj : poblacion)
@@ -232,7 +231,7 @@ namespace IVJ
             JEstadoPersona* estado_persona = getEstado(obj.get());
             if (!estado_persona) continue;
             
-            // Actualizar Estadísticas
+            // Actualizar Estadisticas
             switch (estado_persona->estado)
             {
                 case EstadoSalud::NORMAL: stats.normal++; break;
@@ -246,16 +245,16 @@ namespace IVJ
             ActualizarColor(obj.get(), *estado_persona);
         }
 
-        // 5. Condición de Terminación
+        // 5. Condicion de Terminacion
         if (total_enfermos == 0 || total_muertos == POBLACION_SIZE * POBLACION_SIZE)
         {
-            // Esta lógica DEBE ser manejada en la clase Juego, ya que tiene acceso a 'termino'.
-            // Aquí solo emitimos un mensaje para depuración.
-            // std::cout << "--- SIMULACIÓN TERMINADA (Enfermos: " << total_enfermos << ", Muertos: " << total_muertos << ") ---" << std::endl;
+            // Esta logica DEBE ser manejada en la clase Juego, ya que tiene acceso a 'termino'.
+            // Aqui solo emitimos un mensaje para depuracion.
+            // std::cout << "--- SIMULACION TERMINADA (Enfermos: " << total_enfermos << ", Muertos: " << total_muertos << ") ---" << std::endl;
         }
     }
 
-    // El código de InicializarPoblacion es correcto. Solo añado el uso de std::shuffle/std::iota
+    // El codigo de InicializarPoblacion es correcto. Solo añado el uso de std::shuffle/std::iota
     void InicializarPoblacion(std::vector<std::shared_ptr<CE::Objeto>>& poblacion)
     {
         //std::srand(std::time(nullptr)); 
@@ -266,7 +265,7 @@ namespace IVJ
         std::vector<int> indices(total_personas);
         std::iota(indices.begin(), indices.end(), 0);
         
-        // 1. Crear un generador de números aleatorios
+        // 1. Crear un generador de numeros aleatorios
         std::random_device rd;
         std::mt19937 g(rd());
 
@@ -275,12 +274,12 @@ namespace IVJ
         
         poblacion.reserve(total_personas);
         
-        const float rect_size = 40.0f;
+        const float rect_size = 30.0f;
         const float spacing = 10.0f;
         // Posiciones iniciales centradas para una mejor visualización
         //const float start_x = 1440.0f / 2.0f - (POBLACION_SIZE * (rect_size + spacing)) / 2.0f;
         const float start_x = 500.0f;
-        const float start_y = 900.0f / 2.0f - (POBLACION_SIZE * (rect_size + spacing)) / 2.0f;
+        const float start_y = 720.0f / 2.0f - (POBLACION_SIZE * (rect_size + spacing)) / 2.0f;
 
         for (int r = 0; r < POBLACION_SIZE; ++r)
         {
