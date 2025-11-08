@@ -1,5 +1,6 @@
 #include "Sistemas.hpp"
 #include "../../Motor/Componentes/IComponentes.hpp"
+#include <cmath>
 
 namespace IVJ
 {

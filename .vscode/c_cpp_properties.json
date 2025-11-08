@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "Mac",
+            "name": "PC NOMAS",
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/build/Debug/_deps/imgui-sfml-src"
@@ -11,6 +11,20 @@
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "macos-clang-x64"
+        }
+    
+        {
+            "name": "Windows-MinGW",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/build/Debug/_deps/imgui-sfml-src"
+                // Aquí podrías necesitar agregar la ruta a los encabezados de SFML
+            ],
+            "defines": [],
+            "compilerPath": "C:/MingGW/bin/gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
         }
     ],
     "version": 4

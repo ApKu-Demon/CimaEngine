@@ -18,18 +18,18 @@ project(imgui-sfml-populate NONE)
 
 # Pass through things we've already detected in the main project to avoid
 # paying the cost of redetecting them again in ExternalProject_Add()
-set(GIT_EXECUTABLE [==[/usr/local/bin/git]==])
-set(GIT_VERSION_STRING [==[2.51.0]==])
+set(GIT_EXECUTABLE [==[C:/Program Files/Git/cmd/git.exe]==])
+set(GIT_VERSION_STRING [==[2.51.2.windows.1]==])
 set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
-  [==[/usr/local/bin/git;2.51.0]==]
+  [==[C:/Program Files/Git/cmd/git.exe;2.51.2.windows.1]==]
 )
 
 
 include(ExternalProject)
 ExternalProject_Add(imgui-sfml-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "http://github.com/SFML/imgui-sfml.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v3.0"
-                    SOURCE_DIR          "/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-sfml-src"
-                    BINARY_DIR          "/Users/alfredo_peralta/Desktop/UABC/SEMESTRE_6/Intro_VideoJuegos/CimaEngine/build/Debug/_deps/imgui-sfml-build"
+                    SOURCE_DIR          "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/imgui-sfml-src"
+                    BINARY_DIR          "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/imgui-sfml-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

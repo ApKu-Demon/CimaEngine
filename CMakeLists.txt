@@ -1,20 +1,35 @@
 cmake_minimum_required(VERSION 3.20)
 project(CimaEngine3v LANGUAGES CXX)
 set(BIN "${CMAKE_SOURCE_DIR}/bin")
-set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
+#set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${BIN}/${CMAKE_BUILD_TYPE}")
 
-include(FetchContent)
+add_compile_definitions(ASSETS="${CMAKE_SOURCE_DIR}/assets")
+# bandera para DEBUG o RELEASE
+add_compile_definitions("DEBUG=$<CONFIG:Debug>")
 
-message("Buscando SFML")
-find_package(SFML 3 COMPONENTS System Window Graphics Audio REQUIRED)
+# descargar las dependencias (IMGUI y SFML)
+message("Descargando SFML")
+include(FetchContent)
+if(WIN32)
+    FetchContent_Declare(
+        SFML
+        GIT_REPOSITORY http://github.com/SFML/SFML.git
+        GIT_TAG 3.0.x)
+    FetchContent_MakeAvailable(SFML)
+    #set(SFML_COMPILER_WARNINGS OFF CACHE BOOL "" FORCE)     # gcc version viejita, actualizar lo antes posible
+else()
+    find_package(SFML 3 COMPONENTS System Window Graphics Audio REQUIRED)
+endif()
+
 message("Descargando ImGUI")
 FetchContent_Declare(
     imgui
     GIT_REPOSITORY http://github.com/ocornut/imgui.git
     GIT_TAG v1.91.1-docking)
 FetchContent_MakeAvailable(imgui)
+
 message("Descargando SFML-IMGUI")
 FetchContent_Declare(
     imgui-sfml

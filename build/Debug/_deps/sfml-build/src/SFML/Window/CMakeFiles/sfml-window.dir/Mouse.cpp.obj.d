@@ -1,0 +1,37 @@
+_deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj: \
+ C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\sfml-src\src\SFML\Window\Mouse.cpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Window/InputImpl.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Config.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Window/Mouse.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Export.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Angle.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Angle.inl \
+ C:/Users/PC/Documents/mingw64/include/c++/15.2.0/cassert \
+ C:/Users/PC/Documents/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
+ C:/Users/PC/Documents/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+ C:/Users/PC/Documents/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ C:/Users/PC/Documents/mingw64/include/c++/15.2.0/pstl/pstl_config.h \
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/assert.h \
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/Users/PC/Documents/mingw64/include/c++/15.2.0/stdlib.h \
+ C:/Users/PC/Documents/mingw64/include/c++/15.2.0/cstdlib \
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+ C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/limits.h \
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h \
+ C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
+ C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/std_abs.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Vector2.inl

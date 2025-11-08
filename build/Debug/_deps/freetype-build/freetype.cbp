@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="freetype"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\build\;CMake Files\build\debug\;CMake Files\build\debug\_deps\;CMake Files\build\debug\_deps\sfml-src\;CMake Files\build\debug\_deps\sfml-src\cmake\;CMake Files\build\debug\_deps\sfml-src\src\;CMake Files\build\debug\_deps\sfml-src\src\SFML\;CMake Files\build\debug\_deps\sfml-src\src\SFML\System\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Main\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Window\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Network\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Graphics\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Audio\;CMake Files\build\debug\_deps\freetype-src\;CMake Files\build\debug\_deps\ogg-src\;CMake Files\build\debug\_deps\ogg-src\cmake\;CMake Files\build\debug\_deps\ogg-src\include\;CMake Files\build\debug\_deps\ogg-src\include\ogg\;CMake Files\build\debug\_deps\flac-src\;CMake Files\build\debug\_deps\flac-src\cmake\;CMake Files\build\debug\_deps\flac-src\src\;CMake Files\build\debug\_deps\flac-src\src\libFLAC\;CMake Files\build\debug\_deps\flac-src\microbench\;CMake Files\build\debug\_deps\vorbis-src\;CMake Files\build\debug\_deps\vorbis-src\lib\;CMake Files\build\debug\_deps\vorbis-src\cmake\;CMake Files\build\debug\_deps\imgui-sfml-src\;CMake Files\build\debug\_deps\imgui-sfml-src\cmake\;CMake Files\src\;CMake Files\src\Main\;CMake Files\src\Motor\;CMake Files\src\Motor\Render\;CMake Files\src\Motor\App\;CMake Files\src\Motor\GUI\;CMake Files\src\Motor\Primitivos\;CMake Files\src\Motor\Utils\;CMake Files\src\Motor\Componentes\;CMake Files\src\Motor\CargarFig\;CMake Files\src\Motor\Camaras\;CMake Files\src\Juego\;CMake Files\src\Juego\Figuras\;CMake Files\src\Juego\Componentes\;CMake Files\src\Juego\Sistemas\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="freetype">
+				<Option output="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-build/lib/libfreetyped.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-D_CRT_NONSTDC_NO_WARNINGS"/>
+					<Add option="-DASSETS=&quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/assets&quot;"/>
+					<Add option="-DDEBUG=1"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build/include/freetype/config"/>
+					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0"/>
+					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/backward"/>
+					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include"/>
+					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include"/>
+					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"/>
+					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build/Makefile&quot;  VERBOSE=1 freetype"/>
+					<CompileFile command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="freetype/fast">
+				<Option output="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-build/lib/libfreetyped.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-D_CRT_NONSTDC_NO_WARNINGS"/>
+					<Add option="-DASSETS=&quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/assets&quot;"/>
+					<Add option="-DDEBUG=1"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build/include/freetype/config"/>
+					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0"/>
+					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/backward"/>
+					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include"/>
+					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include"/>
+					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"/>
+					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build/Makefile&quot;  VERBOSE=1 freetype/fast"/>
+					<CompileFile command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/builds/windows/ftdebug.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/builds/windows/ftsystem.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/config/ftconfig.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/config/ftheader.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/config/ftmodule.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/config/ftoption.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/config/ftstdlib.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/config/integer-types.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/config/mac-support.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/config/public-macros.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/freetype.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftadvanc.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftbbox.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftbdf.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftbitmap.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftbzip2.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftcache.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftchapters.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftcid.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftcolor.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftdriver.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/fterrdef.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/fterrors.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftfntfmt.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftgasp.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftglyph.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftgxval.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftgzip.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftimage.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftincrem.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftlcdfil.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftlist.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftlogging.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftlzw.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftmac.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftmm.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftmodapi.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftmoderr.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftotval.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftoutln.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftparams.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftpfr.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftrender.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftsizes.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftsnames.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftstroke.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftsynth.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftsystem.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/fttrigon.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/fttypes.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ftwinfnt.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/autohint.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/cffotypes.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/cfftypes.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/compiler-macros.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/ftcalc.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/ftdebug.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/ftdrv.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/ftgloadr.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/fthash.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/ftmemory.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/ftmmtypes.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/ftobjs.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/ftpsprop.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/ftrfork.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/ftserv.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/ftstream.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/fttrace.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/ftvalid.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/psaux.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/pshints.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/sfnt.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/svginterface.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/t1types.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/tttypes.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/internal/wofftypes.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/otsvg.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/t1tables.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/ttnameid.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/tttables.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/freetype/tttags.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/include/ft2build.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/autofit/autofit.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftbase.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftbase.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftbbox.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftbdf.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftbitmap.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftcid.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftfstype.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftgasp.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftglyph.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftgxval.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftinit.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftmm.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftotval.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftpatent.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftpfr.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftstroke.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftsynth.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/fttype1.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftver.rc">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/base/ftwinfnt.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/bdf/bdf.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/bdf/bdf.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/bzip2/ftbzip2.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/cache/ftcache.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/cff/cff.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/cid/type1cid.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/gzip/ftgzip.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/lzw/ftlzw.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/pcf/pcf.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/pcf/pcf.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/pfr/pfr.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/psaux/psaux.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/pshinter/pshinter.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/psnames/psnames.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/raster/raster.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/sdf/sdf.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/sfnt/sfnt.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/smooth/smooth.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/svg/svg.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/truetype/truetype.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/type1/type1.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/type42/type42.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/winfonts/winfnt.c">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/src/winfonts/winfnt.h">
+			<Option target="freetype"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/cmake/CompilerWarnings.cmake">
+			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/cmake/Config.cmake">
+			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/cmake/Macros.cmake">
+			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/cmake/Mesa3D.cmake">
+			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/cmake/SFMLConfig.cmake.in">
+			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/System/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\System\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/System/Dependencies.cmake.in">
+			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\System\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\Main\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Window/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\Window\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Window/Dependencies.cmake.in">
+			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\Window\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Network/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\Network\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Graphics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\Graphics\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Graphics/Dependencies.cmake.in">
+			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\Graphics\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\Audio\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Audio/Dependencies.cmake.in">
+			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\Audio\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\debug\_deps\freetype-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\debug\_deps\ogg-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/ogg.pc.in">
+			<Option virtualFolder="CMake Files\build\debug\_deps\ogg-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/cmake/CheckSizes.cmake">
+			<Option virtualFolder="CMake Files\build\debug\_deps\ogg-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/cmake/OggConfig.cmake.in">
+			<Option virtualFolder="CMake Files\build\debug\_deps\ogg-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/include/ogg/config_types.h.in">
+			<Option virtualFolder="CMake Files\build\debug\_deps\ogg-src\include\ogg\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\debug\_deps\flac-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/config.cmake.h.in">
+			<Option virtualFolder="CMake Files\build\debug\_deps\flac-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/flac-config.cmake.in">
+			<Option virtualFolder="CMake Files\build\debug\_deps\flac-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/cmake/CheckA64NEON.cmake">
+			<Option virtualFolder="CMake Files\build\debug\_deps\flac-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/cmake/CheckCPUArch.cmake">
+			<Option virtualFolder="CMake Files\build\debug\_deps\flac-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/cmake/UseSystemExtensions.cmake">
+			<Option virtualFolder="CMake Files\build\debug\_deps\flac-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\debug\_deps\flac-src\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/libFLAC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\debug\_deps\flac-src\src\libFLAC\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/microbench/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\debug\_deps\flac-src\microbench\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\debug\_deps\vorbis-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/vorbis.pc.in">
+			<Option virtualFolder="CMake Files\build\debug\_deps\vorbis-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/vorbisenc.pc.in">
+			<Option virtualFolder="CMake Files\build\debug\_deps\vorbis-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/vorbisfile.pc.in">
+			<Option virtualFolder="CMake Files\build\debug\_deps\vorbis-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\debug\_deps\vorbis-src\lib\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/cmake/VorbisConfig.cmake.in">
+			<Option virtualFolder="CMake Files\build\debug\_deps\vorbis-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/imgui-sfml-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\debug\_deps\imgui-sfml-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/imgui-sfml-src/cmake/FindImGui.cmake">
+			<Option virtualFolder="CMake Files\build\debug\_deps\imgui-sfml-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Main\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Motor\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Render/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Motor\Render\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/App/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Motor\App\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/GUI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Motor\GUI\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Primitivos/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Motor\Primitivos\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Motor\Utils\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Componentes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Motor\Componentes\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/CargarFig/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Motor\CargarFig\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Camaras/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Motor\Camaras\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Juego\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Figuras/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Juego\Figuras\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Componentes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Juego\Componentes\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Sistemas/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Juego\Sistemas\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

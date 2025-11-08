@@ -1,0 +1,3 @@
+C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate.dir
+C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-subbuild/CMakeFiles/rebuild_cache.dir
