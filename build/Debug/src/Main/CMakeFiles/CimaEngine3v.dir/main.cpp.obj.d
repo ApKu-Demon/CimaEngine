@@ -299,6 +299,8 @@ src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.obj: \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Primitivos/Objetos.hpp \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Componentes/IComponentes.hpp \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Utils/Vector2D.hpp \
+ C:/Users/PC/Documents/mingw64/include/c++/15.2.0/cinttypes \
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Sistemas/SistemaSimulacionEnfermedad.hpp \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Componentes/JComponentes.hpp \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/random \
@@ -327,4 +329,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.obj: \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/map \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/stl_tree.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/stl_map.h \
- C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/stl_multimap.h
+ C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/stl_multimap.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Primitivos/Escena.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Inputs/Botones.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Primitivos/CEPool.hpp

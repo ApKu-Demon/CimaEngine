@@ -6,7 +6,7 @@
 
 namespace CE
 {
-    class Objeto:public sf::Drawable, public sf::Transformable
+    class Objeto: public sf::Drawable, public sf::Transformable
     {
         public:
             explicit Objeto();
@@ -64,12 +64,24 @@ namespace CE
                 return nombre->nombre;
             }
 
+            // LAB 5
+            std::shared_ptr<IStats>& getStats()
+            {
+                return stats;
+            }
+
+            const bool estaVivo() const
+            {
+                return stats->hp > 0;
+            }
+
         private:
             static int num_objetos;
 
         protected:
             std::shared_ptr<INombre> nombre;
             std::shared_ptr<ITransform> transform;
+            std::shared_ptr<IStats> stats;
             std::vector<std::shared_ptr<IComponentes>> componentes;
     };
 }

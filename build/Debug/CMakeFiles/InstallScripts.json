@@ -30,10 +30,12 @@
 		"C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/src/Motor/Componentes/cmake_install.cmake",
 		"C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/src/Motor/CargarFig/cmake_install.cmake",
 		"C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/src/Motor/Camaras/cmake_install.cmake",
+		"C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/src/Motor/Inputs/cmake_install.cmake",
 		"C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/src/Juego/cmake_install.cmake",
 		"C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/src/Juego/Figuras/cmake_install.cmake",
 		"C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/src/Juego/Componentes/cmake_install.cmake",
-		"C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/src/Juego/Sistemas/cmake_install.cmake"
+		"C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/src/Juego/Sistemas/cmake_install.cmake",
+		"C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/src/Juego/Escenas/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

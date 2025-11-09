@@ -1,5 +1,6 @@
 #include "GListaObjetos.hpp"
 #include "../Camaras/CamarasGestor.hpp"
+#include "../Primitivos/GestorEscenas.hpp"
 #include <imgui.h>
 #include <imgui-SFML.h>
 
@@ -10,6 +11,26 @@ namespace CE
     void GListaObjetos::OnRender(void)
     {
         ImGui::Begin("Objetos", nullptr, 0);
+        static int id_escena_actual = 0;
+        auto lista = GestorEscenas::Get().getKeys();
+        const char* str_escena = GestorEscenas::Get().getEscenaActual().nombre.c_str();
+
+        // GUI para Escenas
+        if(ImGui::BeginCombo("Escenas", str_escena, 0))
+        {
+            for(int i=0; i<lista.size(); ++i)
+            {
+                const bool seleccion = (id_escena_actual == i);
+                if(ImGui::Selectable(lista[i].c_str(), seleccion))
+                    id_escena_actual = i;
+                if(seleccion)
+                    ImGui::SetItemDefaultFocus();
+            }
+            GestorEscenas::Get().cambiarEscena(lista[id_escena_actual]);
+            ImGui::EndCombo();
+        }
+
+        // GUI para camaras
         if(ImGui::TreeNode("Camaras"))
         {
             auto camaras = GestorCamaras::Get().getListaCamaras();
@@ -40,11 +61,20 @@ namespace CE
             ImGui::TreePop();
             ImGui::Spacing();
         }
+
+        // GUI para los objetos
         if(ImGui::TreeNode("Objetos"))
         {
-            // mas adelante se implementara para que muestre los objetos de la escena
+            auto lista = GestorEscenas::Get().getEscenaActual().getPool();
+            for(auto &obj : lista.getPool())
+            {
+                if(ImGui::Button(obj->toString().c_str()))
+                    GestorCamaras::Get().getCamaraActiva().lockEnObjeto(obj);
+            }
             ImGui::TreePop();
         }
         ImGui::End();
     }
 }
+
+

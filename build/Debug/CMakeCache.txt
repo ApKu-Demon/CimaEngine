@@ -347,13 +347,13 @@ CPACK_SOURCE_7Z:BOOL=ON
 CPACK_SOURCE_ZIP:BOOL=ON
 
 //Value Computed by CMake
-CimaEngine3v_BINARY_DIR:STATIC=C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/src/Juego/Sistemas
+CimaEngine3v_BINARY_DIR:STATIC=C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/src/Juego/Escenas
 
 //Value Computed by CMake
 CimaEngine3v_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-CimaEngine3v_SOURCE_DIR:STATIC=C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Sistemas
+CimaEngine3v_SOURCE_DIR:STATIC=C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Escenas
 
 //Set FLAC__BYTES_PER_WORD to 8, for 64-bit machines. For 32-bit
 // machines, turning this off might give a tiny speed improvement
@@ -736,7 +736,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=33
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=35
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

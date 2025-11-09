@@ -126,6 +126,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/CMakeLists.txt"
   "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/CMakeLists.txt"
   "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Componentes/CMakeLists.txt"
+  "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Escenas/CMakeLists.txt"
   "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Figuras/CMakeLists.txt"
   "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Sistemas/CMakeLists.txt"
   "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Main/CMakeLists.txt"
@@ -135,6 +136,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/CargarFig/CMakeLists.txt"
   "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Componentes/CMakeLists.txt"
   "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/GUI/CMakeLists.txt"
+  "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Inputs/CMakeLists.txt"
   "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Primitivos/CMakeLists.txt"
   "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Render/CMakeLists.txt"
   "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Utils/CMakeLists.txt"
@@ -207,10 +209,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/Motor/Componentes/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Motor/CargarFig/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Motor/Camaras/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Motor/Inputs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Juego/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Juego/Figuras/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Juego/Componentes/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Juego/Sistemas/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Juego/Escenas/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

@@ -1,6 +1,8 @@
 #pragma once
+
 #include <string>
 #include "../Utils/Vector2D.hpp"
+#include <cinttypes>
 
 namespace CE
 {
@@ -56,6 +58,19 @@ namespace CE
             CE::Vector2D punto_fijo;
             float velocidad;
             bool inicializado;
+    };
+
+    class IStats : public IComponentes
+    {
+        public:
+            ~IStats() override {};
+
+            // 8 bits = 255 maximo
+            std::uint8_t hp;
+            std::uint8_t hp_max;
+            std::uint8_t str;
+            std::uint8_t def;
+            std::uint8_t agi;
     };
 }
 

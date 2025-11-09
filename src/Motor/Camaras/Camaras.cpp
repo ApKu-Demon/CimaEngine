@@ -105,3 +105,5 @@ namespace CE
         GLogger::Get().agregarLog(log, GLogger::Niveles::LOG_DEBUG);
     }
 }
+
+

@@ -5,7 +5,7 @@
 		<Option title="FLAC"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\build\;CMake Files\build\debug\;CMake Files\build\debug\_deps\;CMake Files\build\debug\_deps\sfml-src\;CMake Files\build\debug\_deps\sfml-src\cmake\;CMake Files\build\debug\_deps\sfml-src\src\;CMake Files\build\debug\_deps\sfml-src\src\SFML\;CMake Files\build\debug\_deps\sfml-src\src\SFML\System\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Main\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Window\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Network\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Graphics\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Audio\;CMake Files\build\debug\_deps\freetype-src\;CMake Files\build\debug\_deps\ogg-src\;CMake Files\build\debug\_deps\ogg-src\cmake\;CMake Files\build\debug\_deps\ogg-src\include\;CMake Files\build\debug\_deps\ogg-src\include\ogg\;CMake Files\build\debug\_deps\flac-src\;CMake Files\build\debug\_deps\flac-src\cmake\;CMake Files\build\debug\_deps\flac-src\src\;CMake Files\build\debug\_deps\flac-src\src\libFLAC\;CMake Files\build\debug\_deps\flac-src\microbench\;CMake Files\build\debug\_deps\vorbis-src\;CMake Files\build\debug\_deps\vorbis-src\lib\;CMake Files\build\debug\_deps\vorbis-src\cmake\;CMake Files\build\debug\_deps\imgui-sfml-src\;CMake Files\build\debug\_deps\imgui-sfml-src\cmake\;CMake Files\src\;CMake Files\src\Main\;CMake Files\src\Motor\;CMake Files\src\Motor\Render\;CMake Files\src\Motor\App\;CMake Files\src\Motor\GUI\;CMake Files\src\Motor\Primitivos\;CMake Files\src\Motor\Utils\;CMake Files\src\Motor\Componentes\;CMake Files\src\Motor\CargarFig\;CMake Files\src\Motor\Camaras\;CMake Files\src\Juego\;CMake Files\src\Juego\Figuras\;CMake Files\src\Juego\Componentes\;CMake Files\src\Juego\Sistemas\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\build\;CMake Files\build\debug\;CMake Files\build\debug\_deps\;CMake Files\build\debug\_deps\sfml-src\;CMake Files\build\debug\_deps\sfml-src\cmake\;CMake Files\build\debug\_deps\sfml-src\src\;CMake Files\build\debug\_deps\sfml-src\src\SFML\;CMake Files\build\debug\_deps\sfml-src\src\SFML\System\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Main\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Window\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Network\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Graphics\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Audio\;CMake Files\build\debug\_deps\freetype-src\;CMake Files\build\debug\_deps\ogg-src\;CMake Files\build\debug\_deps\ogg-src\cmake\;CMake Files\build\debug\_deps\ogg-src\include\;CMake Files\build\debug\_deps\ogg-src\include\ogg\;CMake Files\build\debug\_deps\flac-src\;CMake Files\build\debug\_deps\flac-src\cmake\;CMake Files\build\debug\_deps\flac-src\src\;CMake Files\build\debug\_deps\flac-src\src\libFLAC\;CMake Files\build\debug\_deps\flac-src\microbench\;CMake Files\build\debug\_deps\vorbis-src\;CMake Files\build\debug\_deps\vorbis-src\lib\;CMake Files\build\debug\_deps\vorbis-src\cmake\;CMake Files\build\debug\_deps\imgui-sfml-src\;CMake Files\build\debug\_deps\imgui-sfml-src\cmake\;CMake Files\src\;CMake Files\src\Main\;CMake Files\src\Motor\;CMake Files\src\Motor\Render\;CMake Files\src\Motor\App\;CMake Files\src\Motor\GUI\;CMake Files\src\Motor\Primitivos\;CMake Files\src\Motor\Utils\;CMake Files\src\Motor\Componentes\;CMake Files\src\Motor\CargarFig\;CMake Files\src\Motor\Camaras\;CMake Files\src\Motor\Inputs\;CMake Files\src\Juego\;CMake Files\src\Juego\Figuras\;CMake Files\src\Juego\Componentes\;CMake Files\src\Juego\Sistemas\;CMake Files\src\Juego\Escenas\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-build"/>
@@ -461,6 +461,9 @@
 		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Camaras/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\Motor\Camaras\"/>
 		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Inputs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Motor\Inputs\"/>
+		</Unit>
 		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\Juego\"/>
 		</Unit>
@@ -472,6 +475,9 @@
 		</Unit>
 		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Sistemas/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\Juego\Sistemas\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Escenas/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Juego\Escenas\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

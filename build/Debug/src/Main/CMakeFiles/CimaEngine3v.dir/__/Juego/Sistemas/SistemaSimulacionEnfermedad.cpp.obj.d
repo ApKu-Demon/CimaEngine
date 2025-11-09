@@ -294,6 +294,8 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermed
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Componentes/IComponentes.hpp \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Utils/Vector2D.hpp \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/iostream \
+ C:/Users/PC/Documents/mingw64/include/c++/15.2.0/cinttypes \
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Componentes/JComponentes.hpp \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/random \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/cmath \

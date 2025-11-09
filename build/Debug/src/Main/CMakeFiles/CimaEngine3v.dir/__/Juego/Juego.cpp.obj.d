@@ -296,6 +296,8 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj: \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Componentes/IComponentes.hpp \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Utils/Vector2D.hpp \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/iostream \
+ C:/Users/PC/Documents/mingw64/include/c++/15.2.0/cinttypes \
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
  C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Juego\Sistemas/SistemaSimulacionEnfermedad.hpp \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Componentes/JComponentes.hpp \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/random \
@@ -325,6 +327,9 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj: \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/stl_tree.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/stl_map.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/stl_multimap.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Primitivos/Escena.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Inputs/Botones.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Primitivos/CEPool.hpp \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Render/Render.hpp \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Utils/Utils.hpp \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/fstream \
@@ -350,4 +355,8 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj: \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Camaras/CamarasGestor.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Camaras/Camaras.hpp
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Camaras/Camaras.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Primitivos/GestorEscenas.hpp \
+ C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Juego\Escenas/EscenaCuadro.hpp \
+ C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Juego\Escenas/EscenaCirculos.hpp \
+ C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Juego\Escenas/EscenaObjMuriendo.hpp

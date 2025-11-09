@@ -293,6 +293,8 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.obj: 
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/InputStream.hpp \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/MemoryInputStream.hpp \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Sleep.hpp \
+ C:/Users/PC/Documents/mingw64/include/c++/15.2.0/cinttypes \
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/random \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/cmath \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/math.h \
