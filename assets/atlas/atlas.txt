@@ -1,0 +1,9 @@
+[Atlas_info]
+/path/a/la/textura.png
+atlas_width atlas_height
+tile_width tile_height
+map_rows map_cols
+[ID_matrix]
+0 1 2
+15 16 17
+30 31 32

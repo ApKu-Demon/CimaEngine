@@ -304,6 +304,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaCuadro.cpp.obj: \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/stl_map.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/stl_multimap.h \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Objetos/Entidad.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Objetos/TileMap.hpp \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Figuras/Figuras.hpp \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Camaras/CamarasGestor.hpp \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Camaras/Camaras.hpp \

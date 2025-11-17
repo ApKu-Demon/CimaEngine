@@ -359,5 +359,6 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj: \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Primitivos/GestorEscenas.hpp \
  C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Juego\Escenas/EscenaCuadro.hpp \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Objetos/Entidad.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Objetos/TileMap.hpp \
  C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Juego\Escenas/EscenaCirculos.hpp \
  C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Juego\Escenas/EscenaObjMuriendo.hpp

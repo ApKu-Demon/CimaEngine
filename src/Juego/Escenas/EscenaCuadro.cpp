@@ -35,7 +35,7 @@ namespace IVJ
         objetos.agregarPool(jugador);
 
         // vamos hacer 3 figuras
-        /*
+        
         auto fig1 = std::make_shared<Rectangulo>(
             100, 100, sf::Color(255, 0, 0, 255),
             sf::Color(0, 0, 0, 255));
@@ -57,7 +57,7 @@ namespace IVJ
         objetos.agregarPool(fig1);
         objetos.agregarPool(fig2);
         objetos.agregarPool(fig3);
-        */
+        
 
         // agregamos una camara
         CE::GestorCamaras::Get().agregarCamara(std::make_shared<CE::CamaraCuadro>(
@@ -67,6 +67,11 @@ namespace IVJ
         // lockeamos la camara en un objeto
         CE::GestorCamaras::Get().getCamaraActiva().lockEnObjeto(jugador);
         inicializar = false;
+
+        if(!bg[0].loadTileMap(ASSETS "/mapas/mapa_1_layer_1.txt"))
+            exit(EXIT_FAILURE);
+        if(!bg[1].loadTileMap(ASSETS "/mapas/mapa_1_layer_2.txt"))
+            exit(EXIT_FAILURE);
     }
 
     void EscenaCuadros::onFinal(){}
@@ -128,6 +133,9 @@ namespace IVJ
 
     void EscenaCuadros::onRender()
     {
+        for(auto b: bg)
+            CE::Render::Get().AddToDraw(b);
+
         for (auto &f: objetos.getPool())
             CE::Render::Get().AddToDraw(*f);
     }

@@ -386,6 +386,30 @@ __/Juego/Objetos/Entidad.cpp.s:
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/Entidad.cpp.s
 .PHONY : __/Juego/Objetos/Entidad.cpp.s
 
+__/Juego/Objetos/TileMap.obj: __/Juego/Objetos/TileMap.cpp.obj
+.PHONY : __/Juego/Objetos/TileMap.obj
+
+# target to build an object file
+__/Juego/Objetos/TileMap.cpp.obj:
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.obj
+.PHONY : __/Juego/Objetos/TileMap.cpp.obj
+
+__/Juego/Objetos/TileMap.i: __/Juego/Objetos/TileMap.cpp.i
+.PHONY : __/Juego/Objetos/TileMap.i
+
+# target to preprocess a source file
+__/Juego/Objetos/TileMap.cpp.i:
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.i
+.PHONY : __/Juego/Objetos/TileMap.cpp.i
+
+__/Juego/Objetos/TileMap.s: __/Juego/Objetos/TileMap.cpp.s
+.PHONY : __/Juego/Objetos/TileMap.s
+
+# target to generate assembly for a file
+__/Juego/Objetos/TileMap.cpp.s:
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.s
+.PHONY : __/Juego/Objetos/TileMap.cpp.s
+
 __/Juego/Sistemas/SistemaSimulacionEnfermedad.obj: __/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.obj
 .PHONY : __/Juego/Sistemas/SistemaSimulacionEnfermedad.obj
 
@@ -881,6 +905,9 @@ help:
 	@echo ... __/Juego/Objetos/Entidad.obj
 	@echo ... __/Juego/Objetos/Entidad.i
 	@echo ... __/Juego/Objetos/Entidad.s
+	@echo ... __/Juego/Objetos/TileMap.obj
+	@echo ... __/Juego/Objetos/TileMap.i
+	@echo ... __/Juego/Objetos/TileMap.s
 	@echo ... __/Juego/Sistemas/SistemaSimulacionEnfermedad.obj
 	@echo ... __/Juego/Sistemas/SistemaSimulacionEnfermedad.i
 	@echo ... __/Juego/Sistemas/SistemaSimulacionEnfermedad.s

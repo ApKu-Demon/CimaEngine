@@ -992,7 +992,7 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all: _deps/freet
 
 # Build rule for subdir invocation for target.
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles 43
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles 0
 .PHONY : _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/rule
@@ -1019,12 +1019,12 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/clean:
 _deps/freetype-build/CMakeFiles/freetype.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps\freetype-build\CMakeFiles\freetype.dir\build.make _deps/freetype-build/CMakeFiles/freetype.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\freetype-build\CMakeFiles\freetype.dir\build.make _deps/freetype-build/CMakeFiles/freetype.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47 "Built target freetype"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47 "Built target freetype"
 .PHONY : _deps/freetype-build/CMakeFiles/freetype.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/freetype-build/CMakeFiles/freetype.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/freetype-build/CMakeFiles/freetype.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles 0
 .PHONY : _deps/freetype-build/CMakeFiles/freetype.dir/rule
@@ -1036,7 +1036,7 @@ freetype: _deps/freetype-build/CMakeFiles/freetype.dir/rule
 # codegen rule for target.
 _deps/freetype-build/CMakeFiles/freetype.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\freetype-build\CMakeFiles\freetype.dir\build.make _deps/freetype-build/CMakeFiles/freetype.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47 "Finished codegen for target freetype"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47 "Finished codegen for target freetype"
 .PHONY : _deps/freetype-build/CMakeFiles/freetype.dir/codegen
 
 # clean rule for target.
@@ -1052,8 +1052,8 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/sfml-build/
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/ogg-build/CMakeFiles/ogg.dir/all
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/all
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/all
-_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/all
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/all
+_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=49,50,51,52,53,54,55,56,57,58 "Built target sfml-audio"
@@ -1153,12 +1153,12 @@ _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/all: _deps/ogg-bui
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/all: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\flac-build\microbench\CMakeFiles\benchmark_residual.dir\build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\flac-build\microbench\CMakeFiles\benchmark_residual.dir\build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=29 "Built target benchmark_residual"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=29,30 "Built target benchmark_residual"
 .PHONY : _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles 0
 .PHONY : _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/rule
@@ -1170,7 +1170,7 @@ benchmark_residual: _deps/flac-build/microbench/CMakeFiles/benchmark_residual.di
 # codegen rule for target.
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\flac-build\microbench\CMakeFiles\benchmark_residual.dir\build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=29 "Finished codegen for target benchmark_residual"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=29,30 "Finished codegen for target benchmark_residual"
 .PHONY : _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/codegen
 
 # clean rule for target.
@@ -1282,8 +1282,8 @@ _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/clean:
 # All Build rule for target.
 _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/all: _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/all: _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/all
-_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/all: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/all: _deps/freetype-build/CMakeFiles/freetype.dir/all
+_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/all: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\imgui-sfml-build\CMakeFiles\ImGui-SFML.dir\build.make _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\imgui-sfml-build\CMakeFiles\ImGui-SFML.dir\build.make _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=26,27,28 "Built target ImGui-SFML"
@@ -1291,7 +1291,7 @@ _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/all: _deps/freetype-build/CMake
 
 # Build rule for subdir invocation for target.
 _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles 46
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles 0
 .PHONY : _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/rule
@@ -1317,14 +1317,14 @@ _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/clean:
 # All Build rule for target.
 src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/all
-src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/freetype-build/CMakeFiles/freetype.dir/all
+src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
 src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/ogg-build/CMakeFiles/ogg.dir/all
 src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/all
 src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/all
-src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/all
 src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/all
+src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/all
 src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/all
 	$(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/build
@@ -1333,7 +1333,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/imgui-sfml-build/CMakeFiles/ImGu
 
 # Build rule for subdir invocation for target.
 src/Main/CMakeFiles/CimaEngine3v.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles 94
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles 93
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Main/CMakeFiles/CimaEngine3v.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles 0
 .PHONY : src/Main/CMakeFiles/CimaEngine3v.dir/rule

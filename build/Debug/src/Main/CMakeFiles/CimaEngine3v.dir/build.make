@@ -461,11 +461,26 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/Entidad.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/Entidad.cpp.s"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Juego\Objetos\Entidad.cpp -o CMakeFiles\CimaEngine3v.dir\__\Juego\Objetos\Entidad.cpp.s
 
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/flags.make
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/includes_CXX.rsp
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.obj: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Objetos/TileMap.cpp
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.obj"
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.obj -MF CMakeFiles\CimaEngine3v.dir\__\Juego\Objetos\TileMap.cpp.obj.d -o CMakeFiles\CimaEngine3v.dir\__\Juego\Objetos\TileMap.cpp.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Juego\Objetos\TileMap.cpp
+
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.i"
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Juego\Objetos\TileMap.cpp > CMakeFiles\CimaEngine3v.dir\__\Juego\Objetos\TileMap.cpp.i
+
+src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.s"
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Juego\Objetos\TileMap.cpp -o CMakeFiles\CimaEngine3v.dir\__\Juego\Objetos\TileMap.cpp.s
+
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/flags.make
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/includes_CXX.rsp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Juego.cpp
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj: src/Main/CMakeFiles/CimaEngine3v.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\src\Main && C:\Users\PC\Documents\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj -MF CMakeFiles\CimaEngine3v.dir\__\Juego\Juego.cpp.obj.d -o CMakeFiles\CimaEngine3v.dir\__\Juego\Juego.cpp.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\src\Juego\Juego.cpp
 
 src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.i: cmake_force
@@ -504,6 +519,7 @@ CimaEngine3v_OBJECTS = \
 "CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaObjMuriendo.cpp.obj" \
 "CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenasCirculos.cpp.obj" \
 "CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/Entidad.cpp.obj" \
+"CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.obj" \
 "CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj"
 
 # External object files for target CimaEngine3v
@@ -535,6 +551,7 @@ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin
 C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaObjMuriendo.cpp.obj
 C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenasCirculos.cpp.obj
 C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/Entidad.cpp.obj
+C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.obj
 C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj
 C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/build.make
 C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: _deps/sfml-build/lib/libsfml-system-s-d.a
@@ -554,7 +571,7 @@ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin
 C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/linkLibs.rsp
 C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/objects1.rsp
 C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/bin/Debug/CimaEngine3v.exe: src/Main/CMakeFiles/CimaEngine3v.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\bin\Debug\CimaEngine3v.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\bin\Debug\CimaEngine3v.exe"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\src\Main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CimaEngine3v.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

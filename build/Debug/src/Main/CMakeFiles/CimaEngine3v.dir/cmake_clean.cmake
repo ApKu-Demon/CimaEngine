@@ -18,6 +18,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj.d"
   "CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/Entidad.cpp.obj"
   "CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/Entidad.cpp.obj.d"
+  "CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.obj"
+  "CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.obj.d"
   "CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.obj"
   "CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.obj.d"
   "CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.obj"
