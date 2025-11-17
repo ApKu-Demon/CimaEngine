@@ -6,6 +6,8 @@
 #include <algorithm> 
 #include "../../Motor/Primitivos/GestorEscenas.hpp"
 #include "../../Motor/Render/Render.hpp"
+#include "../../Motor/Primitivos/GestorAssets.hpp" 
+#include "../../Motor/Componentes/IComponentes.hpp"
 
 namespace IVJ
 {
@@ -36,18 +38,90 @@ namespace IVJ
         if(!inicializar) return;
 
         std::cout << "EscenaObjMuriendo: Inicializando..." << std::endl;
-        objetos.borrarPool(); 
+        objetos.borrarPool();
+
+        // Usaremos el mismo path para todos, pero diferentes coordenadas y nombres clave.
+        const std::string RUTA_ATLAS = ASSETS "/sprites/aliens/enemies.png";
+
+        // Tipo 1: Bat (Vuelo)
+        // <SubTexture name="bat_fly.png" x="0" y="0" width="88" height="37"/>
+        CE::GestorAssets::Get().agregarTextura("enemigo_bat", RUTA_ATLAS, CE::Vector2D{0, 0}, CE::Vector2D{88, 37});
+        
+        // Tipo 2: Bee (Normal)
+        // <SubTexture name="bee.png" x="315" y="353" width="56" height="48"/>
+        CE::GestorAssets::Get().agregarTextura("enemigo_bee", RUTA_ATLAS, CE::Vector2D{315, 353}, CE::Vector2D{56, 48});
+        
+        // Tipo 3: Frog (Normal)
+        // <SubTexture name="frog.png" x="257" y="45" width="58" height="39"/>
+        CE::GestorAssets::Get().agregarTextura("enemigo_frog", RUTA_ATLAS, CE::Vector2D{257, 45}, CE::Vector2D{58, 39});
+        
+        // Tipo 4: Mouse (Caminando)
+        // <SubTexture name="mouse_walk.png" x="256" y="475" width="58" height="35"/>
+        CE::GestorAssets::Get().agregarTextura("enemigo_mouse", RUTA_ATLAS, CE::Vector2D{256, 475}, CE::Vector2D{58, 35});
+        
+        // Tipo 5: Spider (Normal)
+        // <SubTexture name="spider.png" x="0" y="326" width="71" height="45"/>
+        CE::GestorAssets::Get().agregarTextura("enemigo_spider", RUTA_ATLAS, CE::Vector2D{0, 326}, CE::Vector2D{71, 45});
+
+        // 2. LISTA DE CLAVES DE TEXTURAS A USAR
+        const std::vector<std::string> CLAVES_ENEMIGOS = {
+            "enemigo_bat", 
+            "enemigo_bee", 
+            "enemigo_frog", 
+            "enemigo_mouse", 
+            "enemigo_spider"
+        };
 
         // ------------------ Generacion Aleatoria ------------------
         std::mt19937 gen(static_cast<unsigned int>(std::time(0)));
         std::uniform_real_distribution<> distrib_pos_x(50.0, LIMITE_X - 50.0);
         std::uniform_real_distribution<> distrib_pos_y(50.0, LIMITE_Y - 50.0);
-        std::uniform_real_distribution<> distrib_radio(10.0, 40.0);
+        std::uniform_real_distribution<> distrib_escala(0.5, 3.0);
         std::uniform_real_distribution<> distrib_vida(3.0, 15.0); // Vida entre 3 y 15 segundos
 
-        // Creamos y configuramos 50 objetos
-        for (int i = 0; i < NUM_OBJETOS; ++i)
+        // DISTRIBUCIÓN PARA ELEGIR UNA CLAVE DE LA LISTA
+        std::uniform_int_distribution<> distrib_sprite(0, CLAVES_ENEMIGOS.size() - 1);
+
+        const int NUM_ENEMIGOS = 100;
+
+        // Creamos y configuramos 100 objetos
+        for (int i = 0; i < NUM_ENEMIGOS; ++i)
         {
+            auto alien = std::make_shared<IVJ::Entidad>();
+            float escala = static_cast<float>(distrib_escala(gen));
+
+            // --- SELECCIÓN ALEATORIA DEL SPRITE Y ASIGNACIÓN ---
+            int indice_sprite = distrib_sprite(gen);
+            const std::string& clave_sprite = CLAVES_ENEMIGOS[indice_sprite];
+            sf::Texture& textura_enemigo = CE::GestorAssets::Get().getTextura(clave_sprite);
+
+            // AÑADIDO: Añadimos el componente ISprite, pasando la referencia a la textura.
+            alien->addComponente(
+                std::make_shared<CE::ISprite>(textura_enemigo, escala)
+            );
+            
+            // 1. POSICION Y VELOCIDAD
+            alien->setPosicion(
+                static_cast<float>(distrib_pos_x(gen)),
+                static_cast<float>(distrib_pos_y(gen))
+            );
+
+            alien->getTransformada().get()->velocidad.x = static_cast<float>(std::uniform_real_distribution<>(-100.0, 100.0)(gen));
+            alien->getTransformada().get()->velocidad.y = static_cast<float>(std::uniform_real_distribution<>(-100.0, 100.0)(gen));
+            
+            // 2. HP y Componentes
+            alien->getStats()->hp = 1;
+            // Añadimos el componente TimerDeVida con tiempo aleatorio
+            alien->addComponente(std::make_shared<TimerDeVida>(static_cast<float>(distrib_vida(gen)))); 
+            alien->addComponente(std::make_shared<CE::IMotion>());
+
+            objetos.agregarPool(alien);
+
+            // Uso de la variable de miembro 'enemigos' para apuntar al primer alien creado
+            if (i == 0)
+                enemigos = alien;
+
+            /*
             float radio = static_cast<float>(distrib_radio(gen));
             
             sf::Color color_relleno(
@@ -77,6 +151,7 @@ namespace IVJ
             circulo->addComponente(std::make_shared<CE::IMotion>());
 
             objetos.agregarPool(circulo);
+            */
         }
         
         std::cout << "EscenaObjMuriendo inicializada. Total de objetos: " << objetos.getPool().size() << std::endl;
@@ -179,362 +254,4 @@ namespace IVJ
     }
 }
 
-/*  #2
-#include "EscenaObjMuriendo.hpp"
-#include "../Figuras/Figuras.hpp"          
-#include "../../Motor/Primitivos/GestorEscenas.hpp"
-#include "../../Motor/Render/Render.hpp"
-#include "../../Motor/Componentes/IComponentes.hpp" 
-#include <random>                          
-#include <ctime>                           
-#include <iostream>
-#include <algorithm> 
 
-namespace IVJ
-{
-    // Definimos los límites de la pantalla (ajusta si tu ventana es diferente)
-    // Asumiendo una ventana de 1280x720 como estándar
-    const float LIMITE_X = 1080.0f; 
-    const float LIMITE_Y = 720.0f;
-
-    // TimerDeVida extiende CE::ITimer para darle la funcionalidad de cuenta regresiva.
-    class TimerDeVida : public CE::ITimer
-    {
-    private:
-        float tiempoVidaRestante;
-        bool expirado = false;
-
-    public:
-        // Constructor que inicializa el tiempo de vida
-        TimerDeVida(float vida) : tiempoVidaRestante(vida) {}
-
-        // Getter para que el sistema de la escena compruebe si el tiempo expiró.
-        bool estaExpirado() const { return expirado; }
-
-        // Decrementa el tiempo restante.
-        void onUpdate(float dt) 
-        {
-            if (expirado) return;
-
-            // CLAVE: Limitamos el dt (salto de tiempo) para evitar la muerte instantánea
-            dt = std::min(dt, 0.1f); 
-            
-            tiempoVidaRestante -= dt;
-            if (tiempoVidaRestante <= 0.0f)
-            {
-                expirado = true;
-            }
-        }
-    };
-
-
-    void EscenaObjMuriendo::onInit()
-    {
-        if(!inicializar) return;
-
-        std::cout << "EscenaObjMuriendo: Inicializando..." << std::endl;
-        objetos.borrarPool(); 
-
-        // ------------------ Generacion Aleatoria ------------------
-        std::mt19937 gen(static_cast<unsigned int>(std::time(0)));
-        // Usamos un rango más seguro para evitar que el origen empiece fuera de la pantalla.
-        std::uniform_real_distribution<> distrib_pos_x(50.0, LIMITE_X - 50.0);
-        std::uniform_real_distribution<> distrib_pos_y(50.0, LIMITE_Y - 50.0);
-        std::uniform_real_distribution<> distrib_radio(10.0, 40.0);
-        std::uniform_real_distribution<> distrib_vida(3.0, 15.0);
-
-        // Creamos y configuramos 50 objetos
-        for (int i = 0; i < NUM_OBJETOS; ++i)
-        {
-            float radio = static_cast<float>(distrib_radio(gen));
-            
-            sf::Color color_relleno(
-                static_cast<std::uint8_t>(std::uniform_int_distribution<>(50, 255)(gen)),
-                static_cast<std::uint8_t>(std::uniform_int_distribution<>(50, 255)(gen)),
-                static_cast<std::uint8_t>(std::uniform_int_distribution<>(50, 255)(gen))
-            );
-
-            auto circulo = std::make_shared<Circulo>(
-                radio, color_relleno, sf::Color::Black
-            );
-
-            // 1. POSICION Y VELOCIDAD
-            circulo->setPosicion(
-                static_cast<float>(distrib_pos_x(gen)),
-                static_cast<float>(distrib_pos_y(gen))
-            );
-
-            circulo->getTransformada().get()->velocidad.x = static_cast<float>(std::uniform_real_distribution<>(-100.0, 100.0)(gen));
-            circulo->getTransformada().get()->velocidad.y = static_cast<float>(std::uniform_real_distribution<>(-100.0, 100.0)(gen));
-            
-            // 2. HP y Componentes
-            circulo->getStats()->hp = 1;
-            circulo->addComponente(std::make_shared<TimerDeVida>(static_cast<float>(distrib_vida(gen))));
-            circulo->addComponente(std::make_shared<CE::IMotion>());
-
-            objetos.agregarPool(circulo);
-        }
-        
-        std::cout << "EscenaObjMuriendo inicializada. Total de objetos: " << objetos.getPool().size() << std::endl;
-
-        inicializar = false;
-    }
-
-    void EscenaObjMuriendo::onFinal()
-    {
-        std::cout << "EscenaObjMuriendo: Finalizando..." << std::endl;
-        objetos.borrarPool();
-    }
-
-    void EscenaObjMuriendo::onUpdate(float dt)
-    {
-        // 1. Actualización de Componentes (Temporizadores, etc.)
-        for(auto &f: objetos.getPool())
-        {
-            f->onUpdate(dt);
-        }
-
-        // 2. SISTEMA DE MOVIMIENTO/FÍSICA y DETECCIÓN DE LÍMITES
-        for(auto &f: objetos.getPool())
-        {
-            CE::ITransform* t = f->getTransformada().get();
-            
-            // Aplicar la física (Movimiento)
-            t->posicion.x += t->velocidad.x * dt;
-            t->posicion.y += t->velocidad.y * dt;
-
-            // Detección y rebote en los límites de la pantalla
-            // **SOLUCIÓN SIN USAR EL RADIO:** Verificamos si el origen (el centro) cruza 0 o el límite máximo.
-
-            // Rebote en X
-            if (t->posicion.x < 0.0f) 
-            {
-                t->posicion.x = 0.0f; // Lo reposiciona en el borde
-                t->velocidad.x *= -1.0f; // Invierte la dirección
-            }
-            else if (t->posicion.x > LIMITE_X) 
-            {
-                t->posicion.x = LIMITE_X; // Lo reposiciona en el borde
-                t->velocidad.x *= -1.0f;
-            }
-
-            // Rebote en Y
-            if (t->posicion.y < 0.0f) 
-            {
-                t->posicion.y = 0.0f; // Lo reposiciona en el borde
-                t->velocidad.y *= -1.0f;
-            }
-            else if (t->posicion.y > LIMITE_Y) 
-            {
-                t->posicion.y = LIMITE_Y; // Lo reposiciona en el borde
-                t->velocidad.y *= -1.0f;
-            }
-        }
-        
-        // 3. SISTEMA DE MUERTE POR TIEMPO: Revisa el Timer y MARCA para borrado (hp=0).
-        for(auto &f: objetos.getPool())
-        {
-            if (auto timer = f->getComponente<TimerDeVida>()) 
-            {
-                if (timer->estaExpirado())
-                {
-                    // Si expiró, la escena establece la HP a 0.
-                    if (f->getStats())
-                    {
-                        f->getStats()->hp = 0;
-                    }
-                }
-            }
-        }
-
-        // 4. Borramos los objetos cuya HP haya llegado a 0
-        objetos.borrarPool();
-
-        // 5. Comprobamos la condicion de cambio de escena
-        if (objetos.getPool().size() == 0)
-        {
-            std::cout << "Todos los objetos han muerto. Cambiando a EscenaCirculos." << std::endl;
-            CE::GestorEscenas::Get().cambiarEscena("Circulos");
-        }
-    }
-
-    void EscenaObjMuriendo::onInputs(const CE::Botones& accion)
-    {
-        // No hay inputs definidos para esta escena.
-    }
-
-    void EscenaObjMuriendo::onRender()
-    {
-        // Agregamos todos los objetos al renderizador
-        for (auto &f: objetos.getPool())
-            CE::Render::Get().AddToDraw(*f);
-    }
-} */
-
-/* #1
-#include "EscenaObjMuriendo.hpp"
-#include "../Figuras/Figuras.hpp"          
-#include "../../Motor/Primitivos/GestorEscenas.hpp"
-#include "../../Motor/Render/Render.hpp"
-#include "../../Motor/Componentes/IComponentes.hpp" // Componentes de Movimiento y Tiempo (ITimer, IMotion)
-#include <random>                          
-#include <ctime>                           
-#include <iostream>
-
-namespace IVJ
-{
-    // TimerDeVida extiende CE::ITimer para darle la funcionalidad de cuenta regresiva.
-    class TimerDeVida : public CE::ITimer
-    {
-        private:
-            float tiempoVidaRestante;
-            bool expirado = false;
-
-        public:
-            // Constructor que inicializa el tiempo de vida
-            TimerDeVida(float vida) : tiempoVidaRestante(vida) {}
-
-            // Getter para que el sistema de la escena compruebe si el tiempo expiró.
-            bool estaExpirado() const { return expirado; }
-
-            // Decrementa el tiempo restante.
-            void onUpdate(float dt)
-            {
-                if (expirado) return;
-
-                // CLAVE para evitar la muerte instantánea: Limitamos el dt (salto de tiempo)
-                dt = std::min(dt, 0.1f); // Limita el delta time a 100ms
-
-                tiempoVidaRestante -= dt;
-                if (tiempoVidaRestante <= 0.0f)
-                {
-                    expirado = true;
-                }
-            }
-    };
-
-
-    void EscenaObjMuriendo::onInit()
-    {
-        if(!inicializar) return;
-
-        std::cout << "EscenaObjMuriendo: Inicializando..." << std::endl;
-        objetos.borrarPool();
-
-        // ------------------ Generacion Aleatoria ------------------
-        std::mt19937 gen(static_cast<unsigned int>(std::time(0)));
-        std::uniform_real_distribution<> distrib_pos_x(100.0, 1000.0);
-        std::uniform_real_distribution<> distrib_pos_y(100.0, 600.0);
-        std::uniform_real_distribution<> distrib_radio(10.0, 40.0);
-        // El tiempo de vida estará entre 3 y 15 segundos
-        std::uniform_real_distribution<> distrib_vida(3.0, 15.0);
-
-        // Creamos y configuramos 50 objetos
-        for (int i = 0; i < NUM_OBJETOS; ++i)
-        {
-            float radio = static_cast<float>(distrib_radio(gen));
-            
-            // Color aleatorio para el relleno
-            sf::Color color_relleno(
-                static_cast<std::uint8_t>(std::uniform_int_distribution<>(50, 255)(gen)),
-                static_cast<std::uint8_t>(std::uniform_int_distribution<>(50, 255)(gen)),
-                static_cast<std::uint8_t>(std::uniform_int_distribution<>(50, 255)(gen))
-            );
-
-            auto circulo = std::make_shared<Circulo>(
-                radio, color_relleno, sf::Color::Black
-            );
-
-            // 1. POSICION Y VELOCIDAD (Usando ITransform, integrado en el objeto)
-            circulo->setPosicion(
-                static_cast<float>(distrib_pos_x(gen)),
-                static_cast<float>(distrib_pos_y(gen))
-            );
-
-            // Asignar una velocidad inicial aleatoria
-            circulo->getTransformada()->velocidad.x = static_cast<float>(std::uniform_real_distribution<>(-50.0, 50.0)(gen));
-            circulo->getTransformada()->velocidad.y = static_cast<float>(std::uniform_real_distribution<>(-50.0, 50.0)(gen));
-
-            // 2. HP (Usando IStats, integrado en el objeto)
-            circulo->getStats()->hp = 1;
-            
-            // 3. TIEMPO DE MUERTE (Usando CE::ITimer a través de TimerDeVida)
-            float tiempo_mortal = static_cast<float>(distrib_vida(gen));
-            circulo->addComponente(std::make_shared<TimerDeVida>(tiempo_mortal));
-            
-            // 4. MOVIMIENTO ADICIONAL (Usando CE::IMotion)
-            // Se añade el componente para cumplir con el requisito de usarlo.
-            circulo->addComponente(std::make_shared<CE::IMotion>());
-
-            objetos.agregarPool(circulo);
-        }
-        
-        std::cout << "EscenaObjMuriendo inicializada. Total de objetos: " << objetos.getPool().size() << std::endl;
-
-        inicializar = false;
-    }
-
-    void EscenaObjMuriendo::onFinal()
-    {
-        // Limpiamos la escena al terminar
-        std::cout << "EscenaObjMuriendo: Finalizando..." << std::endl;
-        objetos.borrarPool();
-    }
-
-    void EscenaObjMuriendo::onUpdate(float dt)
-    {
-        for(auto &f: objetos.getPool())
-        {
-            f->onUpdate(dt);
-        }
-
-        // 2. SISTEMA DE MOVIMIENTO/FÍSICA: Aplica la velocidad a la posición (MOVIMIENTO)
-        // Ya que IMotion no tiene método de actualización, la escena debe aplicar la física.
-        for(auto &f: objetos.getPool())
-        {
-            CE::ITransform* t = f->getTransformada().get();
-            t->posicion.x += t->velocidad.x * dt;
-            t->posicion.y += t->velocidad.y * dt;
-        }
-        
-        // 3. SISTEMA DE MUERTE POR TIEMPO: Revisa el Timer y MARCA para borrado (hp=0).
-        // ESTE BUCLE ES FUNDAMENTAL para que los objetos mueran.
-        for(auto &f: objetos.getPool())
-        {
-            if (auto timer = f->getComponente<TimerDeVida>()) 
-            {
-                if (timer->estaExpirado())
-                {
-                    // Si expiró, la escena establece la HP a 0.
-                    if (f->getStats())
-                    {
-                        f->getStats()->hp = 0;
-                    }
-                }
-            }
-        }
-
-        // 2. Borramos los objetos cuya HP haya llegado a 0 (los que "murieron" por tiempo)
-        objetos.borrarPool();
-
-        // 3. Comprobamos la condicion de cambio de escena
-        if (objetos.getPool().size() == 0)
-        {
-            std::cout << "Todos los objetos han muerto. Cambiando a EscenaCirculos." << std::endl;
-            CE::GestorEscenas::Get().cambiarEscena("Circulos");
-        }
-    }
-
-    void EscenaObjMuriendo::onInputs(const CE::Botones& accion)
-    {
-        // No hay inputs definidos para esta escena.
-    }
-
-    void EscenaObjMuriendo::onRender()
-    {
-        // Agregamos todos los objetos al renderizador
-        for (auto &f: objetos.getPool())
-            CE::Render::Get().AddToDraw(*f);
-    }
-}
-*/

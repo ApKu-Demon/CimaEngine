@@ -303,6 +303,7 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaObjMuriendo.cpp.obj:
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/stl_tree.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/stl_map.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/stl_multimap.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Objetos/Entidad.hpp \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Figuras/Figuras.hpp \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/random \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/cmath \
@@ -334,4 +335,5 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaObjMuriendo.cpp.obj:
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/pstl/glue_algorithm_defs.h \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Primitivos/GestorEscenas.hpp \
  C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Render/Render.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Utils/Utils.hpp
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Utils/Utils.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Primitivos/GestorAssets.hpp

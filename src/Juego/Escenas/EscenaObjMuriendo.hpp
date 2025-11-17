@@ -1,5 +1,6 @@
 #pragma once
 #include "../../Motor/Primitivos/Escena.hpp"
+#include "../Objetos/Entidad.hpp"
 
 namespace IVJ
 {
@@ -17,7 +18,7 @@ namespace IVJ
 
     private:
         bool inicializar{true};
-        const int NUM_OBJETOS = 50;
+        std::shared_ptr<Entidad> enemigos;
     };
 
     class TimerDeVida : public CE::ITimer
