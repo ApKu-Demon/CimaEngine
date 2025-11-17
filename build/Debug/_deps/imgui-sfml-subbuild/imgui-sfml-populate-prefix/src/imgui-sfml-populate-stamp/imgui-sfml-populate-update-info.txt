@@ -4,4 +4,4 @@
 
 command (connected)=C:/Program Files/CMake/bin/cmake.exe;-Dcan_fetch=YES;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/tmp/imgui-sfml-populate-gitupdate.cmake
 command (disconnected)=C:/Program Files/CMake/bin/cmake.exe;-Dcan_fetch=NO;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/tmp/imgui-sfml-populate-gitupdate.cmake
-work_dir=C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/imgui-sfml-src
+work_dir=C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/imgui-sfml-src

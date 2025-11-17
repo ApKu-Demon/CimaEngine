@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/microbench
+# Install script for directory: C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/microbench
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-build/microbench/install_local_manifest.txt"
+  file(WRITE "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-build/microbench/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -72,5 +72,16 @@ namespace CE
             std::uint8_t def;
             std::uint8_t agi;
     };
+
+    class ISprite : public IComponentes
+    {
+        public:
+            explicit ISprite(const sf::Texture& textura, float escala);
+            ~ISprite() override{};
+
+        public:
+            sf::Sprite m_sprite;
+    };
 }
+
 

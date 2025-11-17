@@ -1,8 +1,8 @@
 _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.obj: \
- C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\sfml-src\src\SFML\Window\Vulkan.cpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Window/Vulkan.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Window/Export.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Config.hpp \
+ C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-src\src\SFML\Window\Vulkan.cpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Window/Vulkan.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Config.hpp \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/vector \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -79,5 +79,5 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.obj: \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/std_abs.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Window/VulkanImpl.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/Window/VulkanImpl.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp

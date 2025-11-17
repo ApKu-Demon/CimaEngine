@@ -1,10 +1,10 @@
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.obj: \
- C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\sfml-src\src\SFML\Audio\SoundFileWriterWav.cpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Audio/SoundFileWriterWav.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Audio/SoundFileWriter.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Audio/Export.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Config.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Audio/SoundChannel.hpp \
+ C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-src\src\SFML\Audio\SoundFileWriterWav.cpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/Audio/SoundFileWriterWav.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Audio/SoundFileWriter.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Audio/Export.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Config.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Audio/SoundChannel.hpp \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/filesystem \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -193,9 +193,9 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/basic_file.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/fstream.tcc \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Err.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Export.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/System/Utils.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Err.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Export.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/System/Utils.hpp \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/algorithm \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/stl_algo.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/algorithmfwd.h \

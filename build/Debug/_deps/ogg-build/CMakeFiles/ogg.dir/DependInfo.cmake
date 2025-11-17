@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/src/bitwise.c" "_deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.obj" "gcc" "_deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.obj.d"
-  "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/src/framing.c" "_deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.obj" "gcc" "_deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.obj.d"
+  "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/src/bitwise.c" "_deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.obj" "gcc" "_deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.obj.d"
+  "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/src/framing.c" "_deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.obj" "gcc" "_deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,5 +1,5 @@
 _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/mdct.c.obj: \
- C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\vorbis-src\lib\mdct.c \
+ C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\vorbis-src\lib\mdct.c \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
@@ -24,15 +24,15 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/mdct.c.obj: \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/math.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/include/vorbis/codec.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/include/ogg/ogg.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/include/vorbis/codec.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/include/ogg/ogg.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/include/ogg/os_types.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/include/ogg/os_types.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h \
- C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\vorbis-src\lib\mdct.h \
- C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\vorbis-src\lib\os.h \
- C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\vorbis-src\lib\misc.h \
+ C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\vorbis-src\lib\mdct.h \
+ C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\vorbis-src\lib\os.h \
+ C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\vorbis-src\lib\misc.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h

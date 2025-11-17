@@ -1,12 +1,12 @@
 _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.obj: \
- C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\sfml-src\src\SFML\Window\Cursor.cpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Window/Export.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Config.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Vector2.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Export.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Angle.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Angle.inl \
+ C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-src\src\SFML\Window\Cursor.cpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Config.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Export.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Angle.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Angle.inl \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/cassert \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -32,7 +32,7 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.obj: \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/std_abs.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Vector2.inl \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/memory \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/memoryfwd.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/allocator.h \
@@ -131,10 +131,10 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.obj: \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/cstdint \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Window/CursorImpl.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Window/Win32/CursorImpl.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Err.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Exception.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/Window/CursorImpl.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/Window/Win32/CursorImpl.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Err.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Exception.hpp \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/stdexcept \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/string \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/char_traits.h \

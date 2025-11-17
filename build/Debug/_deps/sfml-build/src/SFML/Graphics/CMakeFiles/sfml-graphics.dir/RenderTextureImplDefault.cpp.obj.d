@@ -1,9 +1,9 @@
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.obj: \
- C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\sfml-src\src\SFML\Graphics\RenderTextureImplDefault.cpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Config.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/extlibs/headers/glad/include/glad/gl.h \
+ C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-src\src\SFML\Graphics\RenderTextureImplDefault.cpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Config.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/extlibs/headers/glad/include/glad/gl.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
@@ -15,8 +15,8 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImp
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Err.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Export.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Err.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Export.hpp \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/iosfwd \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -152,16 +152,16 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImp
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/locale_facets.tcc \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/basic_ios.tcc \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/ostream.tcc \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplDefault.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Graphics/RenderTextureImpl.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Vector2.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Angle.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Angle.inl \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplDefault.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/Graphics/RenderTextureImpl.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Angle.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Angle.inl \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/cassert \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/assert.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Vector2.inl \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Window/Export.hpp \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/memory \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/stl_tempbuf.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
@@ -179,7 +179,7 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImp
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/backward/auto_ptr.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/pstl/glue_memory_defs.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/pstl/execution_defs.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Graphics/TextureSaver.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Window/Context.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/Graphics/TextureSaver.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Window/Context.hpp \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/cstdint \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp

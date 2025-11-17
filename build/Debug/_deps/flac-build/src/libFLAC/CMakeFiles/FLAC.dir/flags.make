@@ -11,7 +11,7 @@ C_FLAGS = -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-ret
 
 RC_DEFINES = -DASSETS=\"C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/assets\" -DDEBUG=1 -DFLAC__NO_DLL -DFLAC__OVERFLOW_DETECT -DHAVE_CONFIG_H -DNDEBUG -D_DARWIN_C_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_TANDEM_SOURCE -D__STDC_WANT_IEC_60559_BFP_EXT__ -D__STDC_WANT_IEC_60559_DFP_EXT__ -D__STDC_WANT_IEC_60559_FUNCS_EXT__ -D__STDC_WANT_IEC_60559_TYPES_EXT__ -D__STDC_WANT_LIB_EXT2__ -D__STDC_WANT_MATH_SPEC_FUNCS__
 
-RC_INCLUDES = -I C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\flac-src\include -I C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\flac-build -I C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\flac-src\src\libFLAC\include -I C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\ogg-src\include -I C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\ogg-build\include
+RC_INCLUDES = -I C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\include -I C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build -I C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\include -I C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\ogg-src\include -I C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\ogg-build\include
 
 RC_FLAGS = 
 

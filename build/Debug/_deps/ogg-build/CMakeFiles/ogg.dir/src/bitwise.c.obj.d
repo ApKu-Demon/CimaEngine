@@ -1,5 +1,5 @@
 _deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.obj: \
- C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\ogg-src\src\bitwise.c \
+ C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\ogg-src\src\bitwise.c \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
@@ -18,9 +18,9 @@ _deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.obj: \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/include/ogg/ogg.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/include/ogg/ogg.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/include/ogg/os_types.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/include/ogg/os_types.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h

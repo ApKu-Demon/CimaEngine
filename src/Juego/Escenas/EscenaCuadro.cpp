@@ -3,6 +3,8 @@
 #include "../../Motor/Camaras/CamarasGestor.hpp"
 #include "../../Motor/Primitivos/GestorEscenas.hpp"
 #include "../../Motor/Render/Render.hpp"
+#include "../../Motor/Utils/Vector2D.hpp"
+#include "../../Motor/Primitivos/GestorAssets.hpp"
 #include "../Sistemas/Sistemas.hpp"
 
 namespace IVJ
@@ -10,6 +12,9 @@ namespace IVJ
     void EscenaCuadros::onInit()
     {
         if(!inicializar) return;
+
+        // cargamos las texturas correspondientes a esta escena
+        CE::GestorAssets::Get().agregarTextura("pink", ASSETS "/sprites/aliens/alienPink.png", CE::Vector2D{70, 92}, CE::Vector2D{66, 92});
 
         // registramos el esquema de los botones
         registrarBotones(sf::Keyboard::Scancode::W, "arriba");
@@ -22,7 +27,15 @@ namespace IVJ
         registrarBotones(sf::Keyboard::Scancode::Right, "derecha");
         registrarBotones(sf::Keyboard::Scancode::Escape, "circulos");
 
+        // creamos la entidad para probar el sprite
+        jugador = std::make_shared<Entidad>();
+        jugador->getStats()->hp = 100;
+        jugador->setPosicion(500.f, 500.f);
+        jugador->addComponente(std::make_shared<CE::ISprite>(CE::GestorAssets::Get().getTextura("pink"), 1.f));
+        objetos.agregarPool(jugador);
+
         // vamos hacer 3 figuras
+        /*
         auto fig1 = std::make_shared<Rectangulo>(
             100, 100, sf::Color(255, 0, 0, 255),
             sf::Color(0, 0, 0, 255));
@@ -44,14 +57,15 @@ namespace IVJ
         objetos.agregarPool(fig1);
         objetos.agregarPool(fig2);
         objetos.agregarPool(fig3);
+        */
 
-        // agregamos una camra
+        // agregamos una camara
         CE::GestorCamaras::Get().agregarCamara(std::make_shared<CE::CamaraCuadro>(
             CE::Vector2D{540, 360}, CE::Vector2D{1080.f, 720.f}));
-        CE::GestorCamaras::Get().setCamaraAciva(4);
+        CE::GestorCamaras::Get().setCamaraAciva(1);
 
         // lockeamos la camara en un objeto
-        CE::GestorCamaras::Get().getCamaraActiva().lockEnObjeto(objetos[1]); // o 6 para fig1
+        CE::GestorCamaras::Get().getCamaraActiva().lockEnObjeto(jugador);
         inicializar = false;
     }
 
@@ -67,7 +81,7 @@ namespace IVJ
 
     void EscenaCuadros::onInputs(const CE::Botones& accion)
     {
-        auto p = objetos[1]->getTransformada();
+        auto p = jugador->getTransformada();
         if (accion.getTipo() == CE::Botones::TipoAccion::OnPress)
         {
             if (accion.getNombre() == "arriba")
@@ -118,3 +132,5 @@ namespace IVJ
             CE::Render::Get().AddToDraw(*f);
     }
 }
+
+

@@ -128,6 +128,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Componentes/CMakeLists.txt"
   "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Escenas/CMakeLists.txt"
   "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Figuras/CMakeLists.txt"
+  "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Objetos/CMakeLists.txt"
   "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Juego/Sistemas/CMakeLists.txt"
   "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Main/CMakeLists.txt"
   "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/App/CMakeLists.txt"
@@ -215,6 +216,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/Juego/Componentes/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Juego/Sistemas/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Juego/Escenas/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Juego/Objetos/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

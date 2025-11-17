@@ -16,5 +16,12 @@ namespace CE
 
     IMotion::IMotion()
     : direccion{1.f, 1.f}, punto_fijo{0.f, 0.f}, velocidad{100.f}, inicializado{false} {}
+
+    ISprite::ISprite(const sf::Texture& textura, float escala)
+        :IComponentes{}, m_sprite{textura}
+    {
+        m_sprite.setScale({escala, escala});
+    }
 }
+
 

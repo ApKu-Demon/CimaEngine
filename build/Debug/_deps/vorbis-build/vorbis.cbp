@@ -5,31 +5,31 @@
 		<Option title="vorbis"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\build\;CMake Files\build\debug\;CMake Files\build\debug\_deps\;CMake Files\build\debug\_deps\sfml-src\;CMake Files\build\debug\_deps\sfml-src\cmake\;CMake Files\build\debug\_deps\sfml-src\src\;CMake Files\build\debug\_deps\sfml-src\src\SFML\;CMake Files\build\debug\_deps\sfml-src\src\SFML\System\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Main\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Window\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Network\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Graphics\;CMake Files\build\debug\_deps\sfml-src\src\SFML\Audio\;CMake Files\build\debug\_deps\freetype-src\;CMake Files\build\debug\_deps\ogg-src\;CMake Files\build\debug\_deps\ogg-src\cmake\;CMake Files\build\debug\_deps\ogg-src\include\;CMake Files\build\debug\_deps\ogg-src\include\ogg\;CMake Files\build\debug\_deps\flac-src\;CMake Files\build\debug\_deps\flac-src\cmake\;CMake Files\build\debug\_deps\flac-src\src\;CMake Files\build\debug\_deps\flac-src\src\libFLAC\;CMake Files\build\debug\_deps\flac-src\microbench\;CMake Files\build\debug\_deps\vorbis-src\;CMake Files\build\debug\_deps\vorbis-src\lib\;CMake Files\build\debug\_deps\vorbis-src\cmake\;CMake Files\build\debug\_deps\imgui-sfml-src\;CMake Files\build\debug\_deps\imgui-sfml-src\cmake\;CMake Files\src\;CMake Files\src\Main\;CMake Files\src\Motor\;CMake Files\src\Motor\Render\;CMake Files\src\Motor\App\;CMake Files\src\Motor\GUI\;CMake Files\src\Motor\Primitivos\;CMake Files\src\Motor\Utils\;CMake Files\src\Motor\Componentes\;CMake Files\src\Motor\CargarFig\;CMake Files\src\Motor\Camaras\;CMake Files\src\Motor\Inputs\;CMake Files\src\Juego\;CMake Files\src\Juego\Figuras\;CMake Files\src\Juego\Componentes\;CMake Files\src\Juego\Sistemas\;CMake Files\src\Juego\Escenas\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\build\;CMake Files\build\Debug\;CMake Files\build\Debug\_deps\;CMake Files\build\Debug\_deps\sfml-src\;CMake Files\build\Debug\_deps\sfml-src\cmake\;CMake Files\build\Debug\_deps\sfml-src\src\;CMake Files\build\Debug\_deps\sfml-src\src\SFML\;CMake Files\build\Debug\_deps\sfml-src\src\SFML\System\;CMake Files\build\Debug\_deps\sfml-src\src\SFML\Main\;CMake Files\build\Debug\_deps\sfml-src\src\SFML\Window\;CMake Files\build\Debug\_deps\sfml-src\src\SFML\Network\;CMake Files\build\Debug\_deps\sfml-src\src\SFML\Graphics\;CMake Files\build\Debug\_deps\sfml-src\src\SFML\Audio\;CMake Files\build\Debug\_deps\freetype-src\;CMake Files\build\Debug\_deps\ogg-src\;CMake Files\build\Debug\_deps\ogg-src\cmake\;CMake Files\build\Debug\_deps\ogg-src\include\;CMake Files\build\Debug\_deps\ogg-src\include\ogg\;CMake Files\build\Debug\_deps\flac-src\;CMake Files\build\Debug\_deps\flac-src\cmake\;CMake Files\build\Debug\_deps\flac-src\src\;CMake Files\build\Debug\_deps\flac-src\src\libFLAC\;CMake Files\build\Debug\_deps\flac-src\microbench\;CMake Files\build\Debug\_deps\vorbis-src\;CMake Files\build\Debug\_deps\vorbis-src\lib\;CMake Files\build\Debug\_deps\vorbis-src\cmake\;CMake Files\build\Debug\_deps\imgui-sfml-src\;CMake Files\build\Debug\_deps\imgui-sfml-src\cmake\;CMake Files\src\;CMake Files\src\Main\;CMake Files\src\Motor\;CMake Files\src\Motor\Render\;CMake Files\src\Motor\App\;CMake Files\src\Motor\GUI\;CMake Files\src\Motor\Primitivos\;CMake Files\src\Motor\Utils\;CMake Files\src\Motor\Componentes\;CMake Files\src\Motor\CargarFig\;CMake Files\src\Motor\Camaras\;CMake Files\src\Motor\Inputs\;CMake Files\src\Juego\;CMake Files\src\Juego\Figuras\;CMake Files\src\Juego\Componentes\;CMake Files\src\Juego\Sistemas\;CMake Files\src\Juego\Escenas\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build"/>
+				<Option working_dir="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="vorbis">
-				<Option output="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-build/lib/libvorbisd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib"/>
+				<Option output="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-build/lib/libvorbisd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DASSETS=&quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/assets&quot;"/>
 					<Add option="-DDEBUG=1"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/include"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/include"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-build/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-build/include"/>
 					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0"/>
 					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/x86_64-w64-mingw32"/>
 					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/backward"/>
@@ -40,25 +40,25 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 vorbis"/>
-					<CompileFile command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 vorbis"/>
+					<CompileFile command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="vorbis/fast">
-				<Option output="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-build/lib/libvorbisd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib"/>
+				<Option output="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-build/lib/libvorbisd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DASSETS=&quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/assets&quot;"/>
 					<Add option="-DDEBUG=1"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/include"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/include"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-build/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-build/include"/>
 					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0"/>
 					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/x86_64-w64-mingw32"/>
 					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/backward"/>
@@ -69,25 +69,25 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 vorbis/fast"/>
-					<CompileFile command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 vorbis/fast"/>
+					<CompileFile command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="vorbisenc">
-				<Option output="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-build/lib/libvorbisencd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib"/>
+				<Option output="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-build/lib/libvorbisencd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DASSETS=&quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/assets&quot;"/>
 					<Add option="-DDEBUG=1"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/include"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/include"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-build/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-build/include"/>
 					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0"/>
 					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/x86_64-w64-mingw32"/>
 					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/backward"/>
@@ -98,25 +98,25 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 vorbisenc"/>
-					<CompileFile command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 vorbisenc"/>
+					<CompileFile command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="vorbisenc/fast">
-				<Option output="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-build/lib/libvorbisencd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib"/>
+				<Option output="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-build/lib/libvorbisencd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DASSETS=&quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/assets&quot;"/>
 					<Add option="-DDEBUG=1"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/include"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/include"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-build/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-build/include"/>
 					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0"/>
 					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/x86_64-w64-mingw32"/>
 					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/backward"/>
@@ -127,24 +127,24 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 vorbisenc/fast"/>
-					<CompileFile command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 vorbisenc/fast"/>
+					<CompileFile command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="vorbisfile">
-				<Option output="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-build/lib/libvorbisfiled.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib"/>
+				<Option output="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-build/lib/libvorbisfiled.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DASSETS=&quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/assets&quot;"/>
 					<Add option="-DDEBUG=1"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/include"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/include"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-build/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-build/include"/>
 					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0"/>
 					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/x86_64-w64-mingw32"/>
 					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/backward"/>
@@ -155,24 +155,24 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 vorbisfile"/>
-					<CompileFile command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 vorbisfile"/>
+					<CompileFile command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="vorbisfile/fast">
-				<Option output="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-build/lib/libvorbisfiled.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib"/>
+				<Option output="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-build/lib/libvorbisfiled.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DASSETS=&quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/assets&quot;"/>
 					<Add option="-DDEBUG=1"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/include"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/include"/>
-					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-build/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/include"/>
+					<Add directory="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-build/include"/>
 					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0"/>
 					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/x86_64-w64-mingw32"/>
 					<Add directory="C:/Users/PC/Documents/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/backward"/>
@@ -183,268 +183,271 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 vorbisfile/fast"/>
-					<CompileFile command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 vorbisfile/fast"/>
+					<CompileFile command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/PC/Documents/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-build/lib/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/analysis.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/analysis.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/backends.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/backends.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/bitrate.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/bitrate.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/bitrate.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/bitrate.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/block.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/block.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/codebook.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/codebook.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/codebook.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/codebook.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/codec_internal.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/codec_internal.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/envelope.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/envelope.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/envelope.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/envelope.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/floor0.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/floor0.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/floor1.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/floor1.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/highlevel.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/highlevel.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/info.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/info.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/lookup.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/lookup.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/lookup.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/lookup.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/lookup_data.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/lookup_data.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/lpc.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/lpc.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/lpc.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/lpc.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/lsp.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/lsp.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/lsp.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/lsp.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/mapping0.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/mapping0.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/masking.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/masking.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/mdct.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/mdct.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/mdct.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/mdct.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/misc.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/misc.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/os.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/os.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/psy.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/psy.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/psy.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/psy.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/registry.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/registry.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/registry.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/registry.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/res0.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/res0.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/scales.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/scales.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/sharedbook.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/sharedbook.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/smallft.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/smallft.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/smallft.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/smallft.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/synthesis.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/synthesis.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/vorbisenc.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/vorbisenc.c">
 			<Option target="vorbis"/>
 			<Option target="vorbisenc"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/vorbisfile.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/vorbisfile.c">
 			<Option target="vorbisfile"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/window.c">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/window.c">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/window.h">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/window.h">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/win32/vorbis.def">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/win32/vorbis.def">
 			<Option target="vorbis"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/win32/vorbisenc.def">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/win32/vorbisenc.def">
 			<Option target="vorbisenc"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/win32/vorbisfile.def">
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/win32/vorbisfile.def">
 			<Option target="vorbisfile"/>
 		</Unit>
 		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\sfml-src\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/cmake/CompilerWarnings.cmake">
-			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\cmake\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/cmake/CompilerWarnings.cmake">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\sfml-src\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/cmake/Config.cmake">
-			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\cmake\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/cmake/Config.cmake">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\sfml-src\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/cmake/Macros.cmake">
-			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\cmake\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/cmake/Macros.cmake">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\sfml-src\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/cmake/Mesa3D.cmake">
-			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\cmake\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/cmake/Mesa3D.cmake">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\sfml-src\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/cmake/SFMLConfig.cmake.in">
-			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\cmake\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/cmake/SFMLConfig.cmake.in">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\sfml-src\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\sfml-src\src\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/System/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\System\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/System/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\sfml-src\src\SFML\System\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/System/Dependencies.cmake.in">
-			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\System\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/System/Dependencies.cmake.in">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\sfml-src\src\SFML\System\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Main/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\Main\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/Main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\sfml-src\src\SFML\Main\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Window/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\Window\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/Window/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\sfml-src\src\SFML\Window\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Window/Dependencies.cmake.in">
-			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\Window\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/Window/Dependencies.cmake.in">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\sfml-src\src\SFML\Window\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Network/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\Network\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/Network/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\sfml-src\src\SFML\Network\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Graphics/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\Graphics\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/Graphics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\sfml-src\src\SFML\Graphics\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Graphics/Dependencies.cmake.in">
-			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\Graphics\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/Graphics/Dependencies.cmake.in">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\sfml-src\src\SFML\Graphics\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\Audio\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\sfml-src\src\SFML\Audio\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Audio/Dependencies.cmake.in">
-			<Option virtualFolder="CMake Files\build\debug\_deps\sfml-src\src\SFML\Audio\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/Audio/Dependencies.cmake.in">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\sfml-src\src\SFML\Audio\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/freetype-src/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\build\debug\_deps\freetype-src\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/freetype-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\freetype-src\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\build\debug\_deps\ogg-src\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\ogg-src\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/ogg.pc.in">
-			<Option virtualFolder="CMake Files\build\debug\_deps\ogg-src\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/ogg.pc.in">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\ogg-src\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/cmake/CheckSizes.cmake">
-			<Option virtualFolder="CMake Files\build\debug\_deps\ogg-src\cmake\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/cmake/CheckSizes.cmake">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\ogg-src\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/cmake/OggConfig.cmake.in">
-			<Option virtualFolder="CMake Files\build\debug\_deps\ogg-src\cmake\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/cmake/OggConfig.cmake.in">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\ogg-src\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/include/ogg/config_types.h.in">
-			<Option virtualFolder="CMake Files\build\debug\_deps\ogg-src\include\ogg\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/include/ogg/config_types.h.in">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\ogg-src\include\ogg\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\build\debug\_deps\flac-src\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\flac-src\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/config.cmake.h.in">
-			<Option virtualFolder="CMake Files\build\debug\_deps\flac-src\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/config.cmake.h.in">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\flac-src\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/flac-config.cmake.in">
-			<Option virtualFolder="CMake Files\build\debug\_deps\flac-src\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/flac-config.cmake.in">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\flac-src\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/cmake/CheckA64NEON.cmake">
-			<Option virtualFolder="CMake Files\build\debug\_deps\flac-src\cmake\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/cmake/CheckA64NEON.cmake">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\flac-src\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/cmake/CheckCPUArch.cmake">
-			<Option virtualFolder="CMake Files\build\debug\_deps\flac-src\cmake\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/cmake/CheckCPUArch.c.in">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\flac-src\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/cmake/UseSystemExtensions.cmake">
-			<Option virtualFolder="CMake Files\build\debug\_deps\flac-src\cmake\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/cmake/CheckCPUArch.cmake">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\flac-src\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\build\debug\_deps\flac-src\src\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/cmake/UseSystemExtensions.cmake">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\flac-src\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/libFLAC/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\build\debug\_deps\flac-src\src\libFLAC\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\flac-src\src\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/microbench/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\build\debug\_deps\flac-src\microbench\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/src/libFLAC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\flac-src\src\libFLAC\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\build\debug\_deps\vorbis-src\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/microbench/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\flac-src\microbench\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/vorbis.pc.in">
-			<Option virtualFolder="CMake Files\build\debug\_deps\vorbis-src\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\vorbis-src\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/vorbisenc.pc.in">
-			<Option virtualFolder="CMake Files\build\debug\_deps\vorbis-src\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/vorbis.pc.in">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\vorbis-src\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/vorbisfile.pc.in">
-			<Option virtualFolder="CMake Files\build\debug\_deps\vorbis-src\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/vorbisenc.pc.in">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\vorbis-src\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\build\debug\_deps\vorbis-src\lib\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/vorbisfile.pc.in">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\vorbis-src\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/cmake/VorbisConfig.cmake.in">
-			<Option virtualFolder="CMake Files\build\debug\_deps\vorbis-src\cmake\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\vorbis-src\lib\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/imgui-sfml-src/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\build\debug\_deps\imgui-sfml-src\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/cmake/VorbisConfig.cmake.in">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\vorbis-src\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/imgui-sfml-src/cmake/FindImGui.cmake">
-			<Option virtualFolder="CMake Files\build\debug\_deps\imgui-sfml-src\cmake\"/>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/imgui-sfml-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\imgui-sfml-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/imgui-sfml-src/cmake/FindImGui.cmake">
+			<Option virtualFolder="CMake Files\build\Debug\_deps\imgui-sfml-src\cmake\"/>
 		</Unit>
 		<Unit filename="C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\"/>

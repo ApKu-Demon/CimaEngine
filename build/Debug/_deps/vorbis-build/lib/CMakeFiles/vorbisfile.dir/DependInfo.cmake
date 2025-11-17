@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/vorbis-src/lib/vorbisfile.c" "_deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/vorbisfile.c.obj" "gcc" "_deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/vorbisfile.c.obj.d"
+  "C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/vorbis-src/lib/vorbisfile.c" "_deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/vorbisfile.c.obj" "gcc" "_deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/vorbisfile.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

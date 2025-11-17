@@ -1,6 +1,6 @@
 _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.obj: \
- C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.cpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Time.hpp \
+ C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.cpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Time.hpp \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/chrono \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/chrono.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/ratio \
@@ -34,7 +34,7 @@ _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/ext/numeric_traits.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/cpp_type_traits.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/ext/type_traits.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Time.inl \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Time.inl \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/cassert \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/assert.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/stdlib.h \
@@ -49,9 +49,9 @@ _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/std_abs.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/System/Win32/SleepImpl.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Config.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/System/Win32/WindowsHeader.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/System/Win32/SleepImpl.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Config.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/System/Win32/WindowsHeader.hpp \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/windows.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sdkddkver.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/excpt.h \

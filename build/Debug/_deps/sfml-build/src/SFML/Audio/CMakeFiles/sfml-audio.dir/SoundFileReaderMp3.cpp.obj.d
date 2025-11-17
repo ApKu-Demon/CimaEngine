@@ -1,6 +1,6 @@
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.obj: \
- C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\sfml-src\src\SFML\Audio\SoundFileReaderMp3.cpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/extlibs/headers/minimp3/minimp3_ex.h \
+ C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-src\src\SFML\Audio\SoundFileReaderMp3.cpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/extlibs/headers/minimp3/minimp3_ex.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
@@ -10,7 +10,7 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/extlibs/headers/minimp3/minimp3.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/extlibs/headers/minimp3/minimp3.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/stdlib.h \
@@ -143,11 +143,11 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2copyintrin.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/movrsintrin.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxmovrsintrin.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/src/SFML/Audio/SoundFileReaderMp3.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Audio/SoundFileReader.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Audio/Export.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Config.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/Audio/SoundChannel.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/src/SFML/Audio/SoundFileReaderMp3.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Audio/SoundFileReader.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Audio/Export.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Config.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/Audio/SoundChannel.hpp \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/optional \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/version.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/type_traits \
@@ -205,8 +205,8 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/uses_allocator_args.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/tuple \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/cstdint \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Err.hpp \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/Export.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Err.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/Export.hpp \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/iosfwd \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/stringfwd.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/postypes.h \
@@ -218,7 +218,7 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/sfml-src/include/SFML/System/InputStream.hpp \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-src/include/SFML/System/InputStream.hpp \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/algorithm \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/stl_algo.h \
  C:/Users/PC/Documents/mingw64/include/c++/15.2.0/bits/algorithmfwd.h \

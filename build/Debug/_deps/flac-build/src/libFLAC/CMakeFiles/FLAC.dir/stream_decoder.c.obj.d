@@ -1,6 +1,6 @@
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_decoder.c.obj: \
- C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\flac-src\src\libFLAC\stream_decoder.c \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-build/config.h \
+ C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\stream_decoder.c \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-build/config.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
@@ -28,7 +28,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_decoder.c.obj: \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sys/stat.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/io.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/include/share/compat.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/include/share/compat.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
@@ -39,8 +39,8 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_decoder.c.obj: \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/fcntl.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sys/utime.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/include/share/win_utf8_io.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/include/FLAC/ordinals.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/include/share/win_utf8_io.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/include/FLAC/ordinals.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdbool.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/windows.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sdkddkver.h \
@@ -308,26 +308,26 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_decoder.c.obj: \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/winsvc.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/mcx.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/imm.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/include/FLAC/assert.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/include/share/alloc.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/libFLAC/include/protected/stream_decoder.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/include/FLAC/stream_decoder.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/include/FLAC/export.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/include/FLAC/format.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/include/FLAC/ordinals.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/libFLAC/include/private/ogg_decoder_aspect.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/include/ogg/ogg.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/ogg-src/include/ogg/os_types.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/libFLAC/include/private/bitreader.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/libFLAC/include/private/cpu.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/libFLAC/include/private/bitmath.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/libFLAC/include/private/cpu.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/libFLAC/include/private/crc.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/libFLAC/include/private/fixed.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/libFLAC/include/private/float.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/include/FLAC/format.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/libFLAC/include/private/format.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/libFLAC/include/private/lpc.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/libFLAC/include/private/md5.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/libFLAC/include/private/memory.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/libFLAC/include/private/macros.h
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/include/FLAC/assert.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/include/share/alloc.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/src/libFLAC/include/protected/stream_decoder.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/include/FLAC/stream_decoder.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/include/FLAC/export.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/include/FLAC/format.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/include/FLAC/ordinals.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/src/libFLAC/include/private/ogg_decoder_aspect.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/include/ogg/ogg.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/ogg-src/include/ogg/os_types.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/src/libFLAC/include/private/bitreader.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/src/libFLAC/include/private/cpu.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/src/libFLAC/include/private/bitmath.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/src/libFLAC/include/private/cpu.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/src/libFLAC/include/private/crc.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/src/libFLAC/include/private/fixed.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/src/libFLAC/include/private/float.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/include/FLAC/format.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/src/libFLAC/include/private/format.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/src/libFLAC/include/private/lpc.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/src/libFLAC/include/private/md5.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/src/libFLAC/include/private/memory.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/src/libFLAC/include/private/macros.h

@@ -86,25 +86,25 @@ sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update:
 
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'sfml-populate'"
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\sfml-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\sfml-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build
 
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure: sfml-populate-prefix/tmp/sfml-populate-cfgcmd.txt
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'sfml-populate'"
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\sfml-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\sfml-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure
 
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-gitinfo.txt
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'sfml-populate'"
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download
 
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'sfml-populate'"
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\sfml-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\sfml-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install
 
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'sfml-populate'"
@@ -122,14 +122,14 @@ sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update:
 
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'sfml-populate'"
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\sfml-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\sfml-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test
 
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update: sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update-info.txt
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'sfml-populate'"
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\sfml-src && "C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\sfml-src && "C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake
 
 CMakeFiles/sfml-populate.dir/codegen:
 .PHONY : CMakeFiles/sfml-populate.dir/codegen

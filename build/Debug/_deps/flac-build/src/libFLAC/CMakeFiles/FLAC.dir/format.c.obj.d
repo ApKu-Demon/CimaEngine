@@ -1,6 +1,6 @@
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/format.c.obj: \
- C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\_deps\flac-src\src\libFLAC\format.c \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-build/config.h \
+ C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\format.c \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-build/config.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
@@ -24,17 +24,17 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/format.c.obj: \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/include/FLAC/assert.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/include/FLAC/format.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/include/FLAC/export.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/include/FLAC/ordinals.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/include/FLAC/assert.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/include/FLAC/format.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/include/FLAC/export.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/include/FLAC/ordinals.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdbool.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/include/share/alloc.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/include/share/compat.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/include/share/alloc.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/include/share/compat.h \
  C:/Users/PC/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
@@ -43,10 +43,10 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/format.c.obj: \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/fcntl.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sys/utime.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/include/share/win_utf8_io.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/include/share/win_utf8_io.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sys/stat.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/include/FLAC/ordinals.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/include/FLAC/ordinals.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/windows.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sdkddkver.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/excpt.h \
@@ -313,5 +313,5 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/format.c.obj: \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/winsvc.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/mcx.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/imm.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/libFLAC/include/private/format.h \
- C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/_deps/flac-src/src/libFLAC/include/private/macros.h
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/src/libFLAC/include/private/format.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/_deps/flac-src/src/libFLAC/include/private/macros.h
