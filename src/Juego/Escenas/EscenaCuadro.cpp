@@ -68,7 +68,7 @@ namespace IVJ
         CE::GestorCamaras::Get().getCamaraActiva().lockEnObjeto(jugador);
         inicializar = false;
 
-        if(!bg[0].loadTileMap(ASSETS "/mapas/mapa_1_layer_1.txt"))
+        if(!bg[0].loadTileMap(ASSETS "/mapas/mapa_1_layer_4.txt"))
             exit(EXIT_FAILURE);
         if(!bg[1].loadTileMap(ASSETS "/mapas/mapa_1_layer_2.txt"))
             exit(EXIT_FAILURE);

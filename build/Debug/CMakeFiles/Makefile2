@@ -1051,8 +1051,8 @@ _deps/freetype-build/CMakeFiles/freetype.dir/clean:
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/ogg-build/CMakeFiles/ogg.dir/all
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/all
-_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/all
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/all
+_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/all
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
@@ -1282,8 +1282,8 @@ _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/clean:
 # All Build rule for target.
 _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/all: _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/all: _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/all
-_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/all: _deps/freetype-build/CMakeFiles/freetype.dir/all
 _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/all: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
+_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/all: _deps/freetype-build/CMakeFiles/freetype.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\imgui-sfml-build\CMakeFiles\ImGui-SFML.dir\build.make _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\imgui-sfml-build\CMakeFiles\ImGui-SFML.dir\build.make _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=26,27,28 "Built target ImGui-SFML"
@@ -1317,13 +1317,13 @@ _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/clean:
 # All Build rule for target.
 src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/all
-src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/freetype-build/CMakeFiles/freetype.dir/all
 src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
+src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/freetype-build/CMakeFiles/freetype.dir/all
 src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
 src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/ogg-build/CMakeFiles/ogg.dir/all
 src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/all
-src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/all
 src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/all
+src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/all
 src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/all
 src/Main/CMakeFiles/CimaEngine3v.dir/all: _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/all
 	$(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/depend
