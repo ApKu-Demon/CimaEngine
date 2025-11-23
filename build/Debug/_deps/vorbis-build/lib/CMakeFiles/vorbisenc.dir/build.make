@@ -55,7 +55,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug
+CMAKE_BINARY_DIR = C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug
 
 # Include any dependencies generated for this target.
 include _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/depend.make
@@ -75,7 +75,7 @@ _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj: _deps/vorbis-bu
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/includes_C.rsp
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj: _deps/vorbis-src/lib/vorbisenc.c
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\vorbis-build\lib && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj -MF CMakeFiles\vorbisenc.dir\vorbisenc.c.obj.d -o CMakeFiles\vorbisenc.dir\vorbisenc.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\vorbis-src\lib\vorbisenc.c
 
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.i: cmake_force
@@ -96,7 +96,7 @@ vorbisenc_EXTERNAL_OBJECTS =
 _deps/sfml-build/lib/libvorbisencd.a: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj
 _deps/sfml-build/lib/libvorbisencd.a: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/build.make
 _deps/sfml-build/lib/libvorbisencd.a: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ..\..\sfml-build\lib\libvorbisencd.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ..\..\sfml-build\lib\libvorbisencd.a"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\vorbis-build\lib && $(CMAKE_COMMAND) -P CMakeFiles\vorbisenc.dir\cmake_clean_target.cmake
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\vorbis-build\lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\vorbisenc.dir\link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/clean:
 .PHONY : _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/clean
 
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\vorbis-src\lib C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\vorbis-build\lib C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\vorbis-build\lib\CMakeFiles\vorbisenc.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\vorbis-src\lib C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\vorbis-build\lib C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\vorbis-build\lib\CMakeFiles\vorbisenc.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/depend
 

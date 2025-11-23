@@ -54,6 +54,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.obj.d"
   "CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.obj"
   "CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.obj.d"
+  "CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Lerp.cpp.obj"
+  "CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Lerp.cpp.obj.d"
   "CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.obj"
   "CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.obj.d"
   "CMakeFiles/CimaEngine3v.dir/main.cpp.obj"

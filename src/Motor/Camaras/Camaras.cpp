@@ -1,5 +1,6 @@
 #include "Camaras.hpp"
 #include "../GUI/GLogger.hpp"
+#include "../Utils/Lerp.hpp"
 
 namespace CE
 {
@@ -102,6 +103,49 @@ namespace CE
         
         // Opcional: Log para depuracion
         std::string log = nombre + " siguiendo a: (" + std::to_string(posicion_a_seguir.x) + ", " + std::to_string(posicion_a_seguir.y) + ")";
+        GLogger::Get().agregarLog(log, GLogger::Niveles::LOG_DEBUG);
+    }
+
+    CamaraSeguimientoLerp::CamaraSeguimientoLerp(const Vector2D& pos, const Vector2D& dim)
+        : Camara{pos, dim}
+    {
+        nombre = "Camara Seguimiento Lerp #" + std::to_string(Camara::num_camaras);
+    }
+
+    void CamaraSeguimientoLerp::onUpdate(float dt)
+    {
+        // Factor de suavizado LERP. Controla qué tan rápido la cámara alcanza al objetivo.
+        // Un valor de 0.05 es generalmente bueno para un seguimiento suave.
+        constexpr float LERP_FACTOR = 0.05f; 
+
+        // 1. Obtener el shared_ptr del objeto rastreado
+        auto locked_obj = m_lockObj.lock();
+        
+        // 2. Si no hay objeto, la cámara no se mueve.
+        if (!locked_obj) 
+        {
+            Camara::onUpdate(dt);
+            return;
+        }
+
+        // 3. Obtener la posición del objeto (el objetivo)
+        auto obj_transform = locked_obj->getTransformada();
+        Vector2D target_posicion = obj_transform->posicion;
+        
+        // 4. Obtener la posición actual de la cámara
+        Vector2D current_posicion = m_transform->posicion;
+
+        // 5. Aplicar Interpolación Lineal (LERP) para el seguimiento suave
+        // La nueva posición de la cámara se acerca al objetivo en un 5%.
+        m_transform->posicion = CE::lerp(current_posicion, target_posicion, LERP_FACTOR);
+
+        // 6. Aplicar la nueva posicion al centro de la vista de SFML
+        m_view->setCenter({m_transform->posicion.x, m_transform->posicion.y});
+        
+        // Opcional: Log para depuracion
+        std::string log = nombre + " (LERP: " + std::to_string(LERP_FACTOR) + 
+                          ") siguiendo a: (" + std::to_string(target_posicion.x) + 
+                          ", " + std::to_string(target_posicion.y) + ")";
         GLogger::Get().agregarLog(log, GLogger::Niveles::LOG_DEBUG);
     }
 }

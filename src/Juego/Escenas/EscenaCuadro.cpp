@@ -6,6 +6,7 @@
 #include "../../Motor/Utils/Vector2D.hpp"
 #include "../../Motor/Primitivos/GestorAssets.hpp"
 #include "../Sistemas/Sistemas.hpp"
+#include "../../Motor/Utils/Lerp.hpp"
 
 namespace IVJ
 {
@@ -22,7 +23,7 @@ namespace IVJ
         registrarBotones(sf::Keyboard::Scancode::S, "abajo");
         registrarBotones(sf::Keyboard::Scancode::Down, "abajo");
         registrarBotones(sf::Keyboard::Scancode::A, "izquierda");
-        registrarBotones(sf::Keyboard::Scancode::Left, "arriba");
+        registrarBotones(sf::Keyboard::Scancode::Left, "izquierda");
         registrarBotones(sf::Keyboard::Scancode::D, "derecha");
         registrarBotones(sf::Keyboard::Scancode::Right, "derecha");
         registrarBotones(sf::Keyboard::Scancode::Escape, "circulos");
@@ -34,33 +35,38 @@ namespace IVJ
         jugador->addComponente(std::make_shared<CE::ISprite>(CE::GestorAssets::Get().getTextura("pink"), 1.f));
         objetos.agregarPool(jugador);
 
-        // vamos hacer 3 figuras
-        
+        // figuras
         auto fig1 = std::make_shared<Rectangulo>(
             100, 100, sf::Color(255, 0, 0, 255),
             sf::Color(0, 0, 0, 255));
-        fig1->setPosicion(300, 400);
+        fig1->setPosicion(100, 400);
         fig1->getStats()->hp = 100;
 
         auto fig2 = std::make_shared<Rectangulo>(
             200, 100, sf::Color(169, 169, 0, 255),
             sf::Color(0, 0, 0, 255));
-        fig2->setPosicion(100, 100);
+        fig2->setPosicion(300, 100);
         fig2->getStats()->hp = 100;
 
         auto fig3 = std::make_shared<Rectangulo>(
             100, 200, sf::Color(0, 0, 255, 255),
             sf::Color(0, 0, 0, 255));
-        fig3->setPosicion(300, 600);
+        fig3->setPosicion(600, 400);
         fig3->getStats()->hp = 100;
+
+        auto fig4 = std::make_shared<Circulo>(
+            10, sf::Color(255, 255, 255, 255),
+            sf::Color(0, 0, 0, 255));
+        fig4->setPosicion(100, 400);
+        fig4->getStats()->hp = 100;
 
         objetos.agregarPool(fig1);
         objetos.agregarPool(fig2);
         objetos.agregarPool(fig3);
-        
+        objetos.agregarPool(fig4);
 
         // agregamos una camara
-        CE::GestorCamaras::Get().agregarCamara(std::make_shared<CE::CamaraCuadro>(
+        CE::GestorCamaras::Get().agregarCamara(std::make_shared<CE::CamaraSeguimientoLerp>(
             CE::Vector2D{540, 360}, CE::Vector2D{1080.f, 720.f}));
         CE::GestorCamaras::Get().setCamaraAciva(1);
 
@@ -78,7 +84,49 @@ namespace IVJ
 
     void EscenaCuadros::onUpdate(float dt)
     {
-        SistemaMovimientoEntes(objetos.getPool(), dt);      //OJO ! ! ! ! ! !
+        //SistemaMovimientoEntes(objetos.getPool(), dt);      //OJO ! ! ! ! ! !
+
+        auto p = jugador->getTransformada();
+        p->posicion.x += p->velocidad.x * dt;
+        p->posicion.y += p->velocidad.y * dt;
+
+        // LERP CUBICA
+        // const float max_frames = 120.f;
+        // static int tiempo_frame = 0;
+        // static unsigned char reversa = 0;
+        // const CE::Vector2D inicio = objetos[0]->getTransformada()->posicion;
+        // const CE::Vector2D control1 = objetos[1]->getTransformada()->posicion;
+        // const CE::Vector2D control2 = objetos[2]->getTransformada()->posicion;
+        // const CE::Vector2D destino = objetos[3]->getTransformada()->posicion;
+        // auto npos = CE::lerp3(inicio, control1, control2, destino, tiempo_frame / max_frames);
+        // objetos[4]->setPosicion(npos.x,npos.y);
+
+        // LERP CUADRADA
+        /*
+        const float max_frames = 120.f;
+        static int tiempo_frame = 0;
+        static unsigned char reversa = 0;
+        const CE::Vector2D inicio = objetos[0]->getTransformada()->posicion;
+        const CE::Vector2D control = objetos[1]->getTransformada()->posicion;
+        const CE::Vector2D destino = objetos[2]->getTransformada()->posicion;
+        auto npos = CE::lerp2(inicio, control, destino, tiempo_frame / max_frames);
+        objetos[4]->setPosicion(npos.x,npos.y);
+        */
+
+        // const float max_frames = 120.f;
+        // static int tiempo_frame = 0;
+        // static unsigned char reversa = 0;
+        
+        // if(tiempo_frame > max_frames)
+        //     reversa = 1;
+        // if(tiempo_frame < 0)
+        //     reversa = 0;
+        // if(reversa == 1)
+        //     tiempo_frame--;
+        // else
+        //     tiempo_frame++;
+
+        //------UPDATE GENERAL DE OBJETOS------
         for(auto &f: objetos.getPool())
             f->onUpdate(dt);
         objetos.borrarPool();
@@ -95,7 +143,7 @@ namespace IVJ
             }
             else if (accion.getNombre() == "derecha")
             {
-                p->velocidad.x = 800;
+                p->velocidad.x =+ 800;
             }
             else if (accion.getNombre() == "abajo")
             {
@@ -118,7 +166,7 @@ namespace IVJ
             }
             else if (accion.getNombre() == "derecha")
             {
-                p->velocidad.x += 0;
+                p->velocidad.x = 0;
             }
             else if (accion.getNombre() == "abajo")
             {

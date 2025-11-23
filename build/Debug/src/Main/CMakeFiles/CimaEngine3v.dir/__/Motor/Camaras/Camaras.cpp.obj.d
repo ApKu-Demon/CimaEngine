@@ -312,4 +312,5 @@ src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.obj: \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
  C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
- C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h
+ C:/Users/PC/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/src/Motor/Utils/Lerp.hpp

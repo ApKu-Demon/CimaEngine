@@ -55,7 +55,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug
+CMAKE_BINARY_DIR = C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug
 
 # Include any dependencies generated for this target.
 include _deps/freetype-build/CMakeFiles/freetype.dir/depend.make
@@ -75,7 +75,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/autofit/autofit.c.obj: _deps/fr
 _deps/freetype-build/CMakeFiles/freetype.dir/src/autofit/autofit.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/autofit/autofit.c.obj: _deps/freetype-src/src/autofit/autofit.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/autofit/autofit.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/autofit/autofit.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/autofit/autofit.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/autofit/autofit.c.obj -MF CMakeFiles\freetype.dir\src\autofit\autofit.c.obj.d -o CMakeFiles\freetype.dir\src\autofit\autofit.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\autofit\autofit.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/autofit/autofit.c.i: cmake_force
@@ -90,7 +90,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbase.c.obj: _deps/freety
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbase.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbase.c.obj: _deps/freetype-src/src/base/ftbase.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbase.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbase.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbase.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbase.c.obj -MF CMakeFiles\freetype.dir\src\base\ftbase.c.obj.d -o CMakeFiles\freetype.dir\src\base\ftbase.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\ftbase.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbase.c.i: cmake_force
@@ -105,7 +105,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbbox.c.obj: _deps/freety
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbbox.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbbox.c.obj: _deps/freetype-src/src/base/ftbbox.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbbox.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbbox.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbbox.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbbox.c.obj -MF CMakeFiles\freetype.dir\src\base\ftbbox.c.obj.d -o CMakeFiles\freetype.dir\src\base\ftbbox.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\ftbbox.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbbox.c.i: cmake_force
@@ -120,7 +120,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbdf.c.obj: _deps/freetyp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbdf.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbdf.c.obj: _deps/freetype-src/src/base/ftbdf.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbdf.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbdf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbdf.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbdf.c.obj -MF CMakeFiles\freetype.dir\src\base\ftbdf.c.obj.d -o CMakeFiles\freetype.dir\src\base\ftbdf.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\ftbdf.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbdf.c.i: cmake_force
@@ -135,7 +135,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbitmap.c.obj: _deps/free
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbitmap.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbitmap.c.obj: _deps/freetype-src/src/base/ftbitmap.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbitmap.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbitmap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbitmap.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbitmap.c.obj -MF CMakeFiles\freetype.dir\src\base\ftbitmap.c.obj.d -o CMakeFiles\freetype.dir\src\base\ftbitmap.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\ftbitmap.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbitmap.c.i: cmake_force
@@ -150,7 +150,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftcid.c.obj: _deps/freetyp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftcid.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftcid.c.obj: _deps/freetype-src/src/base/ftcid.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftcid.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftcid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftcid.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftcid.c.obj -MF CMakeFiles\freetype.dir\src\base\ftcid.c.obj.d -o CMakeFiles\freetype.dir\src\base\ftcid.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\ftcid.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftcid.c.i: cmake_force
@@ -165,7 +165,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftfstype.c.obj: _deps/free
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftfstype.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftfstype.c.obj: _deps/freetype-src/src/base/ftfstype.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftfstype.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftfstype.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftfstype.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftfstype.c.obj -MF CMakeFiles\freetype.dir\src\base\ftfstype.c.obj.d -o CMakeFiles\freetype.dir\src\base\ftfstype.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\ftfstype.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftfstype.c.i: cmake_force
@@ -180,7 +180,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgasp.c.obj: _deps/freety
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgasp.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgasp.c.obj: _deps/freetype-src/src/base/ftgasp.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgasp.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgasp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgasp.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgasp.c.obj -MF CMakeFiles\freetype.dir\src\base\ftgasp.c.obj.d -o CMakeFiles\freetype.dir\src\base\ftgasp.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\ftgasp.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgasp.c.i: cmake_force
@@ -195,7 +195,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftglyph.c.obj: _deps/freet
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftglyph.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftglyph.c.obj: _deps/freetype-src/src/base/ftglyph.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftglyph.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftglyph.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftglyph.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftglyph.c.obj -MF CMakeFiles\freetype.dir\src\base\ftglyph.c.obj.d -o CMakeFiles\freetype.dir\src\base\ftglyph.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\ftglyph.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftglyph.c.i: cmake_force
@@ -210,7 +210,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgxval.c.obj: _deps/freet
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgxval.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgxval.c.obj: _deps/freetype-src/src/base/ftgxval.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgxval.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgxval.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgxval.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgxval.c.obj -MF CMakeFiles\freetype.dir\src\base\ftgxval.c.obj.d -o CMakeFiles\freetype.dir\src\base\ftgxval.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\ftgxval.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgxval.c.i: cmake_force
@@ -225,7 +225,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftinit.c.obj: _deps/freety
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftinit.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftinit.c.obj: _deps/freetype-src/src/base/ftinit.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftinit.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftinit.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftinit.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftinit.c.obj -MF CMakeFiles\freetype.dir\src\base\ftinit.c.obj.d -o CMakeFiles\freetype.dir\src\base\ftinit.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\ftinit.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftinit.c.i: cmake_force
@@ -240,7 +240,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftmm.c.obj: _deps/freetype
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftmm.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftmm.c.obj: _deps/freetype-src/src/base/ftmm.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftmm.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftmm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftmm.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftmm.c.obj -MF CMakeFiles\freetype.dir\src\base\ftmm.c.obj.d -o CMakeFiles\freetype.dir\src\base\ftmm.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\ftmm.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftmm.c.i: cmake_force
@@ -255,7 +255,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftotval.c.obj: _deps/freet
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftotval.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftotval.c.obj: _deps/freetype-src/src/base/ftotval.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftotval.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftotval.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftotval.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftotval.c.obj -MF CMakeFiles\freetype.dir\src\base\ftotval.c.obj.d -o CMakeFiles\freetype.dir\src\base\ftotval.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\ftotval.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftotval.c.i: cmake_force
@@ -270,7 +270,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpatent.c.obj: _deps/free
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpatent.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpatent.c.obj: _deps/freetype-src/src/base/ftpatent.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpatent.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpatent.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpatent.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpatent.c.obj -MF CMakeFiles\freetype.dir\src\base\ftpatent.c.obj.d -o CMakeFiles\freetype.dir\src\base\ftpatent.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\ftpatent.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpatent.c.i: cmake_force
@@ -285,7 +285,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpfr.c.obj: _deps/freetyp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpfr.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpfr.c.obj: _deps/freetype-src/src/base/ftpfr.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpfr.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpfr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpfr.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpfr.c.obj -MF CMakeFiles\freetype.dir\src\base\ftpfr.c.obj.d -o CMakeFiles\freetype.dir\src\base\ftpfr.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\ftpfr.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpfr.c.i: cmake_force
@@ -300,7 +300,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftstroke.c.obj: _deps/free
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftstroke.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftstroke.c.obj: _deps/freetype-src/src/base/ftstroke.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftstroke.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftstroke.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftstroke.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftstroke.c.obj -MF CMakeFiles\freetype.dir\src\base\ftstroke.c.obj.d -o CMakeFiles\freetype.dir\src\base\ftstroke.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\ftstroke.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftstroke.c.i: cmake_force
@@ -315,7 +315,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftsynth.c.obj: _deps/freet
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftsynth.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftsynth.c.obj: _deps/freetype-src/src/base/ftsynth.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftsynth.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftsynth.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftsynth.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftsynth.c.obj -MF CMakeFiles\freetype.dir\src\base\ftsynth.c.obj.d -o CMakeFiles\freetype.dir\src\base\ftsynth.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\ftsynth.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftsynth.c.i: cmake_force
@@ -330,7 +330,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/fttype1.c.obj: _deps/freet
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/fttype1.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/fttype1.c.obj: _deps/freetype-src/src/base/fttype1.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/fttype1.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/fttype1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/fttype1.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/base/fttype1.c.obj -MF CMakeFiles\freetype.dir\src\base\fttype1.c.obj.d -o CMakeFiles\freetype.dir\src\base\fttype1.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\fttype1.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/fttype1.c.i: cmake_force
@@ -345,7 +345,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.obj: _deps/free
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.obj: _deps/freetype-src/src/base/ftwinfnt.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.obj -MF CMakeFiles\freetype.dir\src\base\ftwinfnt.c.obj.d -o CMakeFiles\freetype.dir\src\base\ftwinfnt.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\ftwinfnt.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.i: cmake_force
@@ -360,7 +360,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/bdf/bdf.c.obj: _deps/freetype-b
 _deps/freetype-build/CMakeFiles/freetype.dir/src/bdf/bdf.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/bdf/bdf.c.obj: _deps/freetype-src/src/bdf/bdf.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/bdf/bdf.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/bdf/bdf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/bdf/bdf.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/bdf/bdf.c.obj -MF CMakeFiles\freetype.dir\src\bdf\bdf.c.obj.d -o CMakeFiles\freetype.dir\src\bdf\bdf.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\bdf\bdf.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/bdf/bdf.c.i: cmake_force
@@ -375,7 +375,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.obj: _deps/free
 _deps/freetype-build/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.obj: _deps/freetype-src/src/bzip2/ftbzip2.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.obj -MF CMakeFiles\freetype.dir\src\bzip2\ftbzip2.c.obj.d -o CMakeFiles\freetype.dir\src\bzip2\ftbzip2.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\bzip2\ftbzip2.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.i: cmake_force
@@ -390,7 +390,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/cache/ftcache.c.obj: _deps/free
 _deps/freetype-build/CMakeFiles/freetype.dir/src/cache/ftcache.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/cache/ftcache.c.obj: _deps/freetype-src/src/cache/ftcache.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/cache/ftcache.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/cache/ftcache.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/cache/ftcache.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/cache/ftcache.c.obj -MF CMakeFiles\freetype.dir\src\cache\ftcache.c.obj.d -o CMakeFiles\freetype.dir\src\cache\ftcache.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\cache\ftcache.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/cache/ftcache.c.i: cmake_force
@@ -405,7 +405,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/cff/cff.c.obj: _deps/freetype-b
 _deps/freetype-build/CMakeFiles/freetype.dir/src/cff/cff.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/cff/cff.c.obj: _deps/freetype-src/src/cff/cff.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/cff/cff.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/cff/cff.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/cff/cff.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/cff/cff.c.obj -MF CMakeFiles\freetype.dir\src\cff\cff.c.obj.d -o CMakeFiles\freetype.dir\src\cff\cff.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\cff\cff.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/cff/cff.c.i: cmake_force
@@ -420,7 +420,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.obj: _deps/freet
 _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.obj: _deps/freetype-src/src/cid/type1cid.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.obj -MF CMakeFiles\freetype.dir\src\cid\type1cid.c.obj.d -o CMakeFiles\freetype.dir\src\cid\type1cid.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\cid\type1cid.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.i: cmake_force
@@ -435,7 +435,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.obj: _deps/freety
 _deps/freetype-build/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.obj: _deps/freetype-src/src/gzip/ftgzip.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.obj -MF CMakeFiles\freetype.dir\src\gzip\ftgzip.c.obj.d -o CMakeFiles\freetype.dir\src\gzip\ftgzip.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\gzip\ftgzip.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.i: cmake_force
@@ -450,7 +450,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.obj: _deps/freetype
 _deps/freetype-build/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.obj: _deps/freetype-src/src/lzw/ftlzw.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.obj -MF CMakeFiles\freetype.dir\src\lzw\ftlzw.c.obj.d -o CMakeFiles\freetype.dir\src\lzw\ftlzw.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\lzw\ftlzw.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.i: cmake_force
@@ -465,7 +465,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/pcf/pcf.c.obj: _deps/freetype-b
 _deps/freetype-build/CMakeFiles/freetype.dir/src/pcf/pcf.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/pcf/pcf.c.obj: _deps/freetype-src/src/pcf/pcf.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/pcf/pcf.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/pcf/pcf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/pcf/pcf.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/pcf/pcf.c.obj -MF CMakeFiles\freetype.dir\src\pcf\pcf.c.obj.d -o CMakeFiles\freetype.dir\src\pcf\pcf.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\pcf\pcf.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/pcf/pcf.c.i: cmake_force
@@ -480,7 +480,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/pfr/pfr.c.obj: _deps/freetype-b
 _deps/freetype-build/CMakeFiles/freetype.dir/src/pfr/pfr.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/pfr/pfr.c.obj: _deps/freetype-src/src/pfr/pfr.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/pfr/pfr.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/pfr/pfr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/pfr/pfr.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/pfr/pfr.c.obj -MF CMakeFiles\freetype.dir\src\pfr\pfr.c.obj.d -o CMakeFiles\freetype.dir\src\pfr\pfr.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\pfr\pfr.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/pfr/pfr.c.i: cmake_force
@@ -495,7 +495,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/psaux/psaux.c.obj: _deps/freety
 _deps/freetype-build/CMakeFiles/freetype.dir/src/psaux/psaux.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/psaux/psaux.c.obj: _deps/freetype-src/src/psaux/psaux.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/psaux/psaux.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/psaux/psaux.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/psaux/psaux.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/psaux/psaux.c.obj -MF CMakeFiles\freetype.dir\src\psaux\psaux.c.obj.d -o CMakeFiles\freetype.dir\src\psaux\psaux.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\psaux\psaux.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/psaux/psaux.c.i: cmake_force
@@ -510,7 +510,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.obj: _deps/
 _deps/freetype-build/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.obj: _deps/freetype-src/src/pshinter/pshinter.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.obj -MF CMakeFiles\freetype.dir\src\pshinter\pshinter.c.obj.d -o CMakeFiles\freetype.dir\src\pshinter\pshinter.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\pshinter\pshinter.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.i: cmake_force
@@ -525,7 +525,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/psnames/psnames.c.obj: _deps/fr
 _deps/freetype-build/CMakeFiles/freetype.dir/src/psnames/psnames.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/psnames/psnames.c.obj: _deps/freetype-src/src/psnames/psnames.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/psnames/psnames.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/psnames/psnames.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/psnames/psnames.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/psnames/psnames.c.obj -MF CMakeFiles\freetype.dir\src\psnames\psnames.c.obj.d -o CMakeFiles\freetype.dir\src\psnames\psnames.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\psnames\psnames.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/psnames/psnames.c.i: cmake_force
@@ -540,7 +540,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/raster/raster.c.obj: _deps/free
 _deps/freetype-build/CMakeFiles/freetype.dir/src/raster/raster.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/raster/raster.c.obj: _deps/freetype-src/src/raster/raster.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/raster/raster.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/raster/raster.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/raster/raster.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/raster/raster.c.obj -MF CMakeFiles\freetype.dir\src\raster\raster.c.obj.d -o CMakeFiles\freetype.dir\src\raster\raster.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\raster\raster.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/raster/raster.c.i: cmake_force
@@ -555,7 +555,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/sdf/sdf.c.obj: _deps/freetype-b
 _deps/freetype-build/CMakeFiles/freetype.dir/src/sdf/sdf.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/sdf/sdf.c.obj: _deps/freetype-src/src/sdf/sdf.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/sdf/sdf.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/sdf/sdf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/sdf/sdf.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/sdf/sdf.c.obj -MF CMakeFiles\freetype.dir\src\sdf\sdf.c.obj.d -o CMakeFiles\freetype.dir\src\sdf\sdf.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\sdf\sdf.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/sdf/sdf.c.i: cmake_force
@@ -570,7 +570,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.obj: _deps/freetype
 _deps/freetype-build/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.obj: _deps/freetype-src/src/sfnt/sfnt.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.obj -MF CMakeFiles\freetype.dir\src\sfnt\sfnt.c.obj.d -o CMakeFiles\freetype.dir\src\sfnt\sfnt.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\sfnt\sfnt.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.i: cmake_force
@@ -585,7 +585,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/smooth/smooth.c.obj: _deps/free
 _deps/freetype-build/CMakeFiles/freetype.dir/src/smooth/smooth.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/smooth/smooth.c.obj: _deps/freetype-src/src/smooth/smooth.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/smooth/smooth.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/smooth/smooth.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/smooth/smooth.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/smooth/smooth.c.obj -MF CMakeFiles\freetype.dir\src\smooth\smooth.c.obj.d -o CMakeFiles\freetype.dir\src\smooth\smooth.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\smooth\smooth.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/smooth/smooth.c.i: cmake_force
@@ -600,7 +600,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/svg/svg.c.obj: _deps/freetype-b
 _deps/freetype-build/CMakeFiles/freetype.dir/src/svg/svg.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/svg/svg.c.obj: _deps/freetype-src/src/svg/svg.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/svg/svg.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/svg/svg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/svg/svg.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/svg/svg.c.obj -MF CMakeFiles\freetype.dir\src\svg\svg.c.obj.d -o CMakeFiles\freetype.dir\src\svg\svg.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\svg\svg.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/svg/svg.c.i: cmake_force
@@ -615,7 +615,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/truetype/truetype.c.obj: _deps/
 _deps/freetype-build/CMakeFiles/freetype.dir/src/truetype/truetype.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/truetype/truetype.c.obj: _deps/freetype-src/src/truetype/truetype.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/truetype/truetype.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/truetype/truetype.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/truetype/truetype.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/truetype/truetype.c.obj -MF CMakeFiles\freetype.dir\src\truetype\truetype.c.obj.d -o CMakeFiles\freetype.dir\src\truetype\truetype.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\truetype\truetype.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/truetype/truetype.c.i: cmake_force
@@ -630,7 +630,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/type1/type1.c.obj: _deps/freety
 _deps/freetype-build/CMakeFiles/freetype.dir/src/type1/type1.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/type1/type1.c.obj: _deps/freetype-src/src/type1/type1.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/type1/type1.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/type1/type1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/type1/type1.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/type1/type1.c.obj -MF CMakeFiles\freetype.dir\src\type1\type1.c.obj.d -o CMakeFiles\freetype.dir\src\type1\type1.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\type1\type1.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/type1/type1.c.i: cmake_force
@@ -645,7 +645,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/type42/type42.c.obj: _deps/free
 _deps/freetype-build/CMakeFiles/freetype.dir/src/type42/type42.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/type42/type42.c.obj: _deps/freetype-src/src/type42/type42.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/type42/type42.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/type42/type42.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/type42/type42.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/type42/type42.c.obj -MF CMakeFiles\freetype.dir\src\type42\type42.c.obj.d -o CMakeFiles\freetype.dir\src\type42\type42.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\type42\type42.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/type42/type42.c.i: cmake_force
@@ -660,7 +660,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.obj: _deps/fr
 _deps/freetype-build/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.obj: _deps/freetype-src/src/winfonts/winfnt.c
 _deps/freetype-build/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.obj -MF CMakeFiles\freetype.dir\src\winfonts\winfnt.c.obj.d -o CMakeFiles\freetype.dir\src\winfonts\winfnt.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\winfonts\winfnt.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.i: cmake_force
@@ -675,7 +675,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftsystem.c.obj: _dep
 _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftsystem.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftsystem.c.obj: _deps/freetype-src/builds/windows/ftsystem.c
 _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftsystem.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftsystem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftsystem.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftsystem.c.obj -MF CMakeFiles\freetype.dir\builds\windows\ftsystem.c.obj.d -o CMakeFiles\freetype.dir\builds\windows\ftsystem.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\builds\windows\ftsystem.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftsystem.c.i: cmake_force
@@ -690,7 +690,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftdebug.c.obj: _deps
 _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftdebug.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/includes_C.rsp
 _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftdebug.c.obj: _deps/freetype-src/builds/windows/ftdebug.c
 _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftdebug.c.obj: _deps/freetype-build/CMakeFiles/freetype.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftdebug.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftdebug.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftdebug.c.obj -MF CMakeFiles\freetype.dir\builds\windows\ftdebug.c.obj.d -o CMakeFiles\freetype.dir\builds\windows\ftdebug.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\builds\windows\ftdebug.c
 
 _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftdebug.c.i: cmake_force
@@ -703,7 +703,7 @@ _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftdebug.c.s: cmake_f
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftver.rc.obj: _deps/freetype-build/CMakeFiles/freetype.dir/flags.make
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftver.rc.obj: _deps/freetype-src/src/base/ftver.rc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building RC object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftver.rc.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building RC object _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftver.rc.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && C:\Users\PC\Documents\mingw64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src\src\base\ftver.rc CMakeFiles\freetype.dir\src\base\ftver.rc.obj
 
 # Object files for target freetype
@@ -800,7 +800,7 @@ _deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.di
 _deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftver.rc.obj
 _deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/build.make
 _deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Linking C static library ..\sfml-build\lib\libfreetyped.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Linking C static library ..\sfml-build\lib\libfreetyped.a"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && $(CMAKE_COMMAND) -P CMakeFiles\freetype.dir\cmake_clean_target.cmake
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\freetype.dir\link.txt --verbose=$(VERBOSE)
 
@@ -813,6 +813,6 @@ _deps/freetype-build/CMakeFiles/freetype.dir/clean:
 .PHONY : _deps/freetype-build/CMakeFiles/freetype.dir/clean
 
 _deps/freetype-build/CMakeFiles/freetype.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build\CMakeFiles\freetype.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-src C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\freetype-build\CMakeFiles\freetype.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/freetype-build/CMakeFiles/freetype.dir/depend
 

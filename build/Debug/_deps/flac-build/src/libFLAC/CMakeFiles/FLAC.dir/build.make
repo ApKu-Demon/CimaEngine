@@ -55,7 +55,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug
+CMAKE_BINARY_DIR = C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug
 
 # Include any dependencies generated for this target.
 include _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/depend.make
@@ -75,7 +75,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitmath.c.obj: _deps/flac-build
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitmath.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitmath.c.obj: _deps/flac-src/src/libFLAC/bitmath.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitmath.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitmath.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitmath.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitmath.c.obj -MF CMakeFiles\FLAC.dir\bitmath.c.obj.d -o CMakeFiles\FLAC.dir\bitmath.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\bitmath.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitmath.c.i: cmake_force
@@ -90,7 +90,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitreader.c.obj: _deps/flac-bui
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitreader.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitreader.c.obj: _deps/flac-src/src/libFLAC/bitreader.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitreader.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitreader.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitreader.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitreader.c.obj -MF CMakeFiles\FLAC.dir\bitreader.c.obj.d -o CMakeFiles\FLAC.dir\bitreader.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\bitreader.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitreader.c.i: cmake_force
@@ -105,7 +105,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitwriter.c.obj: _deps/flac-bui
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitwriter.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitwriter.c.obj: _deps/flac-src/src/libFLAC/bitwriter.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitwriter.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitwriter.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitwriter.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitwriter.c.obj -MF CMakeFiles\FLAC.dir\bitwriter.c.obj.d -o CMakeFiles\FLAC.dir\bitwriter.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\bitwriter.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitwriter.c.i: cmake_force
@@ -120,7 +120,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/cpu.c.obj: _deps/flac-build/src
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/cpu.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/cpu.c.obj: _deps/flac-src/src/libFLAC/cpu.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/cpu.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/cpu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/cpu.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/cpu.c.obj -MF CMakeFiles\FLAC.dir\cpu.c.obj.d -o CMakeFiles\FLAC.dir\cpu.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\cpu.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/cpu.c.i: cmake_force
@@ -135,7 +135,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/crc.c.obj: _deps/flac-build/src
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/crc.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/crc.c.obj: _deps/flac-src/src/libFLAC/crc.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/crc.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/crc.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/crc.c.obj -MF CMakeFiles\FLAC.dir\crc.c.obj.d -o CMakeFiles\FLAC.dir\crc.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\crc.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/crc.c.i: cmake_force
@@ -150,7 +150,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed.c.obj: _deps/flac-build/s
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed.c.obj: _deps/flac-src/src/libFLAC/fixed.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed.c.obj -MF CMakeFiles\FLAC.dir\fixed.c.obj.d -o CMakeFiles\FLAC.dir\fixed.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\fixed.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed.c.i: cmake_force
@@ -165,7 +165,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse2.c.obj: _deps/
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse2.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse2.c.obj: _deps/flac-src/src/libFLAC/fixed_intrin_sse2.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse2.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse2.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse2.c.obj -MF CMakeFiles\FLAC.dir\fixed_intrin_sse2.c.obj.d -o CMakeFiles\FLAC.dir\fixed_intrin_sse2.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\fixed_intrin_sse2.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse2.c.i: cmake_force
@@ -180,7 +180,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_ssse3.c.obj: _deps
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_ssse3.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_ssse3.c.obj: _deps/flac-src/src/libFLAC/fixed_intrin_ssse3.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_ssse3.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_ssse3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_ssse3.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_ssse3.c.obj -MF CMakeFiles\FLAC.dir\fixed_intrin_ssse3.c.obj.d -o CMakeFiles\FLAC.dir\fixed_intrin_ssse3.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\fixed_intrin_ssse3.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_ssse3.c.i: cmake_force
@@ -195,7 +195,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse42.c.obj: _deps
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse42.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse42.c.obj: _deps/flac-src/src/libFLAC/fixed_intrin_sse42.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse42.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse42.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse42.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse42.c.obj -MF CMakeFiles\FLAC.dir\fixed_intrin_sse42.c.obj.d -o CMakeFiles\FLAC.dir\fixed_intrin_sse42.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\fixed_intrin_sse42.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse42.c.i: cmake_force
@@ -210,7 +210,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_avx2.c.obj: _deps/
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_avx2.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_avx2.c.obj: _deps/flac-src/src/libFLAC/fixed_intrin_avx2.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_avx2.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_avx2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_avx2.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_avx2.c.obj -MF CMakeFiles\FLAC.dir\fixed_intrin_avx2.c.obj.d -o CMakeFiles\FLAC.dir\fixed_intrin_avx2.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\fixed_intrin_avx2.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_avx2.c.i: cmake_force
@@ -225,7 +225,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/float.c.obj: _deps/flac-build/s
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/float.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/float.c.obj: _deps/flac-src/src/libFLAC/float.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/float.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/float.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/float.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/float.c.obj -MF CMakeFiles\FLAC.dir\float.c.obj.d -o CMakeFiles\FLAC.dir\float.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\float.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/float.c.i: cmake_force
@@ -240,7 +240,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/format.c.obj: _deps/flac-build/
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/format.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/format.c.obj: _deps/flac-src/src/libFLAC/format.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/format.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/format.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/format.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/format.c.obj -MF CMakeFiles\FLAC.dir\format.c.obj.d -o CMakeFiles\FLAC.dir\format.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\format.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/format.c.i: cmake_force
@@ -255,7 +255,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc.c.obj: _deps/flac-build/src
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc.c.obj: _deps/flac-src/src/libFLAC/lpc.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc.c.obj -MF CMakeFiles\FLAC.dir\lpc.c.obj.d -o CMakeFiles\FLAC.dir\lpc.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\lpc.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc.c.i: cmake_force
@@ -270,7 +270,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_neon.c.obj: _deps/fl
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_neon.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_neon.c.obj: _deps/flac-src/src/libFLAC/lpc_intrin_neon.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_neon.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_neon.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_neon.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_neon.c.obj -MF CMakeFiles\FLAC.dir\lpc_intrin_neon.c.obj.d -o CMakeFiles\FLAC.dir\lpc_intrin_neon.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\lpc_intrin_neon.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_neon.c.i: cmake_force
@@ -285,7 +285,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse2.c.obj: _deps/fl
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse2.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse2.c.obj: _deps/flac-src/src/libFLAC/lpc_intrin_sse2.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse2.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse2.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse2.c.obj -MF CMakeFiles\FLAC.dir\lpc_intrin_sse2.c.obj.d -o CMakeFiles\FLAC.dir\lpc_intrin_sse2.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\lpc_intrin_sse2.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse2.c.i: cmake_force
@@ -300,7 +300,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse41.c.obj: _deps/f
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse41.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse41.c.obj: _deps/flac-src/src/libFLAC/lpc_intrin_sse41.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse41.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse41.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse41.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse41.c.obj -MF CMakeFiles\FLAC.dir\lpc_intrin_sse41.c.obj.d -o CMakeFiles\FLAC.dir\lpc_intrin_sse41.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\lpc_intrin_sse41.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse41.c.i: cmake_force
@@ -315,7 +315,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_avx2.c.obj: _deps/fl
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_avx2.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_avx2.c.obj: _deps/flac-src/src/libFLAC/lpc_intrin_avx2.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_avx2.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_avx2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_avx2.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_avx2.c.obj -MF CMakeFiles\FLAC.dir\lpc_intrin_avx2.c.obj.d -o CMakeFiles\FLAC.dir\lpc_intrin_avx2.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\lpc_intrin_avx2.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_avx2.c.i: cmake_force
@@ -330,7 +330,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_fma.c.obj: _deps/fla
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_fma.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_fma.c.obj: _deps/flac-src/src/libFLAC/lpc_intrin_fma.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_fma.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_fma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_fma.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_fma.c.obj -MF CMakeFiles\FLAC.dir\lpc_intrin_fma.c.obj.d -o CMakeFiles\FLAC.dir\lpc_intrin_fma.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\lpc_intrin_fma.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_fma.c.i: cmake_force
@@ -345,7 +345,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/md5.c.obj: _deps/flac-build/src
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/md5.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/md5.c.obj: _deps/flac-src/src/libFLAC/md5.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/md5.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/md5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/md5.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/md5.c.obj -MF CMakeFiles\FLAC.dir\md5.c.obj.d -o CMakeFiles\FLAC.dir\md5.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\md5.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/md5.c.i: cmake_force
@@ -360,7 +360,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/memory.c.obj: _deps/flac-build/
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/memory.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/memory.c.obj: _deps/flac-src/src/libFLAC/memory.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/memory.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/memory.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/memory.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/memory.c.obj -MF CMakeFiles\FLAC.dir\memory.c.obj.d -o CMakeFiles\FLAC.dir\memory.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\memory.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/memory.c.i: cmake_force
@@ -375,7 +375,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_iterators.c.obj: _deps
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_iterators.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_iterators.c.obj: _deps/flac-src/src/libFLAC/metadata_iterators.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_iterators.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_iterators.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_iterators.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_iterators.c.obj -MF CMakeFiles\FLAC.dir\metadata_iterators.c.obj.d -o CMakeFiles\FLAC.dir\metadata_iterators.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\metadata_iterators.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_iterators.c.i: cmake_force
@@ -390,7 +390,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_object.c.obj: _deps/fl
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_object.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_object.c.obj: _deps/flac-src/src/libFLAC/metadata_object.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_object.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_object.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_object.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_object.c.obj -MF CMakeFiles\FLAC.dir\metadata_object.c.obj.d -o CMakeFiles\FLAC.dir\metadata_object.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\metadata_object.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_object.c.i: cmake_force
@@ -405,7 +405,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_decoder.c.obj: _deps/fla
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_decoder.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_decoder.c.obj: _deps/flac-src/src/libFLAC/stream_decoder.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_decoder.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_decoder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_decoder.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_decoder.c.obj -MF CMakeFiles\FLAC.dir\stream_decoder.c.obj.d -o CMakeFiles\FLAC.dir\stream_decoder.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\stream_decoder.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_decoder.c.i: cmake_force
@@ -420,7 +420,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder.c.obj: _deps/fla
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder.c.obj: _deps/flac-src/src/libFLAC/stream_encoder.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder.c.obj -MF CMakeFiles\FLAC.dir\stream_encoder.c.obj.d -o CMakeFiles\FLAC.dir\stream_encoder.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\stream_encoder.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder.c.i: cmake_force
@@ -435,7 +435,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_sse2.c.ob
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_sse2.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_sse2.c.obj: _deps/flac-src/src/libFLAC/stream_encoder_intrin_sse2.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_sse2.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_sse2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_sse2.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_sse2.c.obj -MF CMakeFiles\FLAC.dir\stream_encoder_intrin_sse2.c.obj.d -o CMakeFiles\FLAC.dir\stream_encoder_intrin_sse2.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\stream_encoder_intrin_sse2.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_sse2.c.i: cmake_force
@@ -450,7 +450,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_ssse3.c.o
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_ssse3.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_ssse3.c.obj: _deps/flac-src/src/libFLAC/stream_encoder_intrin_ssse3.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_ssse3.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_ssse3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_ssse3.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_ssse3.c.obj -MF CMakeFiles\FLAC.dir\stream_encoder_intrin_ssse3.c.obj.d -o CMakeFiles\FLAC.dir\stream_encoder_intrin_ssse3.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\stream_encoder_intrin_ssse3.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_ssse3.c.i: cmake_force
@@ -465,7 +465,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_avx2.c.ob
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_avx2.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_avx2.c.obj: _deps/flac-src/src/libFLAC/stream_encoder_intrin_avx2.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_avx2.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_avx2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_avx2.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_avx2.c.obj -MF CMakeFiles\FLAC.dir\stream_encoder_intrin_avx2.c.obj.d -o CMakeFiles\FLAC.dir\stream_encoder_intrin_avx2.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\stream_encoder_intrin_avx2.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_avx2.c.i: cmake_force
@@ -480,7 +480,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_framing.c.obj: _
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_framing.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_framing.c.obj: _deps/flac-src/src/libFLAC/stream_encoder_framing.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_framing.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_framing.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_framing.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_framing.c.obj -MF CMakeFiles\FLAC.dir\stream_encoder_framing.c.obj.d -o CMakeFiles\FLAC.dir\stream_encoder_framing.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\stream_encoder_framing.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_framing.c.i: cmake_force
@@ -493,14 +493,14 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_framing.c.s: cma
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/version.rc.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/flags.make
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/version.rc.obj: _deps/flac-src/src/libFLAC/version.rc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building RC object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/version.rc.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building RC object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/version.rc.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\version.rc CMakeFiles\FLAC.dir\version.rc.obj
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/window.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/flags.make
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/window.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/window.c.obj: _deps/flac-src/src/libFLAC/window.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/window.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/window.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/window.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/window.c.obj -MF CMakeFiles\FLAC.dir\window.c.obj.d -o CMakeFiles\FLAC.dir\window.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\window.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/window.c.i: cmake_force
@@ -515,7 +515,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/__/share/win_utf8_io/win_utf8_i
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/__/share/win_utf8_io/win_utf8_io.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/__/share/win_utf8_io/win_utf8_io.c.obj: _deps/flac-src/src/share/win_utf8_io/win_utf8_io.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/__/share/win_utf8_io/win_utf8_io.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/__/share/win_utf8_io/win_utf8_io.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/__/share/win_utf8_io/win_utf8_io.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/__/share/win_utf8_io/win_utf8_io.c.obj -MF CMakeFiles\FLAC.dir\__\share\win_utf8_io\win_utf8_io.c.obj.d -o CMakeFiles\FLAC.dir\__\share\win_utf8_io\win_utf8_io.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\share\win_utf8_io\win_utf8_io.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/__/share/win_utf8_io/win_utf8_io.c.i: cmake_force
@@ -530,7 +530,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_decoder_aspect.c.obj: _deps
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_decoder_aspect.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_decoder_aspect.c.obj: _deps/flac-src/src/libFLAC/ogg_decoder_aspect.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_decoder_aspect.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_decoder_aspect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_decoder_aspect.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_decoder_aspect.c.obj -MF CMakeFiles\FLAC.dir\ogg_decoder_aspect.c.obj.d -o CMakeFiles\FLAC.dir\ogg_decoder_aspect.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\ogg_decoder_aspect.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_decoder_aspect.c.i: cmake_force
@@ -545,7 +545,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_encoder_aspect.c.obj: _deps
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_encoder_aspect.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_encoder_aspect.c.obj: _deps/flac-src/src/libFLAC/ogg_encoder_aspect.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_encoder_aspect.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_encoder_aspect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_encoder_aspect.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_encoder_aspect.c.obj -MF CMakeFiles\FLAC.dir\ogg_encoder_aspect.c.obj.d -o CMakeFiles\FLAC.dir\ogg_encoder_aspect.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\ogg_encoder_aspect.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_encoder_aspect.c.i: cmake_force
@@ -560,7 +560,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_helper.c.obj: _deps/flac-bu
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_helper.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_helper.c.obj: _deps/flac-src/src/libFLAC/ogg_helper.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_helper.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_helper.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_helper.c.obj -MF CMakeFiles\FLAC.dir\ogg_helper.c.obj.d -o CMakeFiles\FLAC.dir\ogg_helper.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\ogg_helper.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_helper.c.i: cmake_force
@@ -575,7 +575,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_mapping.c.obj: _deps/flac-b
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_mapping.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/includes_C.rsp
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_mapping.c.obj: _deps/flac-src/src/libFLAC/ogg_mapping.c
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_mapping.c.obj: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_mapping.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_mapping.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_mapping.c.obj -MF CMakeFiles\FLAC.dir\ogg_mapping.c.obj.d -o CMakeFiles\FLAC.dir\ogg_mapping.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC\ogg_mapping.c
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_mapping.c.i: cmake_force
@@ -664,7 +664,7 @@ _deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.di
 _deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_mapping.c.obj
 _deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/build.make
 _deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking C static library ..\..\..\sfml-build\lib\libFLACd.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking C static library ..\..\..\sfml-build\lib\libFLACd.a"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && $(CMAKE_COMMAND) -P CMakeFiles\FLAC.dir\cmake_clean_target.cmake
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FLAC.dir\link.txt --verbose=$(VERBOSE)
 
@@ -677,6 +677,6 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/clean:
 .PHONY : _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/clean
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC\CMakeFiles\FLAC.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-src\src\libFLAC C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\flac-build\src\libFLAC\CMakeFiles\FLAC.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/depend
 

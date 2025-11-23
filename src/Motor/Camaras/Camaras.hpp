@@ -62,6 +62,14 @@ namespace CE
             ~CamaraSeguimiento() override {};
             void onUpdate(float dt) override; 
     };
+
+    class CamaraSeguimientoLerp: public Camara
+    {
+        public:
+            CamaraSeguimientoLerp(const Vector2D& pos, const Vector2D& dim); 
+            ~CamaraSeguimientoLerp() override {};
+            void onUpdate(float dt) override; 
+    };
 }
 
 

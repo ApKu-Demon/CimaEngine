@@ -59,7 +59,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug
+CMAKE_BINARY_DIR = C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEn
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/Debug/CPackSourceConfig.cmake
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/PC/Documents/Universidad_UABC/02_Proyectos/02_CimaEngine/CimaEngine/build/debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -151,14 +151,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\src\Main\\CMakeFiles\progress.marks
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Main/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles 0
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\src\Main\\CMakeFiles\progress.marks
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Main/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Main/clean
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Main/clean
 .PHONY : clean
 
 # The main clean target
@@ -167,22 +167,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Main/preinstall
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Main/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Main/preinstall
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Main/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/Main/CMakeFiles/CimaEngine3v.dir/rule:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Main/CMakeFiles/CimaEngine3v.dir/rule
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Main/CMakeFiles/CimaEngine3v.dir/rule
 .PHONY : src/Main/CMakeFiles/CimaEngine3v.dir/rule
 
 # Convenience name for target.
@@ -191,7 +191,7 @@ CimaEngine3v: src/Main/CMakeFiles/CimaEngine3v.dir/rule
 
 # fast build rule for target.
 CimaEngine3v/fast:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/build
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/build
 .PHONY : CimaEngine3v/fast
 
 __/Juego/Componentes/JComponentes.obj: __/Juego/Componentes/JComponentes.cpp.obj
@@ -199,7 +199,7 @@ __/Juego/Componentes/JComponentes.obj: __/Juego/Componentes/JComponentes.cpp.obj
 
 # target to build an object file
 __/Juego/Componentes/JComponentes.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.obj
 .PHONY : __/Juego/Componentes/JComponentes.cpp.obj
 
 __/Juego/Componentes/JComponentes.i: __/Juego/Componentes/JComponentes.cpp.i
@@ -207,7 +207,7 @@ __/Juego/Componentes/JComponentes.i: __/Juego/Componentes/JComponentes.cpp.i
 
 # target to preprocess a source file
 __/Juego/Componentes/JComponentes.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.i
 .PHONY : __/Juego/Componentes/JComponentes.cpp.i
 
 __/Juego/Componentes/JComponentes.s: __/Juego/Componentes/JComponentes.cpp.s
@@ -215,7 +215,7 @@ __/Juego/Componentes/JComponentes.s: __/Juego/Componentes/JComponentes.cpp.s
 
 # target to generate assembly for a file
 __/Juego/Componentes/JComponentes.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Componentes/JComponentes.cpp.s
 .PHONY : __/Juego/Componentes/JComponentes.cpp.s
 
 __/Juego/Escenas/EscenaCirculos.obj: __/Juego/Escenas/EscenaCirculos.cpp.obj
@@ -223,7 +223,7 @@ __/Juego/Escenas/EscenaCirculos.obj: __/Juego/Escenas/EscenaCirculos.cpp.obj
 
 # target to build an object file
 __/Juego/Escenas/EscenaCirculos.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaCirculos.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaCirculos.cpp.obj
 .PHONY : __/Juego/Escenas/EscenaCirculos.cpp.obj
 
 __/Juego/Escenas/EscenaCirculos.i: __/Juego/Escenas/EscenaCirculos.cpp.i
@@ -231,7 +231,7 @@ __/Juego/Escenas/EscenaCirculos.i: __/Juego/Escenas/EscenaCirculos.cpp.i
 
 # target to preprocess a source file
 __/Juego/Escenas/EscenaCirculos.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaCirculos.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaCirculos.cpp.i
 .PHONY : __/Juego/Escenas/EscenaCirculos.cpp.i
 
 __/Juego/Escenas/EscenaCirculos.s: __/Juego/Escenas/EscenaCirculos.cpp.s
@@ -239,7 +239,7 @@ __/Juego/Escenas/EscenaCirculos.s: __/Juego/Escenas/EscenaCirculos.cpp.s
 
 # target to generate assembly for a file
 __/Juego/Escenas/EscenaCirculos.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaCirculos.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaCirculos.cpp.s
 .PHONY : __/Juego/Escenas/EscenaCirculos.cpp.s
 
 __/Juego/Escenas/EscenaCuadro.obj: __/Juego/Escenas/EscenaCuadro.cpp.obj
@@ -247,7 +247,7 @@ __/Juego/Escenas/EscenaCuadro.obj: __/Juego/Escenas/EscenaCuadro.cpp.obj
 
 # target to build an object file
 __/Juego/Escenas/EscenaCuadro.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaCuadro.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaCuadro.cpp.obj
 .PHONY : __/Juego/Escenas/EscenaCuadro.cpp.obj
 
 __/Juego/Escenas/EscenaCuadro.i: __/Juego/Escenas/EscenaCuadro.cpp.i
@@ -255,7 +255,7 @@ __/Juego/Escenas/EscenaCuadro.i: __/Juego/Escenas/EscenaCuadro.cpp.i
 
 # target to preprocess a source file
 __/Juego/Escenas/EscenaCuadro.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaCuadro.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaCuadro.cpp.i
 .PHONY : __/Juego/Escenas/EscenaCuadro.cpp.i
 
 __/Juego/Escenas/EscenaCuadro.s: __/Juego/Escenas/EscenaCuadro.cpp.s
@@ -263,7 +263,7 @@ __/Juego/Escenas/EscenaCuadro.s: __/Juego/Escenas/EscenaCuadro.cpp.s
 
 # target to generate assembly for a file
 __/Juego/Escenas/EscenaCuadro.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaCuadro.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaCuadro.cpp.s
 .PHONY : __/Juego/Escenas/EscenaCuadro.cpp.s
 
 __/Juego/Escenas/EscenaObjMuriendo.obj: __/Juego/Escenas/EscenaObjMuriendo.cpp.obj
@@ -271,7 +271,7 @@ __/Juego/Escenas/EscenaObjMuriendo.obj: __/Juego/Escenas/EscenaObjMuriendo.cpp.o
 
 # target to build an object file
 __/Juego/Escenas/EscenaObjMuriendo.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaObjMuriendo.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaObjMuriendo.cpp.obj
 .PHONY : __/Juego/Escenas/EscenaObjMuriendo.cpp.obj
 
 __/Juego/Escenas/EscenaObjMuriendo.i: __/Juego/Escenas/EscenaObjMuriendo.cpp.i
@@ -279,7 +279,7 @@ __/Juego/Escenas/EscenaObjMuriendo.i: __/Juego/Escenas/EscenaObjMuriendo.cpp.i
 
 # target to preprocess a source file
 __/Juego/Escenas/EscenaObjMuriendo.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaObjMuriendo.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaObjMuriendo.cpp.i
 .PHONY : __/Juego/Escenas/EscenaObjMuriendo.cpp.i
 
 __/Juego/Escenas/EscenaObjMuriendo.s: __/Juego/Escenas/EscenaObjMuriendo.cpp.s
@@ -287,7 +287,7 @@ __/Juego/Escenas/EscenaObjMuriendo.s: __/Juego/Escenas/EscenaObjMuriendo.cpp.s
 
 # target to generate assembly for a file
 __/Juego/Escenas/EscenaObjMuriendo.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaObjMuriendo.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenaObjMuriendo.cpp.s
 .PHONY : __/Juego/Escenas/EscenaObjMuriendo.cpp.s
 
 __/Juego/Escenas/EscenasCirculos.obj: __/Juego/Escenas/EscenasCirculos.cpp.obj
@@ -295,7 +295,7 @@ __/Juego/Escenas/EscenasCirculos.obj: __/Juego/Escenas/EscenasCirculos.cpp.obj
 
 # target to build an object file
 __/Juego/Escenas/EscenasCirculos.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenasCirculos.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenasCirculos.cpp.obj
 .PHONY : __/Juego/Escenas/EscenasCirculos.cpp.obj
 
 __/Juego/Escenas/EscenasCirculos.i: __/Juego/Escenas/EscenasCirculos.cpp.i
@@ -303,7 +303,7 @@ __/Juego/Escenas/EscenasCirculos.i: __/Juego/Escenas/EscenasCirculos.cpp.i
 
 # target to preprocess a source file
 __/Juego/Escenas/EscenasCirculos.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenasCirculos.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenasCirculos.cpp.i
 .PHONY : __/Juego/Escenas/EscenasCirculos.cpp.i
 
 __/Juego/Escenas/EscenasCirculos.s: __/Juego/Escenas/EscenasCirculos.cpp.s
@@ -311,7 +311,7 @@ __/Juego/Escenas/EscenasCirculos.s: __/Juego/Escenas/EscenasCirculos.cpp.s
 
 # target to generate assembly for a file
 __/Juego/Escenas/EscenasCirculos.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenasCirculos.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Escenas/EscenasCirculos.cpp.s
 .PHONY : __/Juego/Escenas/EscenasCirculos.cpp.s
 
 __/Juego/Figuras/Figuras.obj: __/Juego/Figuras/Figuras.cpp.obj
@@ -319,7 +319,7 @@ __/Juego/Figuras/Figuras.obj: __/Juego/Figuras/Figuras.cpp.obj
 
 # target to build an object file
 __/Juego/Figuras/Figuras.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.obj
 .PHONY : __/Juego/Figuras/Figuras.cpp.obj
 
 __/Juego/Figuras/Figuras.i: __/Juego/Figuras/Figuras.cpp.i
@@ -327,7 +327,7 @@ __/Juego/Figuras/Figuras.i: __/Juego/Figuras/Figuras.cpp.i
 
 # target to preprocess a source file
 __/Juego/Figuras/Figuras.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.i
 .PHONY : __/Juego/Figuras/Figuras.cpp.i
 
 __/Juego/Figuras/Figuras.s: __/Juego/Figuras/Figuras.cpp.s
@@ -335,7 +335,7 @@ __/Juego/Figuras/Figuras.s: __/Juego/Figuras/Figuras.cpp.s
 
 # target to generate assembly for a file
 __/Juego/Figuras/Figuras.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Figuras/Figuras.cpp.s
 .PHONY : __/Juego/Figuras/Figuras.cpp.s
 
 __/Juego/Juego.obj: __/Juego/Juego.cpp.obj
@@ -343,7 +343,7 @@ __/Juego/Juego.obj: __/Juego/Juego.cpp.obj
 
 # target to build an object file
 __/Juego/Juego.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.obj
 .PHONY : __/Juego/Juego.cpp.obj
 
 __/Juego/Juego.i: __/Juego/Juego.cpp.i
@@ -351,7 +351,7 @@ __/Juego/Juego.i: __/Juego/Juego.cpp.i
 
 # target to preprocess a source file
 __/Juego/Juego.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.i
 .PHONY : __/Juego/Juego.cpp.i
 
 __/Juego/Juego.s: __/Juego/Juego.cpp.s
@@ -359,7 +359,7 @@ __/Juego/Juego.s: __/Juego/Juego.cpp.s
 
 # target to generate assembly for a file
 __/Juego/Juego.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Juego.cpp.s
 .PHONY : __/Juego/Juego.cpp.s
 
 __/Juego/Objetos/Entidad.obj: __/Juego/Objetos/Entidad.cpp.obj
@@ -367,7 +367,7 @@ __/Juego/Objetos/Entidad.obj: __/Juego/Objetos/Entidad.cpp.obj
 
 # target to build an object file
 __/Juego/Objetos/Entidad.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/Entidad.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/Entidad.cpp.obj
 .PHONY : __/Juego/Objetos/Entidad.cpp.obj
 
 __/Juego/Objetos/Entidad.i: __/Juego/Objetos/Entidad.cpp.i
@@ -375,7 +375,7 @@ __/Juego/Objetos/Entidad.i: __/Juego/Objetos/Entidad.cpp.i
 
 # target to preprocess a source file
 __/Juego/Objetos/Entidad.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/Entidad.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/Entidad.cpp.i
 .PHONY : __/Juego/Objetos/Entidad.cpp.i
 
 __/Juego/Objetos/Entidad.s: __/Juego/Objetos/Entidad.cpp.s
@@ -383,7 +383,7 @@ __/Juego/Objetos/Entidad.s: __/Juego/Objetos/Entidad.cpp.s
 
 # target to generate assembly for a file
 __/Juego/Objetos/Entidad.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/Entidad.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/Entidad.cpp.s
 .PHONY : __/Juego/Objetos/Entidad.cpp.s
 
 __/Juego/Objetos/TileMap.obj: __/Juego/Objetos/TileMap.cpp.obj
@@ -391,7 +391,7 @@ __/Juego/Objetos/TileMap.obj: __/Juego/Objetos/TileMap.cpp.obj
 
 # target to build an object file
 __/Juego/Objetos/TileMap.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.obj
 .PHONY : __/Juego/Objetos/TileMap.cpp.obj
 
 __/Juego/Objetos/TileMap.i: __/Juego/Objetos/TileMap.cpp.i
@@ -399,7 +399,7 @@ __/Juego/Objetos/TileMap.i: __/Juego/Objetos/TileMap.cpp.i
 
 # target to preprocess a source file
 __/Juego/Objetos/TileMap.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.i
 .PHONY : __/Juego/Objetos/TileMap.cpp.i
 
 __/Juego/Objetos/TileMap.s: __/Juego/Objetos/TileMap.cpp.s
@@ -407,7 +407,7 @@ __/Juego/Objetos/TileMap.s: __/Juego/Objetos/TileMap.cpp.s
 
 # target to generate assembly for a file
 __/Juego/Objetos/TileMap.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Objetos/TileMap.cpp.s
 .PHONY : __/Juego/Objetos/TileMap.cpp.s
 
 __/Juego/Sistemas/SistemaSimulacionEnfermedad.obj: __/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.obj
@@ -415,7 +415,7 @@ __/Juego/Sistemas/SistemaSimulacionEnfermedad.obj: __/Juego/Sistemas/SistemaSimu
 
 # target to build an object file
 __/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.obj
 .PHONY : __/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.obj
 
 __/Juego/Sistemas/SistemaSimulacionEnfermedad.i: __/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.i
@@ -423,7 +423,7 @@ __/Juego/Sistemas/SistemaSimulacionEnfermedad.i: __/Juego/Sistemas/SistemaSimula
 
 # target to preprocess a source file
 __/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.i
 .PHONY : __/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.i
 
 __/Juego/Sistemas/SistemaSimulacionEnfermedad.s: __/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.s
@@ -431,7 +431,7 @@ __/Juego/Sistemas/SistemaSimulacionEnfermedad.s: __/Juego/Sistemas/SistemaSimula
 
 # target to generate assembly for a file
 __/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.s
 .PHONY : __/Juego/Sistemas/SistemaSimulacionEnfermedad.cpp.s
 
 __/Juego/Sistemas/Sistemas.obj: __/Juego/Sistemas/Sistemas.cpp.obj
@@ -439,7 +439,7 @@ __/Juego/Sistemas/Sistemas.obj: __/Juego/Sistemas/Sistemas.cpp.obj
 
 # target to build an object file
 __/Juego/Sistemas/Sistemas.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.obj
 .PHONY : __/Juego/Sistemas/Sistemas.cpp.obj
 
 __/Juego/Sistemas/Sistemas.i: __/Juego/Sistemas/Sistemas.cpp.i
@@ -447,7 +447,7 @@ __/Juego/Sistemas/Sistemas.i: __/Juego/Sistemas/Sistemas.cpp.i
 
 # target to preprocess a source file
 __/Juego/Sistemas/Sistemas.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.i
 .PHONY : __/Juego/Sistemas/Sistemas.cpp.i
 
 __/Juego/Sistemas/Sistemas.s: __/Juego/Sistemas/Sistemas.cpp.s
@@ -455,7 +455,7 @@ __/Juego/Sistemas/Sistemas.s: __/Juego/Sistemas/Sistemas.cpp.s
 
 # target to generate assembly for a file
 __/Juego/Sistemas/Sistemas.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Juego/Sistemas/Sistemas.cpp.s
 .PHONY : __/Juego/Sistemas/Sistemas.cpp.s
 
 __/Motor/Camaras/Camaras.obj: __/Motor/Camaras/Camaras.cpp.obj
@@ -463,7 +463,7 @@ __/Motor/Camaras/Camaras.obj: __/Motor/Camaras/Camaras.cpp.obj
 
 # target to build an object file
 __/Motor/Camaras/Camaras.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.obj
 .PHONY : __/Motor/Camaras/Camaras.cpp.obj
 
 __/Motor/Camaras/Camaras.i: __/Motor/Camaras/Camaras.cpp.i
@@ -471,7 +471,7 @@ __/Motor/Camaras/Camaras.i: __/Motor/Camaras/Camaras.cpp.i
 
 # target to preprocess a source file
 __/Motor/Camaras/Camaras.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.i
 .PHONY : __/Motor/Camaras/Camaras.cpp.i
 
 __/Motor/Camaras/Camaras.s: __/Motor/Camaras/Camaras.cpp.s
@@ -479,7 +479,7 @@ __/Motor/Camaras/Camaras.s: __/Motor/Camaras/Camaras.cpp.s
 
 # target to generate assembly for a file
 __/Motor/Camaras/Camaras.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/Camaras.cpp.s
 .PHONY : __/Motor/Camaras/Camaras.cpp.s
 
 __/Motor/Camaras/CamarasGestor.obj: __/Motor/Camaras/CamarasGestor.cpp.obj
@@ -487,7 +487,7 @@ __/Motor/Camaras/CamarasGestor.obj: __/Motor/Camaras/CamarasGestor.cpp.obj
 
 # target to build an object file
 __/Motor/Camaras/CamarasGestor.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.obj
 .PHONY : __/Motor/Camaras/CamarasGestor.cpp.obj
 
 __/Motor/Camaras/CamarasGestor.i: __/Motor/Camaras/CamarasGestor.cpp.i
@@ -495,7 +495,7 @@ __/Motor/Camaras/CamarasGestor.i: __/Motor/Camaras/CamarasGestor.cpp.i
 
 # target to preprocess a source file
 __/Motor/Camaras/CamarasGestor.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.i
 .PHONY : __/Motor/Camaras/CamarasGestor.cpp.i
 
 __/Motor/Camaras/CamarasGestor.s: __/Motor/Camaras/CamarasGestor.cpp.s
@@ -503,7 +503,7 @@ __/Motor/Camaras/CamarasGestor.s: __/Motor/Camaras/CamarasGestor.cpp.s
 
 # target to generate assembly for a file
 __/Motor/Camaras/CamarasGestor.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Camaras/CamarasGestor.cpp.s
 .PHONY : __/Motor/Camaras/CamarasGestor.cpp.s
 
 __/Motor/CargarFig/CargarFiguras.obj: __/Motor/CargarFig/CargarFiguras.cpp.obj
@@ -511,7 +511,7 @@ __/Motor/CargarFig/CargarFiguras.obj: __/Motor/CargarFig/CargarFiguras.cpp.obj
 
 # target to build an object file
 __/Motor/CargarFig/CargarFiguras.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.obj
 .PHONY : __/Motor/CargarFig/CargarFiguras.cpp.obj
 
 __/Motor/CargarFig/CargarFiguras.i: __/Motor/CargarFig/CargarFiguras.cpp.i
@@ -519,7 +519,7 @@ __/Motor/CargarFig/CargarFiguras.i: __/Motor/CargarFig/CargarFiguras.cpp.i
 
 # target to preprocess a source file
 __/Motor/CargarFig/CargarFiguras.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.i
 .PHONY : __/Motor/CargarFig/CargarFiguras.cpp.i
 
 __/Motor/CargarFig/CargarFiguras.s: __/Motor/CargarFig/CargarFiguras.cpp.s
@@ -527,7 +527,7 @@ __/Motor/CargarFig/CargarFiguras.s: __/Motor/CargarFig/CargarFiguras.cpp.s
 
 # target to generate assembly for a file
 __/Motor/CargarFig/CargarFiguras.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/CargarFig/CargarFiguras.cpp.s
 .PHONY : __/Motor/CargarFig/CargarFiguras.cpp.s
 
 __/Motor/Componentes/IComponentes.obj: __/Motor/Componentes/IComponentes.cpp.obj
@@ -535,7 +535,7 @@ __/Motor/Componentes/IComponentes.obj: __/Motor/Componentes/IComponentes.cpp.obj
 
 # target to build an object file
 __/Motor/Componentes/IComponentes.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.obj
 .PHONY : __/Motor/Componentes/IComponentes.cpp.obj
 
 __/Motor/Componentes/IComponentes.i: __/Motor/Componentes/IComponentes.cpp.i
@@ -543,7 +543,7 @@ __/Motor/Componentes/IComponentes.i: __/Motor/Componentes/IComponentes.cpp.i
 
 # target to preprocess a source file
 __/Motor/Componentes/IComponentes.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.i
 .PHONY : __/Motor/Componentes/IComponentes.cpp.i
 
 __/Motor/Componentes/IComponentes.s: __/Motor/Componentes/IComponentes.cpp.s
@@ -551,7 +551,7 @@ __/Motor/Componentes/IComponentes.s: __/Motor/Componentes/IComponentes.cpp.s
 
 # target to generate assembly for a file
 __/Motor/Componentes/IComponentes.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Componentes/IComponentes.cpp.s
 .PHONY : __/Motor/Componentes/IComponentes.cpp.s
 
 __/Motor/GUI/GDock.obj: __/Motor/GUI/GDock.cpp.obj
@@ -559,7 +559,7 @@ __/Motor/GUI/GDock.obj: __/Motor/GUI/GDock.cpp.obj
 
 # target to build an object file
 __/Motor/GUI/GDock.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.obj
 .PHONY : __/Motor/GUI/GDock.cpp.obj
 
 __/Motor/GUI/GDock.i: __/Motor/GUI/GDock.cpp.i
@@ -567,7 +567,7 @@ __/Motor/GUI/GDock.i: __/Motor/GUI/GDock.cpp.i
 
 # target to preprocess a source file
 __/Motor/GUI/GDock.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.i
 .PHONY : __/Motor/GUI/GDock.cpp.i
 
 __/Motor/GUI/GDock.s: __/Motor/GUI/GDock.cpp.s
@@ -575,7 +575,7 @@ __/Motor/GUI/GDock.s: __/Motor/GUI/GDock.cpp.s
 
 # target to generate assembly for a file
 __/Motor/GUI/GDock.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GDock.cpp.s
 .PHONY : __/Motor/GUI/GDock.cpp.s
 
 __/Motor/GUI/GListaObjetos.obj: __/Motor/GUI/GListaObjetos.cpp.obj
@@ -583,7 +583,7 @@ __/Motor/GUI/GListaObjetos.obj: __/Motor/GUI/GListaObjetos.cpp.obj
 
 # target to build an object file
 __/Motor/GUI/GListaObjetos.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.obj
 .PHONY : __/Motor/GUI/GListaObjetos.cpp.obj
 
 __/Motor/GUI/GListaObjetos.i: __/Motor/GUI/GListaObjetos.cpp.i
@@ -591,7 +591,7 @@ __/Motor/GUI/GListaObjetos.i: __/Motor/GUI/GListaObjetos.cpp.i
 
 # target to preprocess a source file
 __/Motor/GUI/GListaObjetos.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.i
 .PHONY : __/Motor/GUI/GListaObjetos.cpp.i
 
 __/Motor/GUI/GListaObjetos.s: __/Motor/GUI/GListaObjetos.cpp.s
@@ -599,7 +599,7 @@ __/Motor/GUI/GListaObjetos.s: __/Motor/GUI/GListaObjetos.cpp.s
 
 # target to generate assembly for a file
 __/Motor/GUI/GListaObjetos.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GListaObjetos.cpp.s
 .PHONY : __/Motor/GUI/GListaObjetos.cpp.s
 
 __/Motor/GUI/GLogger.obj: __/Motor/GUI/GLogger.cpp.obj
@@ -607,7 +607,7 @@ __/Motor/GUI/GLogger.obj: __/Motor/GUI/GLogger.cpp.obj
 
 # target to build an object file
 __/Motor/GUI/GLogger.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.obj
 .PHONY : __/Motor/GUI/GLogger.cpp.obj
 
 __/Motor/GUI/GLogger.i: __/Motor/GUI/GLogger.cpp.i
@@ -615,7 +615,7 @@ __/Motor/GUI/GLogger.i: __/Motor/GUI/GLogger.cpp.i
 
 # target to preprocess a source file
 __/Motor/GUI/GLogger.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.i
 .PHONY : __/Motor/GUI/GLogger.cpp.i
 
 __/Motor/GUI/GLogger.s: __/Motor/GUI/GLogger.cpp.s
@@ -623,7 +623,7 @@ __/Motor/GUI/GLogger.s: __/Motor/GUI/GLogger.cpp.s
 
 # target to generate assembly for a file
 __/Motor/GUI/GLogger.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GLogger.cpp.s
 .PHONY : __/Motor/GUI/GLogger.cpp.s
 
 __/Motor/GUI/GViewport.obj: __/Motor/GUI/GViewport.cpp.obj
@@ -631,7 +631,7 @@ __/Motor/GUI/GViewport.obj: __/Motor/GUI/GViewport.cpp.obj
 
 # target to build an object file
 __/Motor/GUI/GViewport.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.obj
 .PHONY : __/Motor/GUI/GViewport.cpp.obj
 
 __/Motor/GUI/GViewport.i: __/Motor/GUI/GViewport.cpp.i
@@ -639,7 +639,7 @@ __/Motor/GUI/GViewport.i: __/Motor/GUI/GViewport.cpp.i
 
 # target to preprocess a source file
 __/Motor/GUI/GViewport.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.i
 .PHONY : __/Motor/GUI/GViewport.cpp.i
 
 __/Motor/GUI/GViewport.s: __/Motor/GUI/GViewport.cpp.s
@@ -647,7 +647,7 @@ __/Motor/GUI/GViewport.s: __/Motor/GUI/GViewport.cpp.s
 
 # target to generate assembly for a file
 __/Motor/GUI/GViewport.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/GUI/GViewport.cpp.s
 .PHONY : __/Motor/GUI/GViewport.cpp.s
 
 __/Motor/Inputs/Botones.obj: __/Motor/Inputs/Botones.cpp.obj
@@ -655,7 +655,7 @@ __/Motor/Inputs/Botones.obj: __/Motor/Inputs/Botones.cpp.obj
 
 # target to build an object file
 __/Motor/Inputs/Botones.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Inputs/Botones.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Inputs/Botones.cpp.obj
 .PHONY : __/Motor/Inputs/Botones.cpp.obj
 
 __/Motor/Inputs/Botones.i: __/Motor/Inputs/Botones.cpp.i
@@ -663,7 +663,7 @@ __/Motor/Inputs/Botones.i: __/Motor/Inputs/Botones.cpp.i
 
 # target to preprocess a source file
 __/Motor/Inputs/Botones.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Inputs/Botones.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Inputs/Botones.cpp.i
 .PHONY : __/Motor/Inputs/Botones.cpp.i
 
 __/Motor/Inputs/Botones.s: __/Motor/Inputs/Botones.cpp.s
@@ -671,7 +671,7 @@ __/Motor/Inputs/Botones.s: __/Motor/Inputs/Botones.cpp.s
 
 # target to generate assembly for a file
 __/Motor/Inputs/Botones.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Inputs/Botones.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Inputs/Botones.cpp.s
 .PHONY : __/Motor/Inputs/Botones.cpp.s
 
 __/Motor/Motor.obj: __/Motor/Motor.cpp.obj
@@ -679,7 +679,7 @@ __/Motor/Motor.obj: __/Motor/Motor.cpp.obj
 
 # target to build an object file
 __/Motor/Motor.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.obj
 .PHONY : __/Motor/Motor.cpp.obj
 
 __/Motor/Motor.i: __/Motor/Motor.cpp.i
@@ -687,7 +687,7 @@ __/Motor/Motor.i: __/Motor/Motor.cpp.i
 
 # target to preprocess a source file
 __/Motor/Motor.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.i
 .PHONY : __/Motor/Motor.cpp.i
 
 __/Motor/Motor.s: __/Motor/Motor.cpp.s
@@ -695,7 +695,7 @@ __/Motor/Motor.s: __/Motor/Motor.cpp.s
 
 # target to generate assembly for a file
 __/Motor/Motor.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Motor.cpp.s
 .PHONY : __/Motor/Motor.cpp.s
 
 __/Motor/Primitivos/CEPool.obj: __/Motor/Primitivos/CEPool.cpp.obj
@@ -703,7 +703,7 @@ __/Motor/Primitivos/CEPool.obj: __/Motor/Primitivos/CEPool.cpp.obj
 
 # target to build an object file
 __/Motor/Primitivos/CEPool.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/CEPool.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/CEPool.cpp.obj
 .PHONY : __/Motor/Primitivos/CEPool.cpp.obj
 
 __/Motor/Primitivos/CEPool.i: __/Motor/Primitivos/CEPool.cpp.i
@@ -711,7 +711,7 @@ __/Motor/Primitivos/CEPool.i: __/Motor/Primitivos/CEPool.cpp.i
 
 # target to preprocess a source file
 __/Motor/Primitivos/CEPool.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/CEPool.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/CEPool.cpp.i
 .PHONY : __/Motor/Primitivos/CEPool.cpp.i
 
 __/Motor/Primitivos/CEPool.s: __/Motor/Primitivos/CEPool.cpp.s
@@ -719,7 +719,7 @@ __/Motor/Primitivos/CEPool.s: __/Motor/Primitivos/CEPool.cpp.s
 
 # target to generate assembly for a file
 __/Motor/Primitivos/CEPool.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/CEPool.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/CEPool.cpp.s
 .PHONY : __/Motor/Primitivos/CEPool.cpp.s
 
 __/Motor/Primitivos/GestorAssets.obj: __/Motor/Primitivos/GestorAssets.cpp.obj
@@ -727,7 +727,7 @@ __/Motor/Primitivos/GestorAssets.obj: __/Motor/Primitivos/GestorAssets.cpp.obj
 
 # target to build an object file
 __/Motor/Primitivos/GestorAssets.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/GestorAssets.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/GestorAssets.cpp.obj
 .PHONY : __/Motor/Primitivos/GestorAssets.cpp.obj
 
 __/Motor/Primitivos/GestorAssets.i: __/Motor/Primitivos/GestorAssets.cpp.i
@@ -735,7 +735,7 @@ __/Motor/Primitivos/GestorAssets.i: __/Motor/Primitivos/GestorAssets.cpp.i
 
 # target to preprocess a source file
 __/Motor/Primitivos/GestorAssets.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/GestorAssets.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/GestorAssets.cpp.i
 .PHONY : __/Motor/Primitivos/GestorAssets.cpp.i
 
 __/Motor/Primitivos/GestorAssets.s: __/Motor/Primitivos/GestorAssets.cpp.s
@@ -743,7 +743,7 @@ __/Motor/Primitivos/GestorAssets.s: __/Motor/Primitivos/GestorAssets.cpp.s
 
 # target to generate assembly for a file
 __/Motor/Primitivos/GestorAssets.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/GestorAssets.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/GestorAssets.cpp.s
 .PHONY : __/Motor/Primitivos/GestorAssets.cpp.s
 
 __/Motor/Primitivos/GestorEscenas.obj: __/Motor/Primitivos/GestorEscenas.cpp.obj
@@ -751,7 +751,7 @@ __/Motor/Primitivos/GestorEscenas.obj: __/Motor/Primitivos/GestorEscenas.cpp.obj
 
 # target to build an object file
 __/Motor/Primitivos/GestorEscenas.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/GestorEscenas.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/GestorEscenas.cpp.obj
 .PHONY : __/Motor/Primitivos/GestorEscenas.cpp.obj
 
 __/Motor/Primitivos/GestorEscenas.i: __/Motor/Primitivos/GestorEscenas.cpp.i
@@ -759,7 +759,7 @@ __/Motor/Primitivos/GestorEscenas.i: __/Motor/Primitivos/GestorEscenas.cpp.i
 
 # target to preprocess a source file
 __/Motor/Primitivos/GestorEscenas.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/GestorEscenas.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/GestorEscenas.cpp.i
 .PHONY : __/Motor/Primitivos/GestorEscenas.cpp.i
 
 __/Motor/Primitivos/GestorEscenas.s: __/Motor/Primitivos/GestorEscenas.cpp.s
@@ -767,7 +767,7 @@ __/Motor/Primitivos/GestorEscenas.s: __/Motor/Primitivos/GestorEscenas.cpp.s
 
 # target to generate assembly for a file
 __/Motor/Primitivos/GestorEscenas.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/GestorEscenas.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/GestorEscenas.cpp.s
 .PHONY : __/Motor/Primitivos/GestorEscenas.cpp.s
 
 __/Motor/Primitivos/Objetos.obj: __/Motor/Primitivos/Objetos.cpp.obj
@@ -775,7 +775,7 @@ __/Motor/Primitivos/Objetos.obj: __/Motor/Primitivos/Objetos.cpp.obj
 
 # target to build an object file
 __/Motor/Primitivos/Objetos.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.obj
 .PHONY : __/Motor/Primitivos/Objetos.cpp.obj
 
 __/Motor/Primitivos/Objetos.i: __/Motor/Primitivos/Objetos.cpp.i
@@ -783,7 +783,7 @@ __/Motor/Primitivos/Objetos.i: __/Motor/Primitivos/Objetos.cpp.i
 
 # target to preprocess a source file
 __/Motor/Primitivos/Objetos.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.i
 .PHONY : __/Motor/Primitivos/Objetos.cpp.i
 
 __/Motor/Primitivos/Objetos.s: __/Motor/Primitivos/Objetos.cpp.s
@@ -791,7 +791,7 @@ __/Motor/Primitivos/Objetos.s: __/Motor/Primitivos/Objetos.cpp.s
 
 # target to generate assembly for a file
 __/Motor/Primitivos/Objetos.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Primitivos/Objetos.cpp.s
 .PHONY : __/Motor/Primitivos/Objetos.cpp.s
 
 __/Motor/Render/Render.obj: __/Motor/Render/Render.cpp.obj
@@ -799,7 +799,7 @@ __/Motor/Render/Render.obj: __/Motor/Render/Render.cpp.obj
 
 # target to build an object file
 __/Motor/Render/Render.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.obj
 .PHONY : __/Motor/Render/Render.cpp.obj
 
 __/Motor/Render/Render.i: __/Motor/Render/Render.cpp.i
@@ -807,7 +807,7 @@ __/Motor/Render/Render.i: __/Motor/Render/Render.cpp.i
 
 # target to preprocess a source file
 __/Motor/Render/Render.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.i
 .PHONY : __/Motor/Render/Render.cpp.i
 
 __/Motor/Render/Render.s: __/Motor/Render/Render.cpp.s
@@ -815,15 +815,39 @@ __/Motor/Render/Render.s: __/Motor/Render/Render.cpp.s
 
 # target to generate assembly for a file
 __/Motor/Render/Render.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Render/Render.cpp.s
 .PHONY : __/Motor/Render/Render.cpp.s
+
+__/Motor/Utils/Lerp.obj: __/Motor/Utils/Lerp.cpp.obj
+.PHONY : __/Motor/Utils/Lerp.obj
+
+# target to build an object file
+__/Motor/Utils/Lerp.cpp.obj:
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Lerp.cpp.obj
+.PHONY : __/Motor/Utils/Lerp.cpp.obj
+
+__/Motor/Utils/Lerp.i: __/Motor/Utils/Lerp.cpp.i
+.PHONY : __/Motor/Utils/Lerp.i
+
+# target to preprocess a source file
+__/Motor/Utils/Lerp.cpp.i:
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Lerp.cpp.i
+.PHONY : __/Motor/Utils/Lerp.cpp.i
+
+__/Motor/Utils/Lerp.s: __/Motor/Utils/Lerp.cpp.s
+.PHONY : __/Motor/Utils/Lerp.s
+
+# target to generate assembly for a file
+__/Motor/Utils/Lerp.cpp.s:
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Lerp.cpp.s
+.PHONY : __/Motor/Utils/Lerp.cpp.s
 
 __/Motor/Utils/Vector2D.obj: __/Motor/Utils/Vector2D.cpp.obj
 .PHONY : __/Motor/Utils/Vector2D.obj
 
 # target to build an object file
 __/Motor/Utils/Vector2D.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.obj
 .PHONY : __/Motor/Utils/Vector2D.cpp.obj
 
 __/Motor/Utils/Vector2D.i: __/Motor/Utils/Vector2D.cpp.i
@@ -831,7 +855,7 @@ __/Motor/Utils/Vector2D.i: __/Motor/Utils/Vector2D.cpp.i
 
 # target to preprocess a source file
 __/Motor/Utils/Vector2D.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.i
 .PHONY : __/Motor/Utils/Vector2D.cpp.i
 
 __/Motor/Utils/Vector2D.s: __/Motor/Utils/Vector2D.cpp.s
@@ -839,7 +863,7 @@ __/Motor/Utils/Vector2D.s: __/Motor/Utils/Vector2D.cpp.s
 
 # target to generate assembly for a file
 __/Motor/Utils/Vector2D.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/__/Motor/Utils/Vector2D.cpp.s
 .PHONY : __/Motor/Utils/Vector2D.cpp.s
 
 main.obj: main.cpp.obj
@@ -847,7 +871,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.obj
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -855,7 +879,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.i
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -863,7 +887,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.s
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(MAKE) $(MAKESILENT) -f src\Main\CMakeFiles\CimaEngine3v.dir\build.make src/Main/CMakeFiles/CimaEngine3v.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -959,6 +983,9 @@ help:
 	@echo ... __/Motor/Render/Render.obj
 	@echo ... __/Motor/Render/Render.i
 	@echo ... __/Motor/Render/Render.s
+	@echo ... __/Motor/Utils/Lerp.obj
+	@echo ... __/Motor/Utils/Lerp.i
+	@echo ... __/Motor/Utils/Lerp.s
 	@echo ... __/Motor/Utils/Vector2D.obj
 	@echo ... __/Motor/Utils/Vector2D.i
 	@echo ... __/Motor/Utils/Vector2D.s
@@ -976,6 +1003,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

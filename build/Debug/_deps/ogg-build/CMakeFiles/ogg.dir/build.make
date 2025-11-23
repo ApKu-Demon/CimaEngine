@@ -55,7 +55,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug
+CMAKE_BINARY_DIR = C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug
 
 # Include any dependencies generated for this target.
 include _deps/ogg-build/CMakeFiles/ogg.dir/depend.make
@@ -75,7 +75,7 @@ _deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.obj: _deps/ogg-build/CMakeFiles
 _deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.obj: _deps/ogg-build/CMakeFiles/ogg.dir/includes_C.rsp
 _deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.obj: _deps/ogg-src/src/bitwise.c
 _deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.obj: _deps/ogg-build/CMakeFiles/ogg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\ogg-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.obj -MF CMakeFiles\ogg.dir\src\bitwise.c.obj.d -o CMakeFiles\ogg.dir\src\bitwise.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\ogg-src\src\bitwise.c
 
 _deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.i: cmake_force
@@ -90,7 +90,7 @@ _deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.obj: _deps/ogg-build/CMakeFiles
 _deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.obj: _deps/ogg-build/CMakeFiles/ogg.dir/includes_C.rsp
 _deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.obj: _deps/ogg-src/src/framing.c
 _deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.obj: _deps/ogg-build/CMakeFiles/ogg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.obj"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\ogg-build && C:\Users\PC\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.obj -MF CMakeFiles\ogg.dir\src\framing.c.obj.d -o CMakeFiles\ogg.dir\src\framing.c.obj -c C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\ogg-src\src\framing.c
 
 _deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.i: cmake_force
@@ -113,7 +113,7 @@ _deps/sfml-build/lib/liboggd.a: _deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c
 _deps/sfml-build/lib/liboggd.a: _deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.obj
 _deps/sfml-build/lib/liboggd.a: _deps/ogg-build/CMakeFiles/ogg.dir/build.make
 _deps/sfml-build/lib/liboggd.a: _deps/ogg-build/CMakeFiles/ogg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library ..\sfml-build\lib\liboggd.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library ..\sfml-build\lib\liboggd.a"
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\ogg-build && $(CMAKE_COMMAND) -P CMakeFiles\ogg.dir\cmake_clean_target.cmake
 	cd /d C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\ogg-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ogg.dir\link.txt --verbose=$(VERBOSE)
 
@@ -126,6 +126,6 @@ _deps/ogg-build/CMakeFiles/ogg.dir/clean:
 .PHONY : _deps/ogg-build/CMakeFiles/ogg.dir/clean
 
 _deps/ogg-build/CMakeFiles/ogg.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\ogg-src C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\ogg-build C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\ogg-build\CMakeFiles\ogg.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\ogg-src C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\debug C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\ogg-build C:\Users\PC\Documents\Universidad_UABC\02_Proyectos\02_CimaEngine\CimaEngine\build\Debug\_deps\ogg-build\CMakeFiles\ogg.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/ogg-build/CMakeFiles/ogg.dir/depend
 
